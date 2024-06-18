@@ -1,0 +1,9 @@
+Pseudo-terminal will not be allocated because stdin is not a terminal.
++ /opt/mellanox/iproute2/sbin/ip link set dev eth1 gro_max_size 185000 gso_max_size 185000
++ /opt/mellanox/iproute2/sbin/ip link set dev eth1 gso_ipv4_max_size 185000 gro_ipv4_max_size 185000
++ /opt/mellanox/iproute2/sbin/ip link set dev vlan354 gro_max_size 185000 gso_max_size 185000
++ /opt/mellanox/iproute2/sbin/ip link set dev vlan354 gso_ipv4_max_size 185000 gro_ipv4_max_size 185000
++ /opt/mellanox/iproute2/sbin/ip link set dev vlan356 gro_max_size 185000 gso_max_size 185000
++ /opt/mellanox/iproute2/sbin/ip link set dev vlan356 gso_ipv4_max_size 185000 gro_ipv4_max_size 185000
++ /opt/mellanox/iproute2/sbin/ip link set dev vlan358 gro_max_size 185000 gso_max_size 185000
++ /opt/mellanox/iproute2/sbin/ip link set dev vlan358 gso_ipv4_max_size 185000 gro_ipv4_max_size 185000
