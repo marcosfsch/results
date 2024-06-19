@@ -1,0 +1,51 @@
+
+Collecting Results from all files...
+
+ Got iperf3 data from 4 files
+
+ Got mpstat data from 4 sender files and 4 receiver files
+
+Computing CPU Averages...
+
+Summary of all testing: 
+
+
+Test iperf3_default to Host: 10.36.99.2   (num tests: 5)
+       Throughput:   Mean: 31.6 Gbps   Max: 32.0 Gbps   STDEV: 0.4   Retr: 17
+     Sender CPU 1:   usr :  0.0   sys :  0.1   iowait:  0.0   soft:  3.0   steal:  0.1   idle: 96.8   Total:3.2
+     Sender CPU 2:   usr :  0.9   sys : 48.2   soft:  2.5   steal:  0.0   idle: 48.4   Total:51.6
+   Receiver CPU 1:   usr :  0.0   sys :  0.2   soft: 81.5   steal:  0.1   idle: 18.2   Total:81.8
+   Receiver CPU 2:   usr :  1.2   sys : 98.7   soft:  0.0   steal:  0.0   idle:  0.0   Total:99.9
+     ** Throughput appears to be limited by application CPU on the Receive Host **
+
+Test iperf3_default_BBR to Host: 10.36.99.2   (num tests: 5)
+       Throughput:   Mean: 33.1 Gbps   Max: 33.8 Gbps   STDEV: 0.7   Retr: 16
+     Sender CPU 1:   sys :  0.2   iowait:  0.0   soft:  4.5   steal:  0.1   idle: 95.3   Total:4.8
+     Sender CPU 2:   usr :  1.1   sys : 52.1   soft:  6.3   steal:  0.0   idle: 40.5   Total:59.5
+   Receiver CPU 1:   usr :  0.0   sys :  0.3   soft: 72.6   steal:  0.1   idle: 27.1   Total:73.0
+   Receiver CPU 2:   usr :  1.5   sys : 97.0   steal:  0.0   idle:  1.5   Total:98.5
+     ** Throughput appears to be limited by application CPU on the Receive Host **
+
+Test iperf3_skip_rx_copy_zerocopy to Host: 10.36.99.2   (num tests: 5)
+       Throughput:   Mean: 84.2 Gbps   Max: 89.0 Gbps   STDEV: 3.5   Retr: 78
+     Sender CPU 1:   usr :  0.0   sys :  0.1   iowait:  0.0   soft:  4.7   steal:  0.1   idle: 95.1   Total:4.9
+     Sender CPU 2:   usr :  2.3   sys : 69.7   soft:  8.2   steal:  0.0   idle: 19.9   Total:80.2
+   Receiver CPU 1:   usr :  0.0   sys :  0.1   soft: 98.3   steal:  0.0   idle:  1.6   Total:98.4
+   Receiver CPU 2:   usr :  4.2   sys : 88.3   idle:  7.5   Total:92.5
+     ** Throughput appears to be limited by application CPU on the Receive Host **
+
+Test iperf3_skip_rx_copy_zerocopy_BBR to Host: 10.36.99.2   (num tests: 5)
+       Throughput:   Mean: 71.1 Gbps   Max: 83.3 Gbps   STDEV: 11.0   Retr: 144
+     Sender CPU 1:   sys :  0.1   iowait:  0.0   soft:  6.7   steal:  0.0   idle: 93.1   Total:6.8
+     Sender CPU 2:   usr :  2.2   sys : 56.9   soft:  6.6   steal:  0.0   idle: 34.3   Total:65.7
+   Receiver CPU 1:   usr :  0.0   sys :  0.4   soft: 58.5   steal:  0.1   idle: 41.1   Total:59.0
+   Receiver CPU 2:   usr :  3.3   sys : 68.0   steal:  0.0   idle: 28.7   Total:71.3
+     ** Throughput appears to be memory limited, CWND limited, or unknown **
+
+
+Result Summary, sorted by Average Throughput:
+IP Address: 10.36.99.2
+     Test Name: iperf3_skip_rx_copy_zerocopy, Ave Throughput: 84.2 Gbps (stdev: 3.5),  Retr: 78
+     Test Name: iperf3_skip_rx_copy_zerocopy_BBR, Ave Throughput: 71.1 Gbps (stdev: 11.0),  Retr: 144
+     Test Name: iperf3_default_BBR, Ave Throughput: 33.1 Gbps (stdev: 0.7),  Retr: 16
+     Test Name: iperf3_default, Ave Throughput: 31.6 Gbps (stdev: 0.4),  Retr: 17
