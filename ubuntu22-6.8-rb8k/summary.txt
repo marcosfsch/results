@@ -1,0 +1,665 @@
+
+Collecting Results from all files...
+
+ Got iperf3 data from 72 files
+
+ Got mpstat data from 96 sender files and 96 receiver files
+
+Computing CPU Averages...
+
+Summary of all testing: 
+
+
+Test iperf3_default_BBR1_BIGTCP_rb8k to Host: 10.3.54.2   (num tests: 5)
+       Throughput:   Mean: 49.1 Gbps   Max: 51.5 Gbps   STDEV: 1.5   Retr: 47
+     Sender CPU 1:   sys :  0.2   soft:  0.7   steal:  0.0   idle: 99.1   Total:0.9
+     Sender CPU 2:   usr :  0.8   sys : 58.3   soft:  3.8   idle: 37.1   Total:62.9
+   Receiver CPU 1:   sys :  0.1   soft:  2.3   steal:  0.0   idle: 97.6   Total:2.4
+   Receiver CPU 2:   usr :  0.9   sys : 98.0   steal:  0.0   idle:  1.1   Total:98.9
+Error getting core usage for cores 4 or 5.
+
+Test iperf3_default_BBR1_rb8k to Host: 10.3.54.2   (num tests: 5)
+       Throughput:   Mean: 51.7 Gbps   Max: 53.3 Gbps   STDEV: 1.3   Retr: 27
+     Sender CPU 1:   sys :  0.3   soft:  1.0   steal:  0.0   idle: 98.8   Total:1.3
+     Sender CPU 2:   usr :  0.9   sys : 75.0   soft:  8.4   idle: 15.7   Total:84.3
+   Receiver CPU 1:   sys :  0.2   soft:  2.2   steal:  0.0   idle: 97.6   Total:2.4
+   Receiver CPU 2:   usr :  1.0   sys : 97.7   idle:  1.3   Total:98.7
+Error getting core usage for cores 4 or 5.
+
+Test iperf3_default_BBR_BIGTCP_rb8k to Host: 10.3.54.2   (num tests: 5)
+       Throughput:   Mean: 46.6 Gbps   Max: 50.3 Gbps   STDEV: 3.7   Retr: 68
+     Sender CPU 1:   sys :  0.2   iowait:  0.0   soft:  0.6   steal:  0.0   idle: 99.1   Total:0.8
+     Sender CPU 2:   usr :  0.7   sys : 56.1   soft:  3.9   idle: 39.3   Total:60.7
+   Receiver CPU 1:   sys :  0.3   soft:  3.2   steal:  0.0   idle: 96.5   Total:3.5
+   Receiver CPU 2:   usr :  1.0   sys : 88.4   idle: 10.7   Total:89.4
+Error getting core usage for cores 4 or 5.
+
+Test iperf3_default_BBR_rb8k to Host: 10.3.54.2   (num tests: 5)
+       Throughput:   Mean: 51.9 Gbps   Max: 53.4 Gbps   STDEV: 1.0   Retr: 21
+     Sender CPU 1:   sys :  0.3   soft:  0.9   steal:  0.0   idle: 98.8   Total:1.2
+     Sender CPU 2:   usr :  0.9   sys : 75.3   soft:  8.4   idle: 15.4   Total:84.6
+   Receiver CPU 1:   sys :  0.4   soft:  3.3   steal:  0.0   idle: 96.3   Total:3.7
+   Receiver CPU 2:   usr :  1.0   sys : 89.5   idle:  9.4   Total:90.5
+Error getting core usage for cores 4 or 5.
+
+Test iperf3_default_BIGTCP_rb8k to Host: 10.3.54.2   (num tests: 5)
+       Throughput:   Mean: 50.3 Gbps   Max: 51.9 Gbps   STDEV: 1.2   Retr: 63
+     Sender CPU 1:   sys :  0.2   soft:  0.5   idle: 99.3   Total:0.7
+     Sender CPU 2:   usr :  0.8   sys : 54.8   soft:  1.8   idle: 42.6   Total:57.4
+   Receiver CPU 1:   sys :  0.2   soft:  2.2   idle: 97.6   Total:2.4
+   Receiver CPU 2:   usr :  0.9   sys : 99.1   Total:100.0
+Error getting core usage for cores 4 or 5.
+
+Test iperf3_default_rb8k to Host: 10.3.54.2   (num tests: 5)
+       Throughput:   Mean: 54.3 Gbps   Max: 54.8 Gbps   STDEV: 0.5   Retr: 17
+     Sender CPU 1:   usr :  0.0   sys :  0.2   soft:  0.7   idle: 99.1   Total:0.9
+     Sender CPU 2:   usr :  0.9   sys : 79.5   soft:  1.2   steal:  0.0   idle: 18.4   Total:81.6
+   Receiver CPU 1:   sys :  0.3   soft:  2.5   steal:  0.0   idle: 97.2   Total:2.8
+   Receiver CPU 2:   usr :  1.0   sys : 99.0   Total:100.0
+Error getting core usage for cores 4 or 5.
+
+Test iperf3_skip_rx_copy_BBR1_BIGTCP_rb8k to Host: 10.3.54.2   (num tests: 5)
+       Throughput:   Mean: 80.1 Gbps   Max: 83.4 Gbps   STDEV: 1.9   Retr: 45
+     Sender CPU 1:   sys :  0.1   soft:  0.2   steal:  0.0   idle: 99.7   Total:0.3
+     Sender CPU 2:   usr :  1.3   sys : 92.2   soft:  5.1   idle:  1.4   Total:98.6
+   Receiver CPU 1:   sys :  0.5   soft:  9.3   steal:  0.0   idle: 90.3   Total:9.8
+   Receiver CPU 2:   usr :  2.8   sys : 20.6   idle: 76.6   Total:23.4
+Error getting core usage for cores 4 or 5.
+
+Test iperf3_skip_rx_copy_BBR1_rb8k to Host: 10.3.54.2   (num tests: 5)
+       Throughput:   Mean: 62.4 Gbps   Max: 62.9 Gbps   STDEV: 0.3   Retr: 20
+     Sender CPU 1:   sys :  0.1   soft:  0.4   idle: 99.5   Total:0.5
+     Sender CPU 2:   usr :  1.1   sys : 92.6   soft:  4.7   steal:  0.0   idle:  1.7   Total:98.4
+   Receiver CPU 1:   sys :  0.4   soft:  6.4   idle: 93.3   Total:6.8
+   Receiver CPU 2:   usr :  2.5   sys : 25.8   idle: 71.7   Total:28.3
+Error getting core usage for cores 4 or 5.
+
+Test iperf3_skip_rx_copy_BBR_BIGTCP_rb8k to Host: 10.3.54.2   (num tests: 5)
+       Throughput:   Mean: 76.0 Gbps   Max: 76.7 Gbps   STDEV: 0.4   Retr: 38
+     Sender CPU 1:   sys :  0.1   soft:  0.5   steal:  0.0   idle: 99.4   Total:0.6
+     Sender CPU 2:   usr :  1.2   sys : 89.4   soft:  6.7   steal:  0.0   idle:  2.7   Total:97.3
+   Receiver CPU 1:   sys :  0.6   soft: 10.5   steal:  0.0   idle: 88.9   Total:11.1
+   Receiver CPU 2:   usr :  2.7   sys : 19.8   idle: 77.5   Total:22.5
+Error getting core usage for cores 4 or 5.
+
+Test iperf3_skip_rx_copy_BBR_rb8k to Host: 10.3.54.2   (num tests: 5)
+       Throughput:   Mean: 61.6 Gbps   Max: 64.2 Gbps   STDEV: 1.7   Retr: 19
+     Sender CPU 1:   sys :  0.1   soft:  0.6   steal:  0.0   idle: 99.2   Total:0.7
+     Sender CPU 2:   usr :  1.1   sys : 88.4   soft:  6.2   idle:  4.3   Total:95.7
+   Receiver CPU 1:   sys :  0.4   soft:  6.3   steal:  0.0   idle: 93.3   Total:6.7
+   Receiver CPU 2:   usr :  2.4   sys : 25.7   iowait:  0.0   idle: 71.9   Total:28.1
+Error getting core usage for cores 4 or 5.
+
+Test iperf3_skip_rx_copy_BIGTCP_rb8k to Host: 10.3.54.2   (num tests: 5)
+       Throughput:   Mean: 95.1 Gbps   Max: 96.0 Gbps   STDEV: 0.8   Retr: 0
+     Sender CPU 1:   sys :  0.0   iowait:  0.0   soft:  0.1   steal:  0.0   idle: 99.8   Total:0.1
+     Sender CPU 2:   usr :  1.3   sys : 98.6   soft:  0.1   idle:  0.0   Total:100.0
+   Receiver CPU 1:   sys :  0.3   soft: 23.4   steal:  0.0   idle: 76.3   Total:23.7
+   Receiver CPU 2:   usr :  3.4   sys : 23.4   idle: 73.2   Total:26.8
+Error getting core usage for cores 4 or 5.
+
+Test iperf3_skip_rx_copy_rb8k to Host: 10.3.54.2   (num tests: 5)
+       Throughput:   Mean: 79.3 Gbps   Max: 81.8 Gbps   STDEV: 2.5   Retr: 0
+     Sender CPU 1:   usr :  0.0   sys :  0.0   soft:  0.2   idle: 99.8   Total:0.2
+     Sender CPU 2:   usr :  1.1   sys : 98.9   steal:  0.0   Total:100.0
+   Receiver CPU 1:   sys :  0.2   soft:  6.9   idle: 92.9   Total:7.1
+   Receiver CPU 2:   usr :  3.0   sys : 32.0   idle: 65.1   Total:35.0
+Error getting core usage for cores 4 or 5.
+
+Test iperf3_skip_rx_copy_sendfile_BBR1_BIGTCP_rb8k to Host: 10.3.54.2   (num tests: 5)
+       Throughput:   Mean: 81.4 Gbps   Max: 82.0 Gbps   STDEV: 0.4   Retr: 337
+     Sender CPU 1:   sys :  0.4   soft:  2.2   steal:  0.0   idle: 97.4   Total:2.6
+     Sender CPU 2:   usr :  1.2   sys : 42.1   soft:  4.9   idle: 51.7   Total:48.2
+   Receiver CPU 1:   sys :  0.6   soft: 19.6   steal:  0.0   idle: 79.8   Total:20.2
+   Receiver CPU 2:   usr :  3.3   sys : 34.5   idle: 62.2   Total:37.8
+Error getting core usage for cores 4 or 5.
+
+Test iperf3_skip_rx_copy_sendfile_BBR1_rb8k to Host: 10.3.54.2   (num tests: 5)
+       Throughput:   Mean: 75.0 Gbps   Max: 76.4 Gbps   STDEV: 0.9   Retr: 336
+     Sender CPU 1:   usr :  0.0   sys :  0.4   soft:  2.6   idle: 97.0   Total:3.0
+     Sender CPU 2:   usr :  1.1   sys : 43.2   soft:  5.0   steal:  0.0   idle: 50.6   Total:49.3
+   Receiver CPU 1:   sys :  0.6   soft: 16.9   steal:  0.0   idle: 82.5   Total:17.5
+   Receiver CPU 2:   usr :  3.1   sys : 31.8   idle: 65.1   Total:34.9
+Error getting core usage for cores 4 or 5.
+
+Test iperf3_skip_rx_copy_sendfile_BBR_BIGTCP_rb8k to Host: 10.3.54.2   (num tests: 5)
+       Throughput:   Mean: 73.0 Gbps   Max: 74.0 Gbps   STDEV: 0.7   Retr: 182
+     Sender CPU 1:   sys :  0.6   soft:  5.0   idle: 94.5   Total:5.6
+     Sender CPU 2:   usr :  1.0   sys : 42.7   soft:  2.8   idle: 53.6   Total:46.5
+   Receiver CPU 1:   sys :  0.6   soft: 37.9   steal:  0.0   idle: 61.5   Total:38.5
+   Receiver CPU 2:   usr :  3.3   sys : 29.6   idle: 67.1   Total:32.9
+Error getting core usage for cores 4 or 5.
+
+Test iperf3_skip_rx_copy_sendfile_BBR_rb8k to Host: 10.3.54.2   (num tests: 5)
+       Throughput:   Mean: 67.8 Gbps   Max: 69.6 Gbps   STDEV: 1.2   Retr: 84
+     Sender CPU 1:   usr :  0.0   sys :  0.6   soft:  5.2   steal:  0.0   idle: 94.2   Total:5.8
+     Sender CPU 2:   usr :  1.0   sys : 41.6   soft:  2.3   idle: 55.1   Total:44.9
+   Receiver CPU 1:   sys :  0.6   soft: 11.2   steal:  0.0   idle: 88.2   Total:11.8
+   Receiver CPU 2:   usr :  2.7   sys : 28.2   steal:  0.0   idle: 69.0   Total:30.9
+Error getting core usage for cores 4 or 5.
+
+Test iperf3_skip_rx_copy_sendfile_BIGTCP_rb8k to Host: 10.3.54.2   (num tests: 5)
+       Throughput:   Mean: 96.1 Gbps   Max: 98.9 Gbps   STDEV: 1.6   Retr: 57
+     Sender CPU 1:   usr :  0.0   sys :  0.1   soft:  1.0   steal:  0.0   idle: 98.8   Total:1.1
+     Sender CPU 2:   usr :  1.3   sys : 47.8   soft:  4.8   steal:  0.0   idle: 46.1   Total:53.9
+   Receiver CPU 1:   sys :  0.2   soft: 88.0   steal:  0.0   idle: 11.8   Total:88.2
+   Receiver CPU 2:   usr :  4.8   sys : 44.2   idle: 51.0   Total:49.0
+Error getting core usage for cores 4 or 5.
+
+Test iperf3_skip_rx_copy_sendfile_rb8k to Host: 10.3.54.2   (num tests: 5)
+       Throughput:   Mean: 98.0 Gbps   Max: 98.8 Gbps   STDEV: 0.9   Retr: 78
+     Sender CPU 1:   sys :  0.1   soft:  0.8   idle: 99.2   Total:0.9
+     Sender CPU 2:   usr :  1.3   sys : 52.8   soft:  6.1   idle: 39.9   Total:60.2
+   Receiver CPU 1:   sys :  0.3   soft: 51.3   steal:  0.0   idle: 48.4   Total:51.6
+   Receiver CPU 2:   usr :  4.0   sys : 41.1   iowait:  0.0   idle: 54.8   Total:45.1
+Error getting core usage for cores 4 or 5.
+
+Test iperf3_skip_rx_copy_zerocopy_BBR1_BIGTCP_rb8k to Host: 10.3.54.2   (num tests: 5)
+       Throughput:   Mean: 86.1 Gbps   Max: 87.9 Gbps   STDEV: 1.7   Retr: 429
+     Sender CPU 1:   usr :  0.0   sys :  0.3   soft:  3.4   steal:  0.0   idle: 96.3   Total:3.7
+     Sender CPU 2:   usr :  1.3   sys : 41.3   soft:  2.0   idle: 55.4   Total:44.6
+   Receiver CPU 1:   sys :  0.4   soft: 69.6   steal:  0.0   idle: 30.1   Total:70.0
+   Receiver CPU 2:   usr :  4.1   sys : 37.7   idle: 58.3   Total:41.8
+Error getting core usage for cores 4 or 5.
+
+Test iperf3_skip_rx_copy_zerocopy_BBR1_rb8k to Host: 10.3.54.2   (num tests: 5)
+       Throughput:   Mean: 79.8 Gbps   Max: 80.3 Gbps   STDEV: 0.4   Retr: 140
+     Sender CPU 1:   usr :  0.0   sys :  0.3   soft:  2.5   idle: 97.2   Total:2.8
+     Sender CPU 2:   usr :  1.2   sys : 42.4   soft:  2.5   steal:  0.0   idle: 53.9   Total:46.1
+   Receiver CPU 1:   sys :  0.6   soft: 31.4   steal:  0.0   idle: 67.9   Total:32.0
+   Receiver CPU 2:   usr :  3.2   sys : 34.4   idle: 62.3   Total:37.6
+Error getting core usage for cores 4 or 5.
+
+Test iperf3_skip_rx_copy_zerocopy_BBR_BIGTCP_rb8k to Host: 10.3.54.2   (num tests: 5)
+       Throughput:   Mean: 70.4 Gbps   Max: 71.3 Gbps   STDEV: 0.8   Retr: 245
+     Sender CPU 1:   usr :  0.0   sys :  0.6   soft:  5.6   idle: 93.8   Total:6.2
+     Sender CPU 2:   usr :  1.1   sys : 34.2   soft:  1.1   idle: 63.6   Total:36.4
+   Receiver CPU 1:   sys :  0.6   soft: 39.4   steal:  0.0   idle: 60.0   Total:40.0
+   Receiver CPU 2:   usr :  3.2   sys : 30.8   iowait:  0.0   idle: 66.0   Total:34.0
+Error getting core usage for cores 4 or 5.
+
+Test iperf3_skip_rx_copy_zerocopy_BBR_rb8k to Host: 10.3.54.2   (num tests: 5)
+       Throughput:   Mean: 67.5 Gbps   Max: 70.0 Gbps   STDEV: 1.6   Retr: 244
+     Sender CPU 1:   sys :  0.6   soft:  4.7   steal:  0.0   idle: 94.7   Total:5.3
+     Sender CPU 2:   usr :  1.0   sys : 34.6   soft:  1.2   steal:  0.0   idle: 63.2   Total:36.8
+   Receiver CPU 1:   sys :  0.7   soft: 14.4   steal:  0.0   idle: 84.9   Total:15.1
+   Receiver CPU 2:   usr :  2.7   sys : 29.0   idle: 68.3   Total:31.7
+Error getting core usage for cores 4 or 5.
+
+Test iperf3_skip_rx_copy_zerocopy_BIGTCP_rb8k to Host: 10.3.54.2   (num tests: 5)
+       Throughput:   Mean: 92.5 Gbps   Max: 93.2 Gbps   STDEV: 0.5   Retr: 30
+     Sender CPU 1:   sys :  0.0   soft:  0.3   steal:  0.0   idle: 99.7   Total:0.3
+     Sender CPU 2:   usr :  1.4   sys : 49.4   soft:  4.2   idle: 45.0   Total:55.0
+   Receiver CPU 1:   sys :  0.1   soft: 99.9   steal:  0.0   idle:  0.0   Total:100.0
+   Receiver CPU 2:   usr :  4.9   sys : 44.7   steal:  0.0   idle: 50.3   Total:49.6
+Error getting core usage for cores 4 or 5.
+
+Test iperf3_skip_rx_copy_zerocopy_rb8k to Host: 10.3.54.2   (num tests: 5)
+       Throughput:   Mean: 97.5 Gbps   Max: 98.0 Gbps   STDEV: 0.3   Retr: 135
+     Sender CPU 1:   sys :  0.0   iowait:  0.0   soft:  0.3   idle: 99.6   Total:0.3
+     Sender CPU 2:   usr :  1.4   sys : 53.7   soft:  5.7   idle: 39.3   Total:60.8
+   Receiver CPU 1:   sys :  0.3   soft: 68.2   steal:  0.0   idle: 31.5   Total:68.5
+   Receiver CPU 2:   usr :  4.0   sys : 41.7   idle: 54.3   Total:45.7
+Error getting core usage for cores 4 or 5.
+
+Test iperf3_default_BBR1_BIGTCP_rb8k to Host: 10.3.56.2   (num tests: 5)
+       Throughput:   Mean: 42.4 Gbps   Max: 42.5 Gbps   STDEV: 0.1   Retr: 2332
+     Sender CPU 1:   sys :  0.0   soft:  0.1   idle: 99.8   Total:0.1
+     Sender CPU 2:   usr :  0.6   sys : 97.7   soft:  1.2   steal:  0.0   idle:  0.4   Total:99.5
+   Receiver CPU 1:   sys :  0.1   soft:  2.5   steal:  0.0   idle: 97.4   Total:2.6
+   Receiver CPU 2:   usr :  0.9   sys : 89.3   idle:  9.9   Total:90.2
+Error getting core usage for cores 4 or 5.
+
+Test iperf3_default_BBR1_rb8k to Host: 10.3.56.2   (num tests: 5)
+       Throughput:   Mean: 37.1 Gbps   Max: 38.1 Gbps   STDEV: 1.5   Retr: 131233
+     Sender CPU 1:   sys :  0.0   soft:  0.2   idle: 99.8   Total:0.2
+     Sender CPU 2:   usr :  0.5   sys : 97.4   soft:  1.2   idle:  0.9   Total:99.1
+   Receiver CPU 1:   sys :  0.2   soft:  1.9   steal:  0.0   idle: 97.9   Total:2.1
+   Receiver CPU 2:   usr :  0.8   sys : 64.7   idle: 34.5   Total:65.5
+Error getting core usage for cores 4 or 5.
+
+Test iperf3_default_BBR_BIGTCP_rb8k to Host: 10.3.56.2   (num tests: 5)
+       Throughput:   Mean: 42.0 Gbps   Max: 42.1 Gbps   STDEV: 0.1   Retr: 13
+     Sender CPU 1:   sys :  0.1   iowait:  0.0   soft:  0.3   idle: 99.6   Total:0.4
+     Sender CPU 2:   usr :  0.6   sys : 97.7   soft:  1.5   steal:  0.0   idle:  0.2   Total:99.8
+   Receiver CPU 1:   sys :  0.2   soft:  1.8   steal:  0.0   idle: 98.0   Total:2.0
+   Receiver CPU 2:   usr :  1.0   sys : 68.5   steal:  0.0   idle: 30.5   Total:69.5
+Error getting core usage for cores 4 or 5.
+
+Test iperf3_default_BBR_rb8k to Host: 10.3.56.2   (num tests: 5)
+       Throughput:   Mean: 33.5 Gbps   Max: 36.3 Gbps   STDEV: 3.9   Retr: 29541
+     Sender CPU 1:   sys :  0.0   soft:  0.2   steal:  0.0   idle: 99.8   Total:0.2
+     Sender CPU 2:   usr :  0.5   sys : 85.6   soft:  2.7   idle: 11.1   Total:88.8
+   Receiver CPU 1:   usr :  0.0   sys :  0.2   soft:  1.4   steal:  0.0   idle: 98.4   Total:1.6
+   Receiver CPU 2:   usr :  0.8   sys : 54.3   steal:  0.0   idle: 44.9   Total:55.1
+Error getting core usage for cores 4 or 5.
+
+Test iperf3_default_BIGTCP_rb8k to Host: 10.3.56.2   (num tests: 5)
+       Throughput:   Mean: 43.9 Gbps   Max: 43.9 Gbps   STDEV: 0.1   Retr: 0
+     Sender CPU 1:   sys :  0.0   soft:  0.2   steal:  0.0   idle: 99.8   Total:0.2
+     Sender CPU 2:   usr :  0.6   sys : 99.4   soft:  0.0   Total:100.0
+   Receiver CPU 1:   sys :  0.2   soft:  1.8   steal:  0.0   idle: 98.0   Total:2.0
+   Receiver CPU 2:   usr :  1.0   sys : 72.2   idle: 26.8   Total:73.2
+Error getting core usage for cores 4 or 5.
+
+Test iperf3_default_rb8k to Host: 10.3.56.2   (num tests: 5)
+       Throughput:   Mean: 37.2 Gbps   Max: 38.9 Gbps   STDEV: 2.8   Retr: 0
+     Sender CPU 1:   sys :  0.1   soft:  0.2   steal:  0.0   idle: 99.6   Total:0.3
+     Sender CPU 2:   usr :  0.5   sys : 95.0   soft:  3.9   idle:  0.6   Total:99.4
+   Receiver CPU 1:   sys :  0.2   soft:  1.5   idle: 98.3   Total:1.7
+   Receiver CPU 2:   usr :  0.9   sys : 53.0   idle: 46.1   Total:53.9
+Error getting core usage for cores 4 or 5.
+
+Test iperf3_skip_rx_copy_BBR1_BIGTCP_rb8k to Host: 10.3.56.2   (num tests: 5)
+       Throughput:   Mean: 42.4 Gbps   Max: 43.0 Gbps   STDEV: 0.8   Retr: 152016
+     Sender CPU 1:   sys :  0.1   soft:  0.2   idle: 99.7   Total:0.3
+     Sender CPU 2:   usr :  0.6   sys : 97.8   soft:  0.8   idle:  0.8   Total:99.2
+   Receiver CPU 1:   sys :  0.2   soft:  6.8   steal:  0.0   idle: 92.9   Total:7.0
+   Receiver CPU 2:   usr :  1.4   sys : 11.1   idle: 87.6   Total:12.5
+Error getting core usage for cores 4 or 5.
+
+Test iperf3_skip_rx_copy_BBR1_rb8k to Host: 10.3.56.2   (num tests: 5)
+       Throughput:   Mean: 37.9 Gbps   Max: 38.2 Gbps   STDEV: 0.2   Retr: 60
+     Sender CPU 1:   sys :  0.1   soft:  0.3   idle: 99.6   Total:0.4
+     Sender CPU 2:   usr :  0.6   sys : 97.5   soft:  1.1   idle:  0.8   Total:99.2
+   Receiver CPU 1:   sys :  0.1   soft:  1.6   steal:  0.0   idle: 98.2   Total:1.7
+   Receiver CPU 2:   usr :  1.4   sys : 15.5   idle: 83.1   Total:16.9
+Error getting core usage for cores 4 or 5.
+
+Test iperf3_skip_rx_copy_BBR_BIGTCP_rb8k to Host: 10.3.56.2   (num tests: 5)
+       Throughput:   Mean: 41.9 Gbps   Max: 42.1 Gbps   STDEV: 0.2   Retr: 13
+     Sender CPU 1:   sys :  0.2   soft:  0.4   steal:  0.0   idle: 99.4   Total:0.6
+     Sender CPU 2:   usr :  0.6   sys : 97.7   soft:  1.6   idle:  0.0   Total:99.9
+   Receiver CPU 1:   sys :  0.2   soft:  1.8   steal:  0.0   idle: 98.0   Total:2.0
+   Receiver CPU 2:   usr :  1.3   sys : 10.8   idle: 87.9   Total:12.1
+Error getting core usage for cores 4 or 5.
+
+Test iperf3_skip_rx_copy_BBR_rb8k to Host: 10.3.56.2   (num tests: 5)
+       Throughput:   Mean: 36.4 Gbps   Max: 37.1 Gbps   STDEV: 0.4   Retr: 3
+     Sender CPU 1:   sys :  0.1   soft:  0.3   idle: 99.6   Total:0.4
+     Sender CPU 2:   usr :  0.6   sys : 96.6   soft:  2.8   idle:  0.1   Total:100.0
+   Receiver CPU 1:   sys :  0.1   soft:  1.4   steal:  0.0   idle: 98.4   Total:1.5
+   Receiver CPU 2:   usr :  1.3   sys : 14.0   idle: 84.7   Total:15.3
+Error getting core usage for cores 4 or 5.
+
+Test iperf3_skip_rx_copy_BIGTCP_rb8k to Host: 10.3.56.2   (num tests: 5)
+       Throughput:   Mean: 38.0 Gbps   Max: 43.9 Gbps   STDEV: 6.4   Retr: 688
+     Sender CPU 1:   sys :  0.2   soft:  0.3   idle: 99.6   Total:0.5
+     Sender CPU 2:   usr :  0.5   sys : 87.6   soft:  1.8   idle: 10.1   Total:89.9
+   Receiver CPU 1:   sys :  0.2   soft:  1.7   idle: 98.1   Total:1.9
+   Receiver CPU 2:   usr :  1.2   sys :  9.7   idle: 89.1   Total:10.9
+Error getting core usage for cores 4 or 5.
+
+Test iperf3_skip_rx_copy_rb8k to Host: 10.3.56.2   (num tests: 5)
+       Throughput:   Mean: 38.1 Gbps   Max: 39.2 Gbps   STDEV: 1.7   Retr: 0
+     Sender CPU 1:   sys :  0.1   iowait:  0.0   soft:  0.2   idle: 99.6   Total:0.3
+     Sender CPU 2:   usr :  0.6   sys : 97.1   soft:  2.2   idle:  0.1   Total:99.9
+   Receiver CPU 1:   sys :  0.2   soft:  1.7   idle: 98.1   Total:1.9
+   Receiver CPU 2:   usr :  1.4   sys : 15.2   idle: 83.5   Total:16.6
+Error getting core usage for cores 4 or 5.
+
+Test iperf3_skip_rx_copy_sendfile_BBR1_BIGTCP_rb8k to Host: 10.3.56.2   (num tests: 5)
+       Throughput:   Mean: 31.9 Gbps   Max: 34.3 Gbps   STDEV: 1.7   Retr: 4449744
+     Sender CPU 1:   sys :  0.1   soft:  7.0   steal:  0.0   idle: 92.9   Total:7.1
+     Sender CPU 2:   usr :  0.4   sys : 21.1   soft:  1.3   idle: 77.2   Total:22.8
+   Receiver CPU 1:   sys :  0.1   soft: 50.0   idle: 49.8   Total:50.1
+   Receiver CPU 2:   usr :  0.8   sys : 12.2   idle: 87.0   Total:13.0
+Error getting core usage for cores 4 or 5.
+
+Test iperf3_skip_rx_copy_sendfile_BBR1_rb8k to Host: 10.3.56.2   (num tests: 5)
+       Throughput:   Mean: 34.0 Gbps   Max: 35.0 Gbps   STDEV: 0.9   Retr: 4173509
+     Sender CPU 1:   sys :  0.1   soft:  3.9   steal:  0.0   idle: 96.0   Total:4.0
+     Sender CPU 2:   usr :  0.4   sys : 21.1   soft:  1.6   idle: 76.9   Total:23.1
+   Receiver CPU 1:   sys :  0.1   soft: 53.9   idle: 45.9   Total:54.0
+   Receiver CPU 2:   usr :  0.8   sys : 13.3   idle: 85.9   Total:14.1
+Error getting core usage for cores 4 or 5.
+
+Test iperf3_skip_rx_copy_sendfile_BBR_BIGTCP_rb8k to Host: 10.3.56.2   (num tests: 5)
+       Throughput:   Mean: 38.4 Gbps   Max: 41.9 Gbps   STDEV: 4.6   Retr: 288728
+     Sender CPU 1:   sys :  0.2   soft:  1.1   steal:  0.0   idle: 98.7   Total:1.3
+     Sender CPU 2:   usr :  0.5   sys : 15.5   soft:  1.3   idle: 82.7   Total:17.3
+   Receiver CPU 1:   sys :  0.2   soft: 11.5   steal:  0.0   idle: 88.3   Total:11.7
+   Receiver CPU 2:   usr :  1.4   sys : 14.2   iowait:  0.0   idle: 84.4   Total:15.6
+Error getting core usage for cores 4 or 5.
+
+Test iperf3_skip_rx_copy_sendfile_BBR_rb8k to Host: 10.3.56.2   (num tests: 5)
+       Throughput:   Mean: 42.6 Gbps   Max: 47.9 Gbps   STDEV: 4.3   Retr: 158816
+     Sender CPU 1:   sys :  0.2   soft:  1.3   steal:  0.0   idle: 98.5   Total:1.5
+     Sender CPU 2:   usr :  0.5   sys : 18.0   soft:  1.7   idle: 79.8   Total:20.2
+   Receiver CPU 1:   sys :  0.2   soft:  9.1   steal:  0.0   idle: 90.6   Total:9.3
+   Receiver CPU 2:   usr :  1.5   sys : 15.9   soft:  0.0   idle: 82.6   Total:17.4
+Error getting core usage for cores 4 or 5.
+
+Test iperf3_skip_rx_copy_sendfile_BIGTCP_rb8k to Host: 10.3.56.2   (num tests: 5)
+       Throughput:   Mean: 34.2 Gbps   Max: 39.8 Gbps   STDEV: 3.8   Retr: 1186
+     Sender CPU 1:   usr :  0.0   sys :  0.3   soft:  1.2   steal:  0.0   idle: 98.5   Total:1.5
+     Sender CPU 2:   usr :  0.4   sys : 13.3   soft:  1.1   idle: 85.2   Total:14.8
+   Receiver CPU 1:   sys :  0.3   soft:  2.0   idle: 97.7   Total:2.3
+   Receiver CPU 2:   usr :  1.4   sys : 13.6   idle: 85.0   Total:15.0
+Error getting core usage for cores 4 or 5.
+
+Test iperf3_skip_rx_copy_sendfile_rb8k to Host: 10.3.56.2   (num tests: 5)
+       Throughput:   Mean: 35.7 Gbps   Max: 39.6 Gbps   STDEV: 2.7   Retr: 977
+     Sender CPU 1:   sys :  0.2   iowait:  0.0   soft:  1.3   steal:  0.0   idle: 98.4   Total:1.5
+     Sender CPU 2:   usr :  0.4   sys : 14.5   soft:  1.3   idle: 83.7   Total:16.2
+   Receiver CPU 1:   sys :  0.3   soft:  2.2   steal:  0.0   idle: 97.5   Total:2.5
+   Receiver CPU 2:   usr :  1.3   sys : 13.8   idle: 84.8   Total:15.1
+Error getting core usage for cores 4 or 5.
+
+Test iperf3_skip_rx_copy_zerocopy_BBR1_BIGTCP_rb8k to Host: 10.3.56.2   (num tests: 5)
+       Throughput:   Mean: 32.9 Gbps   Max: 34.1 Gbps   STDEV: 1.0   Retr: 3593443
+     Sender CPU 1:   sys :  0.2   iowait:  0.0   soft:  0.7   idle: 99.2   Total:0.9
+     Sender CPU 2:   usr : 31.1   sys : 66.0   soft:  2.9   Total:100.0
+   Receiver CPU 1:   sys :  0.1   soft: 61.7   steal:  0.0   idle: 38.2   Total:61.8
+   Receiver CPU 2:   usr :  0.7   sys : 13.0   iowait:  0.0   soft:  0.0   idle: 86.3   Total:13.7
+Error getting core usage for cores 4 or 5.
+
+Test iperf3_skip_rx_copy_zerocopy_BBR1_rb8k to Host: 10.3.56.2   (num tests: 5)
+       Throughput:   Mean: 35.2 Gbps   Max: 35.9 Gbps   STDEV: 0.9   Retr: 2629163
+     Sender CPU 1:   sys :  0.2   soft:  0.7   idle: 99.1   Total:0.9
+     Sender CPU 2:   usr : 31.6   sys : 65.6   soft:  2.9   Total:100.1
+   Receiver CPU 1:   sys :  0.1   soft: 58.0   steal:  0.0   idle: 41.9   Total:58.1
+   Receiver CPU 2:   usr :  0.8   sys : 13.5   iowait:  0.0   idle: 85.8   Total:14.3
+Error getting core usage for cores 4 or 5.
+
+Test iperf3_skip_rx_copy_zerocopy_BBR_BIGTCP_rb8k to Host: 10.3.56.2   (num tests: 5)
+       Throughput:   Mean: 42.1 Gbps   Max: 44.7 Gbps   STDEV: 1.6   Retr: 167332
+     Sender CPU 1:   sys :  0.2   soft:  0.9   idle: 98.9   Total:1.1
+     Sender CPU 2:   usr : 32.8   sys : 62.5   soft:  4.7   Total:100.0
+   Receiver CPU 1:   sys :  0.2   soft: 11.3   steal:  0.0   idle: 88.5   Total:11.5
+   Receiver CPU 2:   usr :  1.6   sys : 16.4   soft:  0.0   idle: 82.1   Total:18.0
+Error getting core usage for cores 4 or 5.
+
+Test iperf3_skip_rx_copy_zerocopy_BBR_rb8k to Host: 10.3.56.2   (num tests: 5)
+       Throughput:   Mean: 42.6 Gbps   Max: 44.2 Gbps   STDEV: 1.5   Retr: 168426
+     Sender CPU 1:   sys :  0.2   soft:  1.0   steal:  0.0   idle: 98.8   Total:1.2
+     Sender CPU 2:   usr : 32.3   sys : 63.1   soft:  4.5   Total:99.9
+   Receiver CPU 1:   sys :  0.3   soft:  9.5   idle: 90.3   Total:9.8
+   Receiver CPU 2:   usr :  1.6   sys : 16.8   idle: 81.7   Total:18.4
+Error getting core usage for cores 4 or 5.
+
+Test iperf3_skip_rx_copy_zerocopy_BIGTCP_rb8k to Host: 10.3.56.2   (num tests: 5)
+       Throughput:   Mean: 33.0 Gbps   Max: 35.4 Gbps   STDEV: 3.1   Retr: 416
+     Sender CPU 1:   sys :  0.2   soft:  0.8   idle: 99.0   Total:1.0
+     Sender CPU 2:   usr : 22.0   sys : 44.5   soft:  3.7   idle: 29.9   Total:70.2
+   Receiver CPU 1:   sys :  0.3   soft:  2.1   steal:  0.0   idle: 97.6   Total:2.4
+   Receiver CPU 2:   usr :  1.3   sys : 13.2   idle: 85.5   Total:14.5
+Error getting core usage for cores 4 or 5.
+
+Test iperf3_skip_rx_copy_zerocopy_rb8k to Host: 10.3.56.2   (num tests: 5)
+       Throughput:   Mean: 29.6 Gbps   Max: 35.8 Gbps   STDEV: 5.8   Retr: 2933
+     Sender CPU 1:   sys :  0.2   soft:  0.9   idle: 99.0   Total:1.1
+     Sender CPU 2:   usr : 13.5   sys : 32.4   soft:  2.2   steal:  0.0   idle: 51.9   Total:48.1
+   Receiver CPU 1:   sys :  0.3   soft:  1.9   idle: 97.9   Total:2.2
+   Receiver CPU 2:   usr :  1.2   sys : 12.3   idle: 86.5   Total:13.5
+Error getting core usage for cores 4 or 5.
+
+Test iperf3_default_BBR1_BIGTCP_rb8k to Host: 10.3.58.2   (num tests: 5)
+       Throughput:   Mean: 30.5 Gbps   Max: 39.8 Gbps   STDEV: 8.9   Retr: 188794
+     Sender CPU 1:   sys :  0.1   soft:  5.3   steal:  0.0   idle: 94.6   Total:5.4
+     Sender CPU 2:   usr :  0.4   sys : 63.4   soft:  1.0   steal:  0.0   idle: 35.2   Total:64.8
+   Receiver CPU 1:   sys :  0.2   soft:  2.4   idle: 97.4   Total:2.6
+   Receiver CPU 2:   usr :  0.7   sys : 48.7   idle: 50.6   Total:49.4
+Error getting core usage for cores 4 or 5.
+
+Test iperf3_default_BBR1_rb8k to Host: 10.3.58.2   (num tests: 5)
+       Throughput:   Mean: 34.1 Gbps   Max: 34.8 Gbps   STDEV: 0.5   Retr: 9889
+     Sender CPU 1:   sys :  0.1   soft:  1.0   idle: 99.0   Total:1.1
+     Sender CPU 2:   usr :  0.5   sys : 79.5   soft:  1.6   idle: 18.4   Total:81.6
+   Receiver CPU 1:   sys :  0.1   soft:  1.3   idle: 98.6   Total:1.4
+   Receiver CPU 2:   usr :  0.8   sys : 51.4   idle: 47.8   Total:52.2
+Error getting core usage for cores 4 or 5.
+
+Test iperf3_default_BBR_BIGTCP_rb8k to Host: 10.3.58.2   (num tests: 5)
+       Throughput:   Mean: 32.9 Gbps   Max: 34.8 Gbps   STDEV: 2.0   Retr: 39422
+     Sender CPU 1:   sys :  0.1   soft:  0.3   idle: 99.6   Total:0.4
+     Sender CPU 2:   usr :  0.5   sys : 74.1   soft:  3.6   idle: 21.8   Total:78.2
+   Receiver CPU 1:   sys :  0.2   soft:  2.2   steal:  0.0   idle: 97.6   Total:2.4
+   Receiver CPU 2:   usr :  0.8   sys : 50.4   idle: 48.8   Total:51.2
+Error getting core usage for cores 4 or 5.
+
+Test iperf3_default_BBR_rb8k to Host: 10.3.58.2   (num tests: 5)
+       Throughput:   Mean: 31.9 Gbps   Max: 34.6 Gbps   STDEV: 5.1   Retr: 47277
+     Sender CPU 1:   sys :  0.1   soft:  2.6   idle: 97.4   Total:2.7
+     Sender CPU 2:   usr :  0.4   sys : 73.5   soft:  2.5   steal:  0.0   idle: 23.6   Total:76.4
+   Receiver CPU 1:   sys :  0.2   soft:  1.6   steal:  0.0   idle: 98.2   Total:1.8
+   Receiver CPU 2:   usr :  0.7   sys : 46.8   idle: 52.5   Total:47.5
+Error getting core usage for cores 4 or 5.
+
+Test iperf3_default_BIGTCP_rb8k to Host: 10.3.58.2   (num tests: 5)
+       Throughput:   Mean: 22.6 Gbps   Max: 27.7 Gbps   STDEV: 5.4   Retr: 12497
+     Sender CPU 1:   usr :  0.0   sys :  0.1   soft:  0.3   idle: 99.5   Total:0.4
+     Sender CPU 2:   usr :  0.3   sys : 54.2   iowait:  0.0   soft:  1.8   idle: 43.7   Total:56.3
+   Receiver CPU 1:   sys :  0.2   soft:  1.1   steal:  0.0   idle: 98.7   Total:1.3
+   Receiver CPU 2:   usr :  0.5   sys : 34.9   idle: 64.5   Total:35.4
+Error getting core usage for cores 4 or 5.
+
+Test iperf3_default_rb8k to Host: 10.3.58.2   (num tests: 5)
+       Throughput:   Mean: 24.5 Gbps   Max: 38.5 Gbps   STDEV: 16.0   Retr: 19589
+     Sender CPU 1:   usr :  0.0   sys :  0.1   soft:  0.5   idle: 99.4   Total:0.6
+     Sender CPU 2:   usr :  0.4   sys : 62.2   soft:  1.6   idle: 35.8   Total:64.2
+   Receiver CPU 1:   sys :  0.1   soft:  1.0   steal:  0.0   idle: 98.9   Total:1.1
+   Receiver CPU 2:   usr :  0.6   sys : 34.9   idle: 64.5   Total:35.5
+Error getting core usage for cores 4 or 5.
+
+Test iperf3_skip_rx_copy_BBR1_BIGTCP_rb8k to Host: 10.3.58.2   (num tests: 5)
+       Throughput:   Mean: 33.5 Gbps   Max: 39.1 Gbps   STDEV: 7.5   Retr: 53581
+     Sender CPU 1:   sys :  0.1   soft:  1.1   idle: 98.8   Total:1.2
+     Sender CPU 2:   usr :  0.4   sys : 70.7   soft:  1.4   steal:  0.0   idle: 27.5   Total:72.5
+   Receiver CPU 1:   sys :  0.2   soft:  2.6   steal:  0.0   idle: 97.2   Total:2.8
+   Receiver CPU 2:   usr :  1.1   sys :  8.8   steal:  0.0   idle: 90.2   Total:9.9
+Error getting core usage for cores 4 or 5.
+
+Test iperf3_skip_rx_copy_BBR1_rb8k to Host: 10.3.58.2   (num tests: 5)
+       Throughput:   Mean: 30.9 Gbps   Max: 35.6 Gbps   STDEV: 4.7   Retr: 78066
+     Sender CPU 1:   sys :  0.1   soft:  4.9   steal:  0.0   idle: 95.0   Total:5.0
+     Sender CPU 2:   usr :  0.4   sys : 71.7   soft:  1.5   idle: 26.4   Total:73.6
+   Receiver CPU 1:   sys :  0.2   soft:  2.2   idle: 97.7   Total:2.4
+   Receiver CPU 2:   usr :  1.1   sys : 12.3   iowait:  0.0   idle: 86.6   Total:13.4
+Error getting core usage for cores 4 or 5.
+
+Test iperf3_skip_rx_copy_BBR_BIGTCP_rb8k to Host: 10.3.58.2   (num tests: 5)
+       Throughput:   Mean: 32.1 Gbps   Max: 35.9 Gbps   STDEV: 4.3   Retr: 23345
+     Sender CPU 1:   sys :  0.1   soft:  0.7   idle: 99.2   Total:0.8
+     Sender CPU 2:   usr :  0.4   sys : 70.0   soft:  3.3   idle: 26.3   Total:73.7
+   Receiver CPU 1:   sys :  0.2   soft:  1.9   idle: 97.9   Total:2.1
+   Receiver CPU 2:   usr :  1.0   sys :  8.0   idle: 91.0   Total:9.0
+Error getting core usage for cores 4 or 5.
+
+Test iperf3_skip_rx_copy_BBR_rb8k to Host: 10.3.58.2   (num tests: 5)
+       Throughput:   Mean: 34.1 Gbps   Max: 35.0 Gbps   STDEV: 0.5   Retr: 55636
+     Sender CPU 1:   usr :  0.0   sys :  0.1   soft:  3.7   idle: 96.2   Total:3.8
+     Sender CPU 2:   usr :  0.5   sys : 83.0   soft:  2.4   idle: 14.1   Total:85.9
+   Receiver CPU 1:   sys :  0.1   soft:  2.0   steal:  0.0   idle: 97.8   Total:2.1
+   Receiver CPU 2:   usr :  1.3   sys : 13.2   iowait:  0.0   idle: 85.5   Total:14.5
+Error getting core usage for cores 4 or 5.
+
+Test iperf3_skip_rx_copy_BIGTCP_rb8k to Host: 10.3.58.2   (num tests: 5)
+       Throughput:   Mean: 29.1 Gbps   Max: 41.3 Gbps   STDEV: 7.4   Retr: 0
+     Sender CPU 1:   sys :  0.1   soft:  0.3   idle: 99.6   Total:0.4
+     Sender CPU 2:   usr :  0.4   sys : 62.5   soft:  1.5   idle: 35.6   Total:64.4
+   Receiver CPU 1:   sys :  0.2   soft:  1.2   idle: 98.6   Total:1.4
+   Receiver CPU 2:   usr :  1.0   sys :  7.7   idle: 91.3   Total:8.7
+Error getting core usage for cores 4 or 5.
+
+Test iperf3_skip_rx_copy_rb8k to Host: 10.3.58.2   (num tests: 5)
+       Throughput:   Mean: 28.3 Gbps   Max: 32.9 Gbps   STDEV: 6.1   Retr: 0
+     Sender CPU 1:   usr :  0.0   sys :  0.1   iowait:  0.0   soft:  0.5   idle: 99.3   Total:0.6
+     Sender CPU 2:   usr :  0.4   sys : 71.1   soft:  4.9   steal:  0.0   idle: 23.5   Total:76.4
+   Receiver CPU 1:   sys :  0.2   soft:  1.2   steal:  0.0   idle: 98.7   Total:1.4
+   Receiver CPU 2:   usr :  1.0   sys : 10.9   idle: 88.1   Total:11.9
+Error getting core usage for cores 4 or 5.
+
+Test iperf3_skip_rx_copy_sendfile_BBR1_BIGTCP_rb8k to Host: 10.3.58.2   (num tests: 5)
+       Throughput:   Mean: 23.7 Gbps   Max: 30.1 Gbps   STDEV: 4.9   Retr: 162793
+     Sender CPU 1:   sys :  0.1   soft:  9.5   steal:  0.0   idle: 90.3   Total:9.6
+     Sender CPU 2:   usr :  0.3   sys :  8.9   soft:  0.5   idle: 90.4   Total:9.7
+   Receiver CPU 1:   sys :  0.2   soft:  4.3   steal:  0.0   idle: 95.6   Total:4.5
+   Receiver CPU 2:   usr :  0.9   sys :  9.7   idle: 89.4   Total:10.6
+Error getting core usage for cores 4 or 5.
+
+Test iperf3_skip_rx_copy_sendfile_BBR1_rb8k to Host: 10.3.58.2   (num tests: 5)
+       Throughput:   Mean: 23.6 Gbps   Max: 27.3 Gbps   STDEV: 3.6   Retr: 157395
+     Sender CPU 1:   usr :  0.0   sys :  0.1   soft:  7.7   steal:  0.0   idle: 92.2   Total:7.8
+     Sender CPU 2:   usr :  0.3   sys :  9.4   soft:  0.5   idle: 89.8   Total:10.2
+   Receiver CPU 1:   sys :  0.1   soft:  4.3   steal:  0.0   idle: 95.5   Total:4.4
+   Receiver CPU 2:   usr :  0.8   sys :  8.9   idle: 90.3   Total:9.7
+Error getting core usage for cores 4 or 5.
+
+Test iperf3_skip_rx_copy_sendfile_BBR_BIGTCP_rb8k to Host: 10.3.58.2   (num tests: 5)
+       Throughput:   Mean: 31.0 Gbps   Max: 34.2 Gbps   STDEV: 2.3   Retr: 133137
+     Sender CPU 1:   sys :  0.1   soft:  2.7   steal:  0.0   idle: 97.2   Total:2.8
+     Sender CPU 2:   usr :  0.4   sys : 12.1   soft:  0.8   idle: 86.8   Total:13.3
+   Receiver CPU 1:   sys :  0.2   soft:  4.1   steal:  0.0   idle: 95.7   Total:4.3
+   Receiver CPU 2:   usr :  1.2   sys : 11.8   idle: 87.0   Total:13.0
+Error getting core usage for cores 4 or 5.
+
+Test iperf3_skip_rx_copy_sendfile_BBR_rb8k to Host: 10.3.58.2   (num tests: 5)
+       Throughput:   Mean: 25.9 Gbps   Max: 31.7 Gbps   STDEV: 5.9   Retr: 46504
+     Sender CPU 1:   sys :  0.1   soft:  1.5   steal:  0.0   idle: 98.4   Total:1.6
+     Sender CPU 2:   usr :  0.3   sys :  9.7   soft:  0.5   idle: 89.6   Total:10.5
+   Receiver CPU 1:   sys :  0.2   soft:  1.8   steal:  0.0   idle: 98.0   Total:2.0
+   Receiver CPU 2:   usr :  0.9   sys :  9.5   idle: 89.6   Total:10.4
+Error getting core usage for cores 4 or 5.
+
+Test iperf3_skip_rx_copy_sendfile_BIGTCP_rb8k to Host: 10.3.58.2   (num tests: 5)
+       Throughput:   Mean: 25.3 Gbps   Max: 31.4 Gbps   STDEV: 4.9   Retr: 1819
+     Sender CPU 1:   sys :  0.2   iowait:  0.0   soft:  1.1   steal:  0.0   idle: 98.7   Total:1.3
+     Sender CPU 2:   usr :  0.3   sys :  9.4   soft:  0.6   idle: 89.7   Total:10.3
+   Receiver CPU 1:   sys :  0.2   soft:  1.2   idle: 98.6   Total:1.4
+   Receiver CPU 2:   usr :  1.0   sys :  9.7   iowait:  0.0   idle: 89.4   Total:10.7
+Error getting core usage for cores 4 or 5.
+
+Test iperf3_skip_rx_copy_sendfile_rb8k to Host: 10.3.58.2   (num tests: 5)
+       Throughput:   Mean: 26.3 Gbps   Max: 29.0 Gbps   STDEV: 3.4   Retr: 0
+     Sender CPU 1:   usr :  0.0   sys :  0.2   soft:  1.2   steal:  0.0   idle: 98.6   Total:1.4
+     Sender CPU 2:   usr :  0.3   sys : 10.2   soft:  1.0   idle: 88.5   Total:11.5
+   Receiver CPU 1:   sys :  0.2   iowait:  0.0   soft:  1.1   steal:  0.0   idle: 98.7   Total:1.3
+   Receiver CPU 2:   usr :  0.9   sys :  9.5   iowait:  0.0   idle: 89.5   Total:10.4
+Error getting core usage for cores 4 or 5.
+
+Test iperf3_skip_rx_copy_zerocopy_BBR1_BIGTCP_rb8k to Host: 10.3.58.2   (num tests: 5)
+       Throughput:   Mean: 18.6 Gbps   Max: 21.3 Gbps   STDEV: 5.2   Retr: 44585
+     Sender CPU 1:   sys :  0.2   iowait:  0.0   soft:  0.8   idle: 99.0   Total:1.0
+     Sender CPU 2:   usr : 35.5   sys : 56.9   soft:  1.6   steal:  0.0   idle:  6.0   Total:94.0
+   Receiver CPU 1:   sys :  0.2   soft:  1.7   idle: 98.1   Total:1.9
+   Receiver CPU 2:   usr :  0.7   sys :  7.4   idle: 91.9   Total:8.1
+Error getting core usage for cores 4 or 5.
+
+Test iperf3_skip_rx_copy_zerocopy_BBR1_rb8k to Host: 10.3.58.2   (num tests: 5)
+       Throughput:   Mean: 21.1 Gbps   Max: 21.7 Gbps   STDEV: 0.8   Retr: 4278
+     Sender CPU 1:   sys :  0.2   soft:  0.8   idle: 99.0   Total:1.0
+     Sender CPU 2:   usr : 34.5   sys : 56.6   soft:  2.8   idle:  6.0   Total:93.9
+   Receiver CPU 1:   sys :  0.2   iowait:  0.0   soft:  0.9   idle: 98.9   Total:1.1
+   Receiver CPU 2:   usr :  0.8   sys :  8.2   iowait:  0.0   idle: 91.0   Total:9.0
+Error getting core usage for cores 4 or 5.
+
+Test iperf3_skip_rx_copy_zerocopy_BBR_BIGTCP_rb8k to Host: 10.3.58.2   (num tests: 5)
+       Throughput:   Mean: 21.5 Gbps   Max: 22.1 Gbps   STDEV: 0.9   Retr: 22152
+     Sender CPU 1:   sys :  0.2   soft:  1.0   steal:  0.0   idle: 98.8   Total:1.2
+     Sender CPU 2:   usr : 34.9   sys : 56.5   soft:  2.5   idle:  6.1   Total:93.9
+   Receiver CPU 1:   sys :  0.2   soft:  1.2   steal:  0.0   idle: 98.6   Total:1.4
+   Receiver CPU 2:   usr :  0.8   sys :  8.8   idle: 90.4   Total:9.6
+Error getting core usage for cores 4 or 5.
+
+Test iperf3_skip_rx_copy_zerocopy_BBR_rb8k to Host: 10.3.58.2   (num tests: 5)
+       Throughput:   Mean: 21.5 Gbps   Max: 22.0 Gbps   STDEV: 0.8   Retr: 7681
+     Sender CPU 1:   sys :  0.2   soft:  0.7   steal:  0.0   idle: 99.1   Total:0.9
+     Sender CPU 2:   usr : 32.5   sys : 54.4   soft:  3.1   idle: 10.0   Total:90.0
+   Receiver CPU 1:   sys :  0.2   soft:  0.9   idle: 98.9   Total:1.1
+   Receiver CPU 2:   usr :  0.8   sys :  8.0   iowait:  0.0   idle: 91.2   Total:8.8
+Error getting core usage for cores 4 or 5.
+
+Test iperf3_skip_rx_copy_zerocopy_BIGTCP_rb8k to Host: 10.3.58.2   (num tests: 5)
+       Throughput:   Mean: 23.5 Gbps   Max: 23.6 Gbps   STDEV: 0.0   Retr: 0
+     Sender CPU 1:   sys :  0.2   soft:  1.0   steal:  0.0   idle: 98.8   Total:1.2
+     Sender CPU 2:   usr : 34.8   sys : 57.4   soft:  1.7   idle:  6.1   Total:93.9
+   Receiver CPU 1:   sys :  0.2   soft:  1.2   idle: 98.6   Total:1.4
+   Receiver CPU 2:   usr :  0.9   sys :  9.6   idle: 89.5   Total:10.5
+Error getting core usage for cores 4 or 5.
+
+Test iperf3_skip_rx_copy_zerocopy_rb8k to Host: 10.3.58.2   (num tests: 5)
+       Throughput:   Mean: 23.5 Gbps   Max: 23.6 Gbps   STDEV: 0.0   Retr: 34
+     Sender CPU 1:   usr :  0.0   sys :  0.2   soft:  0.8   steal:  0.0   idle: 99.1   Total:1.0
+     Sender CPU 2:   usr : 33.3   sys : 57.7   soft:  2.8   idle:  6.1   Total:93.8
+   Receiver CPU 1:   sys :  0.2   soft:  1.1   idle: 98.7   Total:1.3
+   Receiver CPU 2:   usr :  0.9   sys :  9.4   iowait:  0.0   idle: 89.7   Total:10.3
+Error getting core usage for cores 4 or 5.
+
+
+Result Summary, sorted by Average Throughput:
+IP Address: 10.3.54.2
+     Test Name: iperf3_skip_rx_copy_sendfile_rb8k, Ave Throughput: 98.0 Gbps (stdev: 0.9),  Retr: 78
+     Test Name: iperf3_skip_rx_copy_zerocopy_rb8k, Ave Throughput: 97.5 Gbps (stdev: 0.3),  Retr: 135
+     Test Name: iperf3_skip_rx_copy_sendfile_BIGTCP_rb8k, Ave Throughput: 96.1 Gbps (stdev: 1.6),  Retr: 57
+     Test Name: iperf3_skip_rx_copy_BIGTCP_rb8k, Ave Throughput: 95.1 Gbps (stdev: 0.8),  Retr: 0
+     Test Name: iperf3_skip_rx_copy_zerocopy_BIGTCP_rb8k, Ave Throughput: 92.5 Gbps (stdev: 0.5),  Retr: 30
+     Test Name: iperf3_skip_rx_copy_zerocopy_BBR1_BIGTCP_rb8k, Ave Throughput: 86.1 Gbps (stdev: 1.7),  Retr: 429
+     Test Name: iperf3_skip_rx_copy_sendfile_BBR1_BIGTCP_rb8k, Ave Throughput: 81.4 Gbps (stdev: 0.4),  Retr: 337
+     Test Name: iperf3_skip_rx_copy_BBR1_BIGTCP_rb8k, Ave Throughput: 80.1 Gbps (stdev: 1.9),  Retr: 45
+     Test Name: iperf3_skip_rx_copy_zerocopy_BBR1_rb8k, Ave Throughput: 79.8 Gbps (stdev: 0.4),  Retr: 140
+     Test Name: iperf3_skip_rx_copy_rb8k, Ave Throughput: 79.3 Gbps (stdev: 2.5),  Retr: 0
+     Test Name: iperf3_skip_rx_copy_BBR_BIGTCP_rb8k, Ave Throughput: 76.0 Gbps (stdev: 0.4),  Retr: 38
+     Test Name: iperf3_skip_rx_copy_sendfile_BBR1_rb8k, Ave Throughput: 75.0 Gbps (stdev: 0.9),  Retr: 336
+     Test Name: iperf3_skip_rx_copy_sendfile_BBR_BIGTCP_rb8k, Ave Throughput: 73.0 Gbps (stdev: 0.7),  Retr: 182
+     Test Name: iperf3_skip_rx_copy_zerocopy_BBR_BIGTCP_rb8k, Ave Throughput: 70.4 Gbps (stdev: 0.8),  Retr: 245
+     Test Name: iperf3_skip_rx_copy_sendfile_BBR_rb8k, Ave Throughput: 67.8 Gbps (stdev: 1.2),  Retr: 84
+     Test Name: iperf3_skip_rx_copy_zerocopy_BBR_rb8k, Ave Throughput: 67.5 Gbps (stdev: 1.6),  Retr: 244
+     Test Name: iperf3_skip_rx_copy_BBR1_rb8k, Ave Throughput: 62.4 Gbps (stdev: 0.3),  Retr: 20
+     Test Name: iperf3_skip_rx_copy_BBR_rb8k, Ave Throughput: 61.6 Gbps (stdev: 1.7),  Retr: 19
+     Test Name: iperf3_default_rb8k, Ave Throughput: 54.3 Gbps (stdev: 0.5),  Retr: 17
+     Test Name: iperf3_default_BBR_rb8k, Ave Throughput: 51.9 Gbps (stdev: 1.0),  Retr: 21
+     Test Name: iperf3_default_BBR1_rb8k, Ave Throughput: 51.7 Gbps (stdev: 1.3),  Retr: 27
+     Test Name: iperf3_default_BIGTCP_rb8k, Ave Throughput: 50.3 Gbps (stdev: 1.2),  Retr: 63
+     Test Name: iperf3_default_BBR1_BIGTCP_rb8k, Ave Throughput: 49.1 Gbps (stdev: 1.5),  Retr: 47
+     Test Name: iperf3_default_BBR_BIGTCP_rb8k, Ave Throughput: 46.6 Gbps (stdev: 3.7),  Retr: 68
+IP Address: 10.3.56.2
+     Test Name: iperf3_default_BIGTCP_rb8k, Ave Throughput: 43.9 Gbps (stdev: 0.1),  Retr: 0
+     Test Name: iperf3_skip_rx_copy_zerocopy_BBR_rb8k, Ave Throughput: 42.6 Gbps (stdev: 1.5),  Retr: 168426
+     Test Name: iperf3_skip_rx_copy_sendfile_BBR_rb8k, Ave Throughput: 42.6 Gbps (stdev: 4.3),  Retr: 158816
+     Test Name: iperf3_skip_rx_copy_BBR1_BIGTCP_rb8k, Ave Throughput: 42.4 Gbps (stdev: 0.8),  Retr: 152016
+     Test Name: iperf3_default_BBR1_BIGTCP_rb8k, Ave Throughput: 42.4 Gbps (stdev: 0.1),  Retr: 2332
+     Test Name: iperf3_skip_rx_copy_zerocopy_BBR_BIGTCP_rb8k, Ave Throughput: 42.1 Gbps (stdev: 1.6),  Retr: 167332
+     Test Name: iperf3_default_BBR_BIGTCP_rb8k, Ave Throughput: 42.0 Gbps (stdev: 0.1),  Retr: 13
+     Test Name: iperf3_skip_rx_copy_BBR_BIGTCP_rb8k, Ave Throughput: 41.9 Gbps (stdev: 0.2),  Retr: 13
+     Test Name: iperf3_skip_rx_copy_sendfile_BBR_BIGTCP_rb8k, Ave Throughput: 38.4 Gbps (stdev: 4.6),  Retr: 288728
+     Test Name: iperf3_skip_rx_copy_rb8k, Ave Throughput: 38.1 Gbps (stdev: 1.7),  Retr: 0
+     Test Name: iperf3_skip_rx_copy_BIGTCP_rb8k, Ave Throughput: 38.0 Gbps (stdev: 6.4),  Retr: 688
+     Test Name: iperf3_skip_rx_copy_BBR1_rb8k, Ave Throughput: 37.9 Gbps (stdev: 0.2),  Retr: 60
+     Test Name: iperf3_default_rb8k, Ave Throughput: 37.2 Gbps (stdev: 2.8),  Retr: 0
+     Test Name: iperf3_default_BBR1_rb8k, Ave Throughput: 37.1 Gbps (stdev: 1.5),  Retr: 131233
+     Test Name: iperf3_skip_rx_copy_BBR_rb8k, Ave Throughput: 36.4 Gbps (stdev: 0.4),  Retr: 3
+     Test Name: iperf3_skip_rx_copy_sendfile_rb8k, Ave Throughput: 35.7 Gbps (stdev: 2.7),  Retr: 977
+     Test Name: iperf3_skip_rx_copy_zerocopy_BBR1_rb8k, Ave Throughput: 35.2 Gbps (stdev: 0.9),  Retr: 2629163
+     Test Name: iperf3_skip_rx_copy_sendfile_BIGTCP_rb8k, Ave Throughput: 34.2 Gbps (stdev: 3.8),  Retr: 1186
+     Test Name: iperf3_skip_rx_copy_sendfile_BBR1_rb8k, Ave Throughput: 34.0 Gbps (stdev: 0.9),  Retr: 4173509
+     Test Name: iperf3_default_BBR_rb8k, Ave Throughput: 33.5 Gbps (stdev: 3.9),  Retr: 29541
+     Test Name: iperf3_skip_rx_copy_zerocopy_BIGTCP_rb8k, Ave Throughput: 33.0 Gbps (stdev: 3.1),  Retr: 416
+     Test Name: iperf3_skip_rx_copy_zerocopy_BBR1_BIGTCP_rb8k, Ave Throughput: 32.9 Gbps (stdev: 1.0),  Retr: 3593443
+     Test Name: iperf3_skip_rx_copy_sendfile_BBR1_BIGTCP_rb8k, Ave Throughput: 31.9 Gbps (stdev: 1.7),  Retr: 4449744
+     Test Name: iperf3_skip_rx_copy_zerocopy_rb8k, Ave Throughput: 29.6 Gbps (stdev: 5.8),  Retr: 2933
+IP Address: 10.3.58.2
+     Test Name: iperf3_skip_rx_copy_BBR_rb8k, Ave Throughput: 34.1 Gbps (stdev: 0.5),  Retr: 55636
+     Test Name: iperf3_default_BBR1_rb8k, Ave Throughput: 34.1 Gbps (stdev: 0.5),  Retr: 9889
+     Test Name: iperf3_skip_rx_copy_BBR1_BIGTCP_rb8k, Ave Throughput: 33.5 Gbps (stdev: 7.5),  Retr: 53581
+     Test Name: iperf3_default_BBR_BIGTCP_rb8k, Ave Throughput: 32.9 Gbps (stdev: 2.0),  Retr: 39422
+     Test Name: iperf3_skip_rx_copy_BBR_BIGTCP_rb8k, Ave Throughput: 32.1 Gbps (stdev: 4.3),  Retr: 23345
+     Test Name: iperf3_default_BBR_rb8k, Ave Throughput: 31.9 Gbps (stdev: 5.1),  Retr: 47277
+     Test Name: iperf3_skip_rx_copy_sendfile_BBR_BIGTCP_rb8k, Ave Throughput: 31.0 Gbps (stdev: 2.3),  Retr: 133137
+     Test Name: iperf3_skip_rx_copy_BBR1_rb8k, Ave Throughput: 30.9 Gbps (stdev: 4.7),  Retr: 78066
+     Test Name: iperf3_default_BBR1_BIGTCP_rb8k, Ave Throughput: 30.5 Gbps (stdev: 8.9),  Retr: 188794
+     Test Name: iperf3_skip_rx_copy_BIGTCP_rb8k, Ave Throughput: 29.1 Gbps (stdev: 7.4),  Retr: 0
+     Test Name: iperf3_skip_rx_copy_rb8k, Ave Throughput: 28.3 Gbps (stdev: 6.1),  Retr: 0
+     Test Name: iperf3_skip_rx_copy_sendfile_rb8k, Ave Throughput: 26.3 Gbps (stdev: 3.4),  Retr: 0
+     Test Name: iperf3_skip_rx_copy_sendfile_BBR_rb8k, Ave Throughput: 25.9 Gbps (stdev: 5.9),  Retr: 46504
+     Test Name: iperf3_skip_rx_copy_sendfile_BIGTCP_rb8k, Ave Throughput: 25.3 Gbps (stdev: 4.9),  Retr: 1819
+     Test Name: iperf3_default_rb8k, Ave Throughput: 24.5 Gbps (stdev: 16.0),  Retr: 19589
+     Test Name: iperf3_skip_rx_copy_sendfile_BBR1_BIGTCP_rb8k, Ave Throughput: 23.7 Gbps (stdev: 4.9),  Retr: 162793
+     Test Name: iperf3_skip_rx_copy_sendfile_BBR1_rb8k, Ave Throughput: 23.6 Gbps (stdev: 3.6),  Retr: 157395
+     Test Name: iperf3_skip_rx_copy_zerocopy_BIGTCP_rb8k, Ave Throughput: 23.5 Gbps (stdev: 0.0),  Retr: 0
+     Test Name: iperf3_skip_rx_copy_zerocopy_rb8k, Ave Throughput: 23.5 Gbps (stdev: 0.0),  Retr: 34
+     Test Name: iperf3_default_BIGTCP_rb8k, Ave Throughput: 22.6 Gbps (stdev: 5.4),  Retr: 12497
+     Test Name: iperf3_skip_rx_copy_zerocopy_BBR_BIGTCP_rb8k, Ave Throughput: 21.5 Gbps (stdev: 0.9),  Retr: 22152
+     Test Name: iperf3_skip_rx_copy_zerocopy_BBR_rb8k, Ave Throughput: 21.5 Gbps (stdev: 0.8),  Retr: 7681
+     Test Name: iperf3_skip_rx_copy_zerocopy_BBR1_rb8k, Ave Throughput: 21.1 Gbps (stdev: 0.8),  Retr: 4278
+     Test Name: iperf3_skip_rx_copy_zerocopy_BBR1_BIGTCP_rb8k, Ave Throughput: 18.6 Gbps (stdev: 5.2),  Retr: 44585

@@ -1,0 +1,51 @@
+
+Collecting Results from all files...
+
+ Got iperf3 data from 4 files
+
+ Got mpstat data from 4 sender files and 4 receiver files
+
+Computing CPU Averages...
+
+Summary of all testing: 
+
+
+Test iperf3_default to Host: 10.36.99.2   (num tests: 5)
+       Throughput:   Mean: 40.8 Gbps   Max: 46.6 Gbps   STDEV: 3.4   Retr: 69
+     Sender CPU 1:   usr :  0.0   sys :  0.2   iowait:  0.0   soft:  4.5   steal:  0.1   idle: 95.2   Total:4.8
+     Sender CPU 2:   usr :  1.2   sys : 65.7   soft:  5.3   steal:  0.0   idle: 27.7   Total:72.2
+   Receiver CPU 1:   usr :  0.0   sys :  0.2   soft: 81.5   steal:  0.1   idle: 18.2   Total:81.8
+   Receiver CPU 2:   usr :  1.2   sys : 98.7   soft:  0.0   steal:  0.0   idle:  0.0   Total:99.9
+Error getting core usage for cores 4 or 5.
+
+Test iperf3_default_BBR to Host: 10.36.99.2   (num tests: 5)
+       Throughput:   Mean: 43.5 Gbps   Max: 44.1 Gbps   STDEV: 0.5   Retr: 27
+     Sender CPU 1:   usr :  0.0   sys :  0.3   iowait:  0.0   soft:  7.7   steal:  0.0   idle: 92.0   Total:8.0
+     Sender CPU 2:   usr :  1.6   sys : 76.9   soft: 10.7   steal:  0.0   idle: 10.8   Total:89.2
+   Receiver CPU 1:   usr :  0.0   sys :  0.3   soft: 72.6   steal:  0.1   idle: 27.1   Total:73.0
+   Receiver CPU 2:   usr :  1.5   sys : 97.0   steal:  0.0   idle:  1.5   Total:98.5
+Error getting core usage for cores 4 or 5.
+
+Test iperf3_skip_rx_copy_zerocopy to Host: 10.36.99.2   (num tests: 5)
+       Throughput:   Mean: 96.7 Gbps   Max: 98.5 Gbps   STDEV: 1.5   Retr: 86
+     Sender CPU 1:   usr :  0.0   sys :  0.2   iowait:  0.0   soft: 22.2   steal:  0.0   idle: 77.5   Total:22.4
+     Sender CPU 2:   usr :  6.0   sys : 91.9   soft:  2.1   steal:  0.0   Total:100.0
+   Receiver CPU 1:   usr :  0.0   sys :  0.1   soft: 98.3   steal:  0.0   idle:  1.6   Total:98.4
+   Receiver CPU 2:   usr :  4.2   sys : 88.3   idle:  7.5   Total:92.5
+Error getting core usage for cores 4 or 5.
+
+Test iperf3_skip_rx_copy_zerocopy_BBR to Host: 10.36.99.2   (num tests: 5)
+       Throughput:   Mean: 72.0 Gbps   Max: 88.2 Gbps   STDEV: 20.9   Retr: 148
+     Sender CPU 1:   sys :  0.2   iowait:  0.0   soft: 13.1   steal:  0.0   idle: 86.6   Total:13.3
+     Sender CPU 2:   usr : 14.2   sys : 76.9   soft:  8.8   steal:  0.0   Total:99.9
+   Receiver CPU 1:   usr :  0.0   sys :  0.4   soft: 58.5   steal:  0.1   idle: 41.1   Total:59.0
+   Receiver CPU 2:   usr :  3.3   sys : 68.0   steal:  0.0   idle: 28.7   Total:71.3
+Error getting core usage for cores 4 or 5.
+
+
+Result Summary, sorted by Average Throughput:
+IP Address: 10.36.99.2
+     Test Name: iperf3_skip_rx_copy_zerocopy, Ave Throughput: 96.7 Gbps (stdev: 1.5),  Retr: 86
+     Test Name: iperf3_skip_rx_copy_zerocopy_BBR, Ave Throughput: 72.0 Gbps (stdev: 20.9),  Retr: 148
+     Test Name: iperf3_default_BBR, Ave Throughput: 43.5 Gbps (stdev: 0.5),  Retr: 27
+     Test Name: iperf3_default, Ave Throughput: 40.8 Gbps (stdev: 3.4),  Retr: 69

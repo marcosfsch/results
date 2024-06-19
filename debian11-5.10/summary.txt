@@ -1,0 +1,341 @@
+
+Collecting Results from all files...
+
+ Got iperf3 data from 36 files
+
+ Got mpstat data from 36 sender files and 36 receiver files
+
+Computing CPU Averages...
+
+Summary of all testing: 
+
+
+Test iperf3_default to Host: 10.3.54.2   (num tests: 5)
+       Throughput:   Mean: 59.7 Gbps   Max: 60.7 Gbps   STDEV: 1.0   Retr: 0
+     Sender CPU 18:   sys :  0.1   soft:  8.0   idle: 91.9   Total:8.1
+     Sender CPU 19:   usr :  0.8   sys : 86.6   soft:  1.7   idle: 11.0   Total:89.1
+   Receiver CPU 18:   sys :  0.1   soft: 80.1   idle: 19.8   Total:80.2
+   Receiver CPU 19:   usr :  1.0   sys : 98.9   idle:  0.1   Total:99.9
+Error getting core usage for cores 4 or 5.
+
+Test iperf3_default_BBR to Host: 10.3.54.2   (num tests: 5)
+       Throughput:   Mean: 45.0 Gbps   Max: 46.5 Gbps   STDEV: 1.3   Retr: 0
+     Sender CPU 18:   sys :  0.1   soft: 13.7   idle: 86.2   Total:13.8
+     Sender CPU 19:   usr :  0.6   sys : 67.6   soft:  0.6   idle: 31.2   Total:68.8
+   Receiver CPU 18:   sys :  0.1   soft: 73.2   idle: 26.7   Total:73.3
+   Receiver CPU 19:   usr :  0.8   sys : 93.4   idle:  5.8   Total:94.2
+Error getting core usage for cores 4 or 5.
+
+Test iperf3_default_HTCP to Host: 10.3.54.2   (num tests: 5)
+       Throughput:   Mean: 42.4 Gbps   Max: 47.5 Gbps   STDEV: 3.4   Retr: 0
+     Sender CPU 18:   sys :  0.1   soft:  5.1   idle: 94.8   Total:5.2
+     Sender CPU 19:   usr :  0.5   sys : 93.1   soft:  0.8   idle:  5.6   Total:94.4
+   Receiver CPU 18:   sys :  0.1   soft: 89.2   idle: 10.7   Total:89.3
+   Receiver CPU 19:   usr :  0.7   sys : 99.3   Total:100.0
+Error getting core usage for cores 4 or 5.
+
+Test iperf3_skip_rx_copy to Host: 10.3.54.2   (num tests: 5)
+       Throughput:   Mean: 79.4 Gbps   Max: 80.1 Gbps   STDEV: 0.5   Retr: 0
+     Sender CPU 18:   sys :  0.0   soft:  5.3   idle: 94.7   Total:5.3
+     Sender CPU 19:   usr :  1.0   sys : 99.0   Total:100.0
+   Receiver CPU 18:   sys :  0.0   soft: 55.8   idle: 44.2   Total:55.8
+   Receiver CPU 19:   usr :  2.2   sys : 50.8   idle: 47.0   Total:53.0
+Error getting core usage for cores 4 or 5.
+
+Test iperf3_skip_rx_copy_BBR to Host: 10.3.54.2   (num tests: 5)
+       Throughput:   Mean: 72.7 Gbps   Max: 73.0 Gbps   STDEV: 0.2   Retr: 0
+     Sender CPU 18:   sys :  0.1   soft: 11.3   idle: 88.6   Total:11.4
+     Sender CPU 19:   usr :  1.0   sys : 94.2   soft:  0.9   idle:  3.9   Total:96.1
+   Receiver CPU 18:   sys :  0.1   soft: 56.9   idle: 43.0   Total:57.0
+   Receiver CPU 19:   usr :  2.1   sys : 46.8   idle: 51.1   Total:48.9
+Error getting core usage for cores 4 or 5.
+
+Test iperf3_skip_rx_copy_HTCP to Host: 10.3.54.2   (num tests: 5)
+       Throughput:   Mean: 78.7 Gbps   Max: 80.3 Gbps   STDEV: 1.3   Retr: 0
+     Sender CPU 18:   sys :  0.0   soft: 10.8   idle: 89.2   Total:10.8
+     Sender CPU 19:   usr :  1.0   sys : 99.0   Total:100.0
+   Receiver CPU 18:   sys :  0.1   soft: 54.9   idle: 45.0   Total:55.0
+   Receiver CPU 19:   usr :  2.1   sys : 50.9   idle: 47.0   Total:53.0
+Error getting core usage for cores 4 or 5.
+
+Test iperf3_skip_rx_copy_sendfile to Host: 10.3.54.2   (num tests: 5)
+       Throughput:   Mean: 98.9 Gbps   Max: 98.9 Gbps   STDEV: 0.0   Retr: 0
+     Sender CPU 18:   sys :  0.0   soft: 20.3   idle: 79.6   Total:20.3
+     Sender CPU 19:   usr :  0.9   sys : 67.1   soft:  3.0   idle: 29.0   Total:71.0
+   Receiver CPU 18:   sys :  0.1   soft: 75.1   idle: 24.8   Total:75.2
+   Receiver CPU 19:   usr :  2.8   sys : 62.4   idle: 34.8   Total:65.2
+Error getting core usage for cores 4 or 5.
+
+Test iperf3_skip_rx_copy_sendfile_BBR to Host: 10.3.54.2   (num tests: 5)
+       Throughput:   Mean: 74.9 Gbps   Max: 75.8 Gbps   STDEV: 0.8   Retr: 0
+     Sender CPU 18:   sys :  0.1   iowait:  0.0   soft: 32.0   idle: 67.8   Total:32.1
+     Sender CPU 19:   usr :  0.8   sys : 47.0   soft:  1.5   idle: 50.7   Total:49.3
+   Receiver CPU 18:   sys :  0.1   soft: 59.2   idle: 40.7   Total:59.3
+   Receiver CPU 19:   usr :  2.1   sys : 47.9   idle: 50.0   Total:50.0
+Error getting core usage for cores 4 or 5.
+
+Test iperf3_skip_rx_copy_sendfile_HTCP to Host: 10.3.54.2   (num tests: 5)
+       Throughput:   Mean: 98.8 Gbps   Max: 98.8 Gbps   STDEV: 0.1   Retr: 0
+     Sender CPU 18:   sys :  0.0   soft: 14.2   idle: 85.8   Total:14.2
+     Sender CPU 19:   usr :  1.0   sys : 68.1   soft:  3.2   idle: 27.7   Total:72.3
+   Receiver CPU 18:   sys :  0.1   soft: 72.9   idle: 27.0   Total:73.0
+   Receiver CPU 19:   usr :  2.6   sys : 62.1   idle: 35.3   Total:64.7
+Error getting core usage for cores 4 or 5.
+
+Test iperf3_skip_rx_copy_zerocopy to Host: 10.3.54.2   (num tests: 5)
+       Throughput:   Mean: 98.9 Gbps   Max: 98.9 Gbps   STDEV: 0.0   Retr: 0
+     Sender CPU 18:   sys :  0.0   soft: 10.6   idle: 89.4   Total:10.6
+     Sender CPU 19:   usr : 20.8   sys : 76.8   soft:  2.4   Total:100.0
+   Receiver CPU 18:   sys :  0.1   soft: 76.1   idle: 23.8   Total:76.2
+   Receiver CPU 19:   usr :  2.7   sys : 64.3   idle: 32.9   Total:67.0
+Error getting core usage for cores 4 or 5.
+
+Test iperf3_skip_rx_copy_zerocopy_BBR to Host: 10.3.54.2   (num tests: 5)
+       Throughput:   Mean: 74.8 Gbps   Max: 75.6 Gbps   STDEV: 0.5   Retr: 0
+     Sender CPU 18:   usr :  0.0   sys :  0.1   soft: 17.2   idle: 82.7   Total:17.3
+     Sender CPU 19:   usr : 24.9   sys : 72.5   soft:  2.6   Total:100.0
+   Receiver CPU 18:   sys :  0.1   soft: 60.1   idle: 39.8   Total:60.2
+   Receiver CPU 19:   usr :  2.1   sys : 49.1   idle: 48.8   Total:51.2
+Error getting core usage for cores 4 or 5.
+
+Test iperf3_skip_rx_copy_zerocopy_HTCP to Host: 10.3.54.2   (num tests: 5)
+       Throughput:   Mean: 98.6 Gbps   Max: 98.8 Gbps   STDEV: 0.1   Retr: 0
+     Sender CPU 18:   sys :  0.0   soft:  9.7   idle: 90.3   Total:9.7
+     Sender CPU 19:   usr : 21.2   sys : 76.0   soft:  2.8   Total:100.0
+   Receiver CPU 18:   sys :  0.1   soft: 74.5   idle: 25.3   Total:74.6
+   Receiver CPU 19:   usr :  2.6   sys : 64.0   idle: 33.5   Total:66.6
+Error getting core usage for cores 4 or 5.
+
+Test iperf3_default to Host: 10.3.56.2   (num tests: 5)
+       Throughput:   Mean: 37.6 Gbps   Max: 39.9 Gbps   STDEV: 3.6   Retr: 6728
+     Sender CPU 18:   sys :  0.0   soft:  2.6   idle: 97.4   Total:2.6
+     Sender CPU 19:   usr :  0.6   sys : 95.4   soft:  0.1   idle:  3.9   Total:96.1
+   Receiver CPU 18:   sys :  0.1   soft: 19.3   idle: 80.6   Total:19.4
+   Receiver CPU 19:   usr :  0.7   sys : 56.9   idle: 42.4   Total:57.6
+Error getting core usage for cores 4 or 5.
+
+Test iperf3_default_BBR to Host: 10.3.56.2   (num tests: 5)
+       Throughput:   Mean: 37.5 Gbps   Max: 38.2 Gbps   STDEV: 0.7   Retr: 105032
+     Sender CPU 18:   sys :  0.1   soft:  4.1   idle: 95.9   Total:4.2
+     Sender CPU 19:   usr :  0.5   sys : 98.5   soft:  0.4   idle:  0.7   Total:99.4
+   Receiver CPU 18:   sys :  0.1   soft: 53.1   idle: 46.7   Total:53.2
+   Receiver CPU 19:   usr :  0.6   sys : 79.4   idle: 19.9   Total:80.0
+Error getting core usage for cores 4 or 5.
+
+Test iperf3_default_HTCP to Host: 10.3.56.2   (num tests: 5)
+       Throughput:   Mean: 36.1 Gbps   Max: 36.5 Gbps   STDEV: 0.4   Retr: 7706
+     Sender CPU 18:   sys :  0.0   soft:  3.1   idle: 96.9   Total:3.1
+     Sender CPU 19:   usr :  0.4   sys : 89.7   soft:  0.0   idle:  9.8   Total:90.1
+   Receiver CPU 18:   sys :  0.1   soft: 18.5   idle: 81.4   Total:18.6
+   Receiver CPU 19:   usr :  0.8   sys : 58.2   idle: 41.0   Total:59.0
+Error getting core usage for cores 4 or 5.
+
+Test iperf3_skip_rx_copy to Host: 10.3.56.2   (num tests: 5)
+       Throughput:   Mean: 31.0 Gbps   Max: 39.1 Gbps   STDEV: 10.5   Retr: 6294
+     Sender CPU 18:   sys :  0.1   soft:  6.0   idle: 94.0   Total:6.1
+     Sender CPU 19:   usr :  0.4   sys : 77.5   soft:  0.2   idle: 21.9   Total:78.1
+   Receiver CPU 18:   sys :  0.1   soft: 18.8   idle: 81.1   Total:18.9
+   Receiver CPU 19:   usr :  0.9   sys : 19.9   idle: 79.2   Total:20.8
+Error getting core usage for cores 4 or 5.
+
+Test iperf3_skip_rx_copy_BBR to Host: 10.3.56.2   (num tests: 5)
+       Throughput:   Mean: 38.6 Gbps   Max: 38.9 Gbps   STDEV: 0.3   Retr: 176555
+     Sender CPU 18:   sys :  0.0   soft:  6.9   idle: 93.0   Total:6.9
+     Sender CPU 19:   usr :  0.5   sys : 99.0   soft:  0.1   idle:  0.4   Total:99.6
+   Receiver CPU 18:   sys :  0.1   soft: 27.0   idle: 72.9   Total:27.1
+   Receiver CPU 19:   usr :  1.0   sys : 26.0   idle: 73.0   Total:27.0
+Error getting core usage for cores 4 or 5.
+
+Test iperf3_skip_rx_copy_HTCP to Host: 10.3.56.2   (num tests: 5)
+       Throughput:   Mean: 35.8 Gbps   Max: 36.4 Gbps   STDEV: 0.9   Retr: 5943
+     Sender CPU 18:   sys :  0.0   soft:  5.5   idle: 94.5   Total:5.5
+     Sender CPU 19:   usr :  0.5   sys : 89.3   soft:  0.0   idle: 10.1   Total:89.8
+   Receiver CPU 18:   sys :  0.1   soft: 22.9   idle: 77.0   Total:23.0
+   Receiver CPU 19:   usr :  1.1   sys : 23.9   idle: 75.0   Total:25.0
+Error getting core usage for cores 4 or 5.
+
+Test iperf3_skip_rx_copy_sendfile to Host: 10.3.56.2   (num tests: 5)
+       Throughput:   Mean: 31.6 Gbps   Max: 35.3 Gbps   STDEV: 3.2   Retr: 7735
+     Sender CPU 18:   sys :  0.1   soft: 19.7   idle: 80.2   Total:19.8
+     Sender CPU 19:   usr :  0.3   sys : 19.5   soft:  0.2   idle: 80.0   Total:20.0
+   Receiver CPU 18:   sys :  0.1   soft: 22.6   idle: 77.4   Total:22.7
+   Receiver CPU 19:   usr :  1.0   sys : 20.9   idle: 78.1   Total:21.9
+Error getting core usage for cores 4 or 5.
+
+Test iperf3_skip_rx_copy_sendfile_BBR to Host: 10.3.56.2   (num tests: 5)
+       Throughput:   Mean: 38.6 Gbps   Max: 39.2 Gbps   STDEV: 0.7   Retr: 2263044
+     Sender CPU 18:   sys :  0.1   soft: 23.3   idle: 76.7   Total:23.4
+     Sender CPU 19:   usr :  0.4   sys : 25.9   soft:  0.3   idle: 73.5   Total:26.6
+   Receiver CPU 18:   sys :  0.1   soft: 56.6   idle: 43.3   Total:56.7
+   Receiver CPU 19:   usr :  0.9   sys : 28.5   idle: 70.7   Total:29.4
+Error getting core usage for cores 4 or 5.
+
+Test iperf3_skip_rx_copy_sendfile_HTCP to Host: 10.3.56.2   (num tests: 5)
+       Throughput:   Mean: 28.7 Gbps   Max: 34.4 Gbps   STDEV: 6.6   Retr: 20021
+     Sender CPU 18:   sys :  0.1   soft: 16.6   idle: 83.4   Total:16.7
+     Sender CPU 19:   usr :  0.3   sys : 15.8   soft:  0.1   idle: 83.8   Total:16.2
+   Receiver CPU 18:   sys :  0.1   soft: 21.0   idle: 78.9   Total:21.1
+   Receiver CPU 19:   usr :  0.8   sys : 19.1   idle: 80.1   Total:19.9
+Error getting core usage for cores 4 or 5.
+
+Test iperf3_skip_rx_copy_zerocopy to Host: 10.3.56.2   (num tests: 5)
+       Throughput:   Mean: 4.1 Gbps   Max: 4.1 Gbps   STDEV: 0.0   Retr: 0
+     Sender CPU 18:   usr :  0.0   sys :  0.0   soft:  1.5   idle: 98.4   Total:1.5
+     Sender CPU 19:   usr : 39.0   sys : 60.9   soft:  0.0   Total:99.9
+   Receiver CPU 18:   sys :  0.0   soft:  4.0   idle: 96.0   Total:4.0
+   Receiver CPU 19:   usr :  0.3   sys :  4.1   idle: 95.6   Total:4.4
+Error getting core usage for cores 4 or 5.
+
+Test iperf3_skip_rx_copy_zerocopy_BBR to Host: 10.3.56.2   (num tests: 5)
+       Throughput:   Mean: 4.0 Gbps   Max: 4.0 Gbps   STDEV: 0.0   Retr: 0
+     Sender CPU 18:   sys :  0.0   soft:  2.2   idle: 97.8   Total:2.2
+     Sender CPU 19:   usr : 39.3   sys : 60.6   soft:  0.0   Total:99.9
+   Receiver CPU 18:   sys :  0.0   soft:  3.8   idle: 96.1   Total:3.8
+   Receiver CPU 19:   usr :  0.3   sys :  4.3   idle: 95.4   Total:4.6
+Error getting core usage for cores 4 or 5.
+
+Test iperf3_skip_rx_copy_zerocopy_HTCP to Host: 10.3.56.2   (num tests: 5)
+       Throughput:   Mean: 4.0 Gbps   Max: 4.1 Gbps   STDEV: 0.3   Retr: 11
+     Sender CPU 18:   sys :  0.0   soft:  1.8   idle: 98.1   Total:1.8
+     Sender CPU 19:   usr : 38.0   sys : 58.0   soft:  0.0   idle:  4.0   Total:96.0
+   Receiver CPU 18:   sys :  0.1   soft:  4.6   idle: 95.4   Total:4.7
+   Receiver CPU 19:   usr :  0.3   sys :  4.2   idle: 95.5   Total:4.5
+Error getting core usage for cores 4 or 5.
+
+Test iperf3_default to Host: 10.3.58.2   (num tests: 5)
+       Throughput:   Mean: 28.9 Gbps   Max: 35.6 Gbps   STDEV: 14.1   Retr: 23741
+     Sender CPU 18:   sys :  0.0   soft:  3.9   idle: 96.0   Total:3.9
+     Sender CPU 19:   usr :  0.4   sys : 74.4   soft:  0.3   idle: 24.8   Total:75.1
+   Receiver CPU 18:   sys :  0.1   soft: 18.6   idle: 81.3   Total:18.7
+   Receiver CPU 19:   usr :  0.7   sys : 46.2   idle: 53.1   Total:46.9
+Error getting core usage for cores 4 or 5.
+
+Test iperf3_default_BBR to Host: 10.3.58.2   (num tests: 5)
+       Throughput:   Mean: 28.4 Gbps   Max: 33.7 Gbps   STDEV: 8.4   Retr: 60193
+     Sender CPU 18:   sys :  0.0   soft:  4.1   idle: 95.9   Total:4.1
+     Sender CPU 19:   usr :  0.4   sys : 67.5   soft:  0.1   idle: 32.0   Total:68.0
+   Receiver CPU 18:   sys :  0.1   soft: 16.6   idle: 83.3   Total:16.7
+   Receiver CPU 19:   usr :  0.6   sys : 45.1   idle: 54.4   Total:45.7
+Error getting core usage for cores 4 or 5.
+
+Test iperf3_default_HTCP to Host: 10.3.58.2   (num tests: 5)
+       Throughput:   Mean: 27.3 Gbps   Max: 35.4 Gbps   STDEV: 5.5   Retr: 37380
+     Sender CPU 18:   sys :  0.1   soft:  6.2   idle: 93.7   Total:6.3
+     Sender CPU 19:   usr :  0.4   sys : 71.9   soft:  0.1   idle: 27.6   Total:72.4
+   Receiver CPU 18:   sys :  0.1   soft: 16.1   idle: 83.8   Total:16.2
+   Receiver CPU 19:   usr :  0.7   sys : 44.8   idle: 54.5   Total:45.5
+Error getting core usage for cores 4 or 5.
+
+Test iperf3_skip_rx_copy to Host: 10.3.58.2   (num tests: 5)
+       Throughput:   Mean: 32.6 Gbps   Max: 36.8 Gbps   STDEV: 6.0   Retr: 24677
+     Sender CPU 18:   sys :  0.1   soft:  6.9   idle: 93.0   Total:7.0
+     Sender CPU 19:   usr :  0.4   sys : 85.8   soft:  0.2   idle: 13.6   Total:86.4
+   Receiver CPU 18:   sys :  0.1   soft: 23.2   idle: 76.7   Total:23.3
+   Receiver CPU 19:   usr :  1.0   sys : 22.3   idle: 76.7   Total:23.3
+Error getting core usage for cores 4 or 5.
+
+Test iperf3_skip_rx_copy_BBR to Host: 10.3.58.2   (num tests: 5)
+       Throughput:   Mean: 34.6 Gbps   Max: 36.0 Gbps   STDEV: 1.4   Retr: 51615
+     Sender CPU 18:   sys :  0.1   soft:  6.5   idle: 93.4   Total:6.6
+     Sender CPU 19:   usr :  0.5   sys : 86.0   soft:  0.1   idle: 13.5   Total:86.6
+   Receiver CPU 18:   sys :  0.1   soft: 23.9   idle: 76.0   Total:24.0
+   Receiver CPU 19:   usr :  1.1   sys : 24.0   idle: 74.9   Total:25.1
+Error getting core usage for cores 4 or 5.
+
+Test iperf3_skip_rx_copy_HTCP to Host: 10.3.58.2   (num tests: 5)
+       Throughput:   Mean: 33.6 Gbps   Max: 35.4 Gbps   STDEV: 3.4   Retr: 37953
+     Sender CPU 18:   sys :  0.0   soft:  6.0   idle: 93.9   Total:6.0
+     Sender CPU 19:   usr :  0.4   sys : 87.2   soft:  0.1   idle: 12.2   Total:87.7
+   Receiver CPU 18:   sys :  0.1   soft: 22.4   idle: 77.5   Total:22.5
+   Receiver CPU 19:   usr :  1.0   sys : 23.3   idle: 75.7   Total:24.3
+Error getting core usage for cores 4 or 5.
+
+Test iperf3_skip_rx_copy_sendfile to Host: 10.3.58.2   (num tests: 5)
+       Throughput:   Mean: 32.7 Gbps   Max: 36.2 Gbps   STDEV: 4.5   Retr: 28748
+     Sender CPU 18:   sys :  0.1   soft: 20.4   idle: 79.5   Total:20.5
+     Sender CPU 19:   usr :  0.3   sys : 21.3   soft:  0.4   idle: 78.0   Total:22.0
+   Receiver CPU 18:   sys :  0.1   soft: 23.6   idle: 76.3   Total:23.7
+   Receiver CPU 19:   usr :  1.0   sys : 21.6   idle: 77.4   Total:22.6
+Error getting core usage for cores 4 or 5.
+
+Test iperf3_skip_rx_copy_sendfile_BBR to Host: 10.3.58.2   (num tests: 5)
+       Throughput:   Mean: 37.5 Gbps   Max: 37.9 Gbps   STDEV: 0.5   Retr: 85229
+     Sender CPU 18:   sys :  0.1   soft: 23.2   idle: 76.7   Total:23.3
+     Sender CPU 19:   usr :  0.3   sys : 24.2   soft:  0.4   idle: 75.1   Total:24.9
+   Receiver CPU 18:   sys :  0.0   soft: 28.4   idle: 71.6   Total:28.4
+   Receiver CPU 19:   usr :  1.2   sys : 25.5   idle: 73.3   Total:26.7
+Error getting core usage for cores 4 or 5.
+
+Test iperf3_skip_rx_copy_sendfile_HTCP to Host: 10.3.58.2   (num tests: 5)
+       Throughput:   Mean: 34.3 Gbps   Max: 37.9 Gbps   STDEV: 4.3   Retr: 39352
+     Sender CPU 18:   sys :  0.1   soft: 20.7   idle: 79.2   Total:20.8
+     Sender CPU 19:   usr :  0.4   sys : 21.9   soft:  0.2   idle: 77.5   Total:22.5
+   Receiver CPU 18:   sys :  0.1   soft: 24.9   idle: 75.0   Total:25.0
+   Receiver CPU 19:   usr :  1.0   sys : 22.3   idle: 76.7   Total:23.3
+Error getting core usage for cores 4 or 5.
+
+Test iperf3_skip_rx_copy_zerocopy to Host: 10.3.58.2   (num tests: 5)
+       Throughput:   Mean: 0.4 Gbps   Max: 0.5 Gbps   STDEV: 0.1   Retr: 9
+     Sender CPU 18:   sys :  0.0   soft:  0.2   idle: 99.8   Total:0.2
+     Sender CPU 19:   usr : 37.6   sys : 58.4   soft:  0.0   idle:  4.0   Total:96.0
+   Receiver CPU 18:   sys :  0.0   soft:  0.4   idle: 99.6   Total:0.4
+   Receiver CPU 19:   usr :  0.1   sys :  0.8   idle: 99.1   Total:0.9
+Error getting core usage for cores 4 or 5.
+
+Test iperf3_skip_rx_copy_zerocopy_BBR to Host: 10.3.58.2   (num tests: 5)
+       Throughput:   Mean: 0.5 Gbps   Max: 0.5 Gbps   STDEV: 0.0   Retr: 0
+     Sender CPU 18:   sys :  0.0   soft:  0.1   idle: 99.9   Total:0.1
+     Sender CPU 19:   usr : 38.3   sys : 58.0   soft:  0.0   idle:  3.7   Total:96.3
+   Receiver CPU 18:   sys :  0.0   soft:  0.7   idle: 99.3   Total:0.7
+   Receiver CPU 19:   usr :  0.1   sys :  1.0   idle: 98.9   Total:1.1
+Error getting core usage for cores 4 or 5.
+
+Test iperf3_skip_rx_copy_zerocopy_HTCP to Host: 10.3.58.2   (num tests: 5)
+       Throughput:   Mean: 0.5 Gbps   Max: 0.5 Gbps   STDEV: 0.0   Retr: 2
+     Sender CPU 18:   sys :  0.0   soft:  0.2   idle: 99.8   Total:0.2
+     Sender CPU 19:   usr : 38.5   sys : 57.7   soft:  0.0   idle:  3.8   Total:96.2
+   Receiver CPU 18:   sys :  0.0   soft:  0.4   idle: 99.6   Total:0.4
+   Receiver CPU 19:   usr :  0.1   sys :  1.0   idle: 98.9   Total:1.1
+Error getting core usage for cores 4 or 5.
+
+
+Result Summary, sorted by Average Throughput:
+IP Address: 10.3.54.2
+     Test Name: iperf3_skip_rx_copy_sendfile, Ave Throughput: 98.9 Gbps (stdev: 0.0),  Retr: 0
+     Test Name: iperf3_skip_rx_copy_zerocopy, Ave Throughput: 98.9 Gbps (stdev: 0.0),  Retr: 0
+     Test Name: iperf3_skip_rx_copy_sendfile_HTCP, Ave Throughput: 98.8 Gbps (stdev: 0.1),  Retr: 0
+     Test Name: iperf3_skip_rx_copy_zerocopy_HTCP, Ave Throughput: 98.6 Gbps (stdev: 0.1),  Retr: 0
+     Test Name: iperf3_skip_rx_copy, Ave Throughput: 79.4 Gbps (stdev: 0.5),  Retr: 0
+     Test Name: iperf3_skip_rx_copy_HTCP, Ave Throughput: 78.7 Gbps (stdev: 1.3),  Retr: 0
+     Test Name: iperf3_skip_rx_copy_sendfile_BBR, Ave Throughput: 74.9 Gbps (stdev: 0.8),  Retr: 0
+     Test Name: iperf3_skip_rx_copy_zerocopy_BBR, Ave Throughput: 74.8 Gbps (stdev: 0.5),  Retr: 0
+     Test Name: iperf3_skip_rx_copy_BBR, Ave Throughput: 72.7 Gbps (stdev: 0.2),  Retr: 0
+     Test Name: iperf3_default, Ave Throughput: 59.7 Gbps (stdev: 1.0),  Retr: 0
+     Test Name: iperf3_default_BBR, Ave Throughput: 45.0 Gbps (stdev: 1.3),  Retr: 0
+     Test Name: iperf3_default_HTCP, Ave Throughput: 42.4 Gbps (stdev: 3.4),  Retr: 0
+IP Address: 10.3.56.2
+     Test Name: iperf3_skip_rx_copy_sendfile_BBR, Ave Throughput: 38.6 Gbps (stdev: 0.7),  Retr: 2263044
+     Test Name: iperf3_skip_rx_copy_BBR, Ave Throughput: 38.6 Gbps (stdev: 0.3),  Retr: 176555
+     Test Name: iperf3_default, Ave Throughput: 37.6 Gbps (stdev: 3.6),  Retr: 6728
+     Test Name: iperf3_default_BBR, Ave Throughput: 37.5 Gbps (stdev: 0.7),  Retr: 105032
+     Test Name: iperf3_default_HTCP, Ave Throughput: 36.1 Gbps (stdev: 0.4),  Retr: 7706
+     Test Name: iperf3_skip_rx_copy_HTCP, Ave Throughput: 35.8 Gbps (stdev: 0.9),  Retr: 5943
+     Test Name: iperf3_skip_rx_copy_sendfile, Ave Throughput: 31.6 Gbps (stdev: 3.2),  Retr: 7735
+     Test Name: iperf3_skip_rx_copy, Ave Throughput: 31.0 Gbps (stdev: 10.5),  Retr: 6294
+     Test Name: iperf3_skip_rx_copy_sendfile_HTCP, Ave Throughput: 28.7 Gbps (stdev: 6.6),  Retr: 20021
+     Test Name: iperf3_skip_rx_copy_zerocopy, Ave Throughput: 4.1 Gbps (stdev: 0.0),  Retr: 0
+     Test Name: iperf3_skip_rx_copy_zerocopy_BBR, Ave Throughput: 4.0 Gbps (stdev: 0.0),  Retr: 0
+     Test Name: iperf3_skip_rx_copy_zerocopy_HTCP, Ave Throughput: 4.0 Gbps (stdev: 0.3),  Retr: 11
+IP Address: 10.3.58.2
+     Test Name: iperf3_skip_rx_copy_sendfile_BBR, Ave Throughput: 37.5 Gbps (stdev: 0.5),  Retr: 85229
+     Test Name: iperf3_skip_rx_copy_BBR, Ave Throughput: 34.6 Gbps (stdev: 1.4),  Retr: 51615
+     Test Name: iperf3_skip_rx_copy_sendfile_HTCP, Ave Throughput: 34.3 Gbps (stdev: 4.3),  Retr: 39352
+     Test Name: iperf3_skip_rx_copy_HTCP, Ave Throughput: 33.6 Gbps (stdev: 3.4),  Retr: 37953
+     Test Name: iperf3_skip_rx_copy_sendfile, Ave Throughput: 32.7 Gbps (stdev: 4.5),  Retr: 28748
+     Test Name: iperf3_skip_rx_copy, Ave Throughput: 32.6 Gbps (stdev: 6.0),  Retr: 24677
+     Test Name: iperf3_default, Ave Throughput: 28.9 Gbps (stdev: 14.1),  Retr: 23741
+     Test Name: iperf3_default_BBR, Ave Throughput: 28.4 Gbps (stdev: 8.4),  Retr: 60193
+     Test Name: iperf3_default_HTCP, Ave Throughput: 27.3 Gbps (stdev: 5.5),  Retr: 37380
+     Test Name: iperf3_skip_rx_copy_zerocopy_HTCP, Ave Throughput: 0.5 Gbps (stdev: 0.0),  Retr: 2
+     Test Name: iperf3_skip_rx_copy_zerocopy_BBR, Ave Throughput: 0.5 Gbps (stdev: 0.0),  Retr: 0
+     Test Name: iperf3_skip_rx_copy_zerocopy, Ave Throughput: 0.4 Gbps (stdev: 0.1),  Retr: 9
