@@ -1,0 +1,837 @@
+
+Collecting Results from all files...
+   Error loading mpstat file:  /home/mschwarz/results/ubuntu22-6.5-new/receiver/2024-06-27:01:27/iperf3_skip_rx_copy_zerocopy_BBR_BIGTCP/mpstat-receiver:10.3.58.2:3.json
+   JSON truncated? Continuing
+
+ Got mpstat data from 91 sender files and 91 receiver files
+
+Computing CPU Averages...
+
+Summary of all testing: 
+
+
+Test iperf3_default to Host: 10.3.54.2   (num tests: 5)
+       Throughput:   Mean: 54.4 Gbps   Max: 59.4 Gbps   STDEV: 2.8   retrans: 0
+     Sender CPU 1:   sys :  0.2   iowait:  0.0   soft:  2.9   steal:  0.0   idle: 96.9   Total:3.1
+     Sender CPU 2:   usr :  0.9   sys : 76.9   soft:  1.0   idle: 21.2   Total:78.8
+   Receiver CPU 1:   sys :  0.1   soft: 17.2   idle: 82.6   Total:17.3
+   Receiver CPU 2:   usr :  1.1   sys : 98.9   Total:100.0
+     ** Throughput appears to be limited by application CPU on the Receive Host **
+
+Test iperf3_default_BBR to Host: 10.3.54.2   (num tests: 5)
+       Throughput:   Mean: 48.9 Gbps   Max: 49.7 Gbps   STDEV: 0.8   retrans: 0
+     Sender CPU 1:   sys :  0.2   soft:  2.9   idle: 96.9   Total:3.1
+     Sender CPU 2:   usr :  0.8   sys : 70.6   soft:  7.3   idle: 21.3   Total:78.7
+   Receiver CPU 1:   sys :  0.1   soft: 15.8   steal:  0.0   idle: 84.0   Total:15.9
+   Receiver CPU 2:   usr :  1.0   sys : 96.5   idle:  2.5   Total:97.5
+     ** Throughput appears to be limited by application CPU on the Receive Host **
+
+Test iperf3_default_BBR1 to Host: 10.3.54.2   (num tests: 5)
+       Throughput:   Mean: 49.8 Gbps   Max: 50.3 Gbps   STDEV: 0.4   retrans: 0
+     Sender CPU 1:   sys :  0.3   soft:  3.2   steal:  0.0   idle: 96.5   Total:3.5
+     Sender CPU 2:   usr :  0.9   sys : 73.3   soft:  7.8   idle: 18.0   Total:82.0
+   Receiver CPU 1:   sys :  0.1   soft: 14.6   steal:  0.0   idle: 85.3   Total:14.7
+   Receiver CPU 2:   usr :  1.0   sys : 97.3   steal:  0.0   idle:  1.7   Total:98.3
+     ** Throughput appears to be limited by application CPU on the Receive Host **
+
+Test iperf3_default_BBR_BIGTCP to Host: 10.3.54.2   (num tests: 5)
+       Throughput:   Mean: 49.5 Gbps   Max: 50.8 Gbps   STDEV: 0.8   retrans: 0
+     Sender CPU 1:   sys :  0.2   soft:  2.2   idle: 97.6   Total:2.4
+     Sender CPU 2:   usr :  0.8   sys : 63.3   soft:  4.7   idle: 31.2   Total:68.8
+   Receiver CPU 1:   sys :  0.2   soft: 14.7   steal:  0.0   idle: 85.1   Total:14.9
+   Receiver CPU 2:   usr :  1.0   sys : 96.8   steal:  0.0   idle:  2.2   Total:97.8
+     ** Throughput appears to be limited by application CPU on the Receive Host **
+
+Test iperf3_default_BIGTCP to Host: 10.3.54.2   (num tests: 5)
+       Throughput:   Mean: 55.7 Gbps   Max: 60.9 Gbps   STDEV: 3.6   retrans: 0
+     Sender CPU 1:   sys :  0.2   soft:  1.8   steal:  0.0   idle: 98.0   Total:2.0
+     Sender CPU 2:   usr :  0.8   sys : 68.6   soft:  1.9   steal:  0.0   idle: 28.7   Total:71.3
+   Receiver CPU 1:   sys :  0.1   soft: 15.4   steal:  0.0   idle: 84.5   Total:15.5
+   Receiver CPU 2:   usr :  1.1   sys : 98.9   Total:100.0
+     ** Throughput appears to be limited by application CPU on the Receive Host **
+
+Test iperf3_default_HTCP to Host: 10.3.54.2   (num tests: 5)
+       Throughput:   Mean: 57.8 Gbps   Max: 61.6 Gbps   STDEV: 4.4   retrans: 1
+     Sender CPU 1:   sys :  0.1   soft:  1.0   idle: 99.0   Total:1.1
+     Sender CPU 2:   usr :  0.7   sys : 99.1   soft:  0.1   steal:  0.0   Total:99.9
+   Receiver CPU 1:   sys :  0.0   soft: 16.3   steal:  0.0   idle: 83.7   Total:16.3
+   Receiver CPU 2:   usr :  1.1   sys : 98.9   Total:100.0
+    ** Throughput appears to be limited by application CPU on the Send Host **
+
+Test iperf3_skip_rx_copy to Host: 10.3.54.2   (num tests: 5)
+       Throughput:   Mean: 82.0 Gbps   Max: 82.5 Gbps   STDEV: 0.7   retrans: 0
+     Sender CPU 1:   usr :  0.0   sys :  0.0   iowait:  0.0   soft:  1.3   idle: 98.6   Total:1.3
+     Sender CPU 2:   usr :  1.3   sys : 98.7   Total:100.0
+   Receiver CPU 1:   sys :  0.1   soft: 27.8   idle: 72.1   Total:27.9
+   Receiver CPU 2:   usr :  3.2   sys : 35.1   idle: 61.7   Total:38.3
+    ** Throughput appears to be limited by application CPU on the Send Host **
+
+Test iperf3_skip_rx_copy_BBR to Host: 10.3.54.2   (num tests: 5)
+       Throughput:   Mean: 64.4 Gbps   Max: 68.7 Gbps   STDEV: 2.5   retrans: 0
+     Sender CPU 1:   sys :  0.1   soft:  1.8   steal:  0.0   idle: 98.0   Total:1.9
+     Sender CPU 2:   usr :  1.2   sys : 89.1   soft:  5.9   idle:  3.8   Total:96.2
+   Receiver CPU 1:   sys :  0.3   soft: 21.5   steal:  0.0   idle: 78.2   Total:21.8
+   Receiver CPU 2:   usr :  2.6   sys : 27.9   idle: 69.5   Total:30.5
+    ** Throughput appears to be limited by application CPU on the Send Host **
+
+Test iperf3_skip_rx_copy_BBR1 to Host: 10.3.54.2   (num tests: 5)
+       Throughput:   Mean: 64.6 Gbps   Max: 64.7 Gbps   STDEV: 0.2   retrans: 0
+     Sender CPU 1:   sys :  0.1   iowait:  0.0   soft:  1.5   steal:  0.0   idle: 98.4   Total:1.6
+     Sender CPU 2:   usr :  1.1   sys : 93.2   soft:  4.2   idle:  1.4   Total:98.5
+   Receiver CPU 1:   sys :  0.2   soft: 21.6   steal:  0.0   idle: 78.2   Total:21.8
+   Receiver CPU 2:   usr :  2.6   sys : 27.1   idle: 70.3   Total:29.7
+    ** Throughput appears to be limited by application CPU on the Send Host **
+
+Test iperf3_skip_rx_copy_BBR_BIGTCP to Host: 10.3.54.2   (num tests: 5)
+       Throughput:   Mean: 78.9 Gbps   Max: 79.5 Gbps   STDEV: 0.6   retrans: 0
+     Sender CPU 1:   sys :  0.1   soft:  1.5   idle: 98.3   Total:1.6
+     Sender CPU 2:   usr :  1.2   sys : 91.3   soft:  4.8   steal:  0.0   idle:  2.7   Total:97.3
+   Receiver CPU 1:   sys :  0.3   soft: 23.9   steal:  0.0   idle: 75.7   Total:24.2
+   Receiver CPU 2:   usr :  2.7   sys : 23.5   iowait:  0.0   idle: 73.8   Total:26.2
+    ** Throughput appears to be limited by application CPU on the Send Host **
+
+Test iperf3_skip_rx_copy_BIGTCP to Host: 10.3.54.2   (num tests: 5)
+       Throughput:   Mean: 97.4 Gbps   Max: 98.7 Gbps   STDEV: 1.9   retrans: 0
+     Sender CPU 1:   sys :  0.0   soft:  0.6   steal:  0.0   idle: 99.3   Total:0.6
+     Sender CPU 2:   usr :  1.4   sys : 98.6   soft:  0.0   steal:  0.0   Total:100.0
+   Receiver CPU 1:   sys :  0.1   soft: 32.9   steal:  0.0   idle: 67.0   Total:33.0
+   Receiver CPU 2:   usr :  3.5   sys : 28.3   idle: 68.2   Total:31.8
+    ** Throughput appears to be limited by application CPU on the Send Host **
+
+Test iperf3_skip_rx_copy_HTCP to Host: 10.3.54.2   (num tests: 5)
+       Throughput:   Mean: 82.1 Gbps   Max: 82.4 Gbps   STDEV: 0.3   retrans: 0
+     Sender CPU 1:   sys :  0.0   soft:  1.2   idle: 98.7   Total:1.2
+     Sender CPU 2:   usr :  1.3   sys : 98.7   Total:100.0
+   Receiver CPU 1:   sys :  0.1   soft: 27.8   steal:  0.0   idle: 72.1   Total:27.9
+   Receiver CPU 2:   usr :  3.1   sys : 34.5   steal:  0.0   idle: 62.5   Total:37.6
+    ** Throughput appears to be limited by application CPU on the Send Host **
+
+Test iperf3_skip_rx_copy_sendfile to Host: 10.3.54.2   (num tests: 5)
+       Throughput:   Mean: 98.9 Gbps   Max: 98.9 Gbps   STDEV: 0.0   retrans: 0
+     Sender CPU 1:   sys :  0.1   iowait:  0.0   soft:  2.9   steal:  0.0   idle: 97.1   Total:3.0
+     Sender CPU 2:   usr :  1.2   sys : 50.9   soft:  4.5   idle: 43.4   Total:56.6
+   Receiver CPU 1:   sys :  0.2   soft: 65.0   steal:  0.0   idle: 34.7   Total:65.2
+   Receiver CPU 2:   usr :  4.1   sys : 42.9   idle: 53.1   Total:47.0
+     ** Throughput appears to be memory limited, CWND limited, or unknown **
+
+Test iperf3_skip_rx_copy_sendfile_BBR to Host: 10.3.54.2   (num tests: 5)
+       Throughput:   Mean: 63.5 Gbps   Max: 64.6 Gbps   STDEV: 1.0   retrans: 0
+     Sender CPU 1:   sys :  0.3   soft:  7.8   idle: 91.8   Total:8.1
+     Sender CPU 2:   usr :  0.9   sys : 35.0   soft:  2.9   idle: 61.2   Total:38.8
+   Receiver CPU 1:   sys :  0.5   soft: 23.3   steal:  0.0   idle: 76.2   Total:23.8
+   Receiver CPU 2:   usr :  2.5   sys : 27.1   idle: 70.4   Total:29.6
+     ** Throughput appears to be memory limited, CWND limited, or unknown **
+
+Test iperf3_skip_rx_copy_sendfile_BBR1 to Host: 10.3.54.2   (num tests: 5)
+       Throughput:   Mean: 76.1 Gbps   Max: 76.7 Gbps   STDEV: 0.6   retrans: 0
+     Sender CPU 1:   sys :  0.3   soft:  6.5   steal:  0.0   idle: 93.2   Total:6.8
+     Sender CPU 2:   usr :  1.0   sys : 42.4   soft:  5.2   idle: 51.4   Total:48.6
+   Receiver CPU 1:   sys :  0.4   soft: 30.2   steal:  0.0   idle: 69.4   Total:30.6
+   Receiver CPU 2:   usr :  3.0   sys : 32.9   idle: 64.1   Total:35.9
+     ** Throughput appears to be memory limited, CWND limited, or unknown **
+
+Test iperf3_skip_rx_copy_sendfile_BIGTCP to Host: 10.3.54.2   (num tests: 5)
+       Throughput:   Mean: 98.9 Gbps   Max: 98.9 Gbps   STDEV: 0.0   retrans: 0
+     Sender CPU 1:   sys :  0.1   soft:  2.8   steal:  0.0   idle: 97.1   Total:2.9
+     Sender CPU 2:   usr :  1.2   sys : 46.8   soft:  3.4   idle: 48.5   Total:51.4
+   Receiver CPU 1:   sys :  0.3   soft: 61.2   steal:  0.0   idle: 38.5   Total:61.5
+   Receiver CPU 2:   usr :  3.8   sys : 42.7   iowait:  0.0   idle: 53.5   Total:46.5
+     ** Throughput appears to be memory limited, CWND limited, or unknown **
+
+Test iperf3_skip_rx_copy_sendfile_HTCP to Host: 10.3.54.2   (num tests: 5)
+       Throughput:   Mean: 97.8 Gbps   Max: 98.5 Gbps   STDEV: 0.5   retrans: 0
+     Sender CPU 1:   sys :  0.1   soft:  2.9   idle: 97.1   Total:3.0
+     Sender CPU 2:   usr :  1.3   sys : 53.3   soft:  6.3   idle: 39.1   Total:60.9
+   Receiver CPU 1:   sys :  0.3   soft: 54.0   steal:  0.0   idle: 45.7   Total:54.3
+   Receiver CPU 2:   usr :  4.1   sys : 42.8   idle: 53.2   Total:46.9
+     ** Throughput appears to be memory limited, CWND limited, or unknown **
+
+Test iperf3_skip_rx_copy_zerocopy to Host: 10.3.54.2   (num tests: 5)
+       Throughput:   Mean: 98.6 Gbps   Max: 98.6 Gbps   STDEV: 0.0   retrans: 0
+     Sender CPU 1:   sys :  0.0   soft:  1.5   idle: 98.5   Total:1.5
+     Sender CPU 2:   usr :  1.3   sys : 53.2   soft:  5.6   steal:  0.0   idle: 39.9   Total:60.1
+   Receiver CPU 1:   sys :  0.2   soft: 61.0   steal:  0.0   idle: 38.8   Total:61.2
+   Receiver CPU 2:   usr :  4.0   sys : 42.7   idle: 53.4   Total:46.7
+     ** Throughput appears to be memory limited, CWND limited, or unknown **
+
+Test iperf3_skip_rx_copy_zerocopy_BBR to Host: 10.3.54.2   (num tests: 5)
+       Throughput:   Mean: 69.6 Gbps   Max: 80.7 Gbps   STDEV: 6.3   retrans: 0
+     Sender CPU 1:   sys :  0.3   soft:  7.0   steal:  0.0   idle: 92.7   Total:7.3
+     Sender CPU 2:   usr :  1.0   sys : 36.8   soft:  2.0   idle: 60.1   Total:39.8
+   Receiver CPU 1:   sys :  0.4   soft: 27.9   steal:  0.0   idle: 71.7   Total:28.3
+   Receiver CPU 2:   usr :  2.7   sys : 30.5   idle: 66.8   Total:33.2
+     ** Throughput appears to be memory limited, CWND limited, or unknown **
+
+Test iperf3_skip_rx_copy_zerocopy_BBR1 to Host: 10.3.54.2   (num tests: 5)
+       Throughput:   Mean: 76.3 Gbps   Max: 76.8 Gbps   STDEV: 0.4   retrans: 0
+     Sender CPU 1:   sys :  0.2   soft:  4.2   steal:  0.0   idle: 95.7   Total:4.4
+     Sender CPU 2:   usr :  1.1   sys : 41.8   soft:  2.9   idle: 54.2   Total:45.8
+   Receiver CPU 1:   sys :  0.4   soft: 32.2   steal:  0.0   idle: 67.3   Total:32.6
+   Receiver CPU 2:   usr :  3.1   sys : 33.4   iowait:  0.0   idle: 63.6   Total:36.5
+     ** Throughput appears to be memory limited, CWND limited, or unknown **
+
+Test iperf3_skip_rx_copy_zerocopy_BBR_BIGTCP to Host: 10.3.54.2   (num tests: 5)
+       Throughput:   Mean: 69.7 Gbps   Max: 70.4 Gbps   STDEV: 1.1   retrans: 0
+     Sender CPU 1:   sys :  0.4   soft:  9.6   steal:  0.0   idle: 90.0   Total:10.0
+     Sender CPU 2:   usr :  1.0   sys : 34.2   soft:  1.6   idle: 63.3   Total:36.8
+   Receiver CPU 1:   sys :  0.5   soft: 28.1   steal:  0.0   idle: 71.5   Total:28.6
+   Receiver CPU 2:   usr :  2.8   sys : 30.8   steal:  0.0   idle: 66.5   Total:33.6
+     ** Throughput appears to be memory limited, CWND limited, or unknown **
+
+Test iperf3_skip_rx_copy_zerocopy_BIGTCP to Host: 10.3.54.2   (num tests: 5)
+       Throughput:   Mean: 98.8 Gbps   Max: 98.9 Gbps   STDEV: 0.0   retrans: 0
+     Sender CPU 1:   sys :  0.0   soft:  1.3   idle: 98.7   Total:1.3
+     Sender CPU 2:   usr :  1.2   sys : 47.8   soft:  4.9   idle: 46.1   Total:53.9
+   Receiver CPU 1:   sys :  0.2   soft: 62.5   steal:  0.0   idle: 37.3   Total:62.7
+   Receiver CPU 2:   usr :  3.8   sys : 43.4   idle: 52.8   Total:47.2
+     ** Throughput appears to be memory limited, CWND limited, or unknown **
+
+Test iperf3_skip_rx_copy_zerocopy_HTCP to Host: 10.3.54.2   (num tests: 5)
+       Throughput:   Mean: 97.4 Gbps   Max: 97.5 Gbps   STDEV: 0.1   retrans: 0
+     Sender CPU 1:   sys :  0.0   iowait:  0.0   soft:  1.5   idle: 98.5   Total:1.5
+     Sender CPU 2:   usr :  1.3   sys : 52.8   soft:  5.8   idle: 40.1   Total:59.9
+   Receiver CPU 1:   sys :  0.3   soft: 59.1   steal:  0.0   idle: 40.6   Total:59.4
+   Receiver CPU 2:   usr :  3.7   sys : 42.8   idle: 53.4   Total:46.5
+     ** Throughput appears to be memory limited, CWND limited, or unknown **
+
+Test iperf3_default to Host: 10.3.56.2   (num tests: 5)
+       Throughput:   Mean: 40.6 Gbps   Max: 41.0 Gbps   STDEV: 0.3   retrans: 0
+     Sender CPU 1:   sys :  0.1   iowait:  0.0   soft:  0.5   steal:  0.0   idle: 99.4   Total:0.6
+     Sender CPU 2:   usr :  0.6   sys : 99.4   Total:100.0
+   Receiver CPU 1:   sys :  0.1   soft: 10.2   idle: 89.7   Total:10.3
+   Receiver CPU 2:   usr :  1.0   sys : 57.1   iowait:  0.0   idle: 41.9   Total:58.1
+    ** Throughput appears to be limited by application CPU on the Send Host **
+
+Test iperf3_default_BBR to Host: 10.3.56.2   (num tests: 5)
+       Throughput:   Mean: 37.9 Gbps   Max: 39.7 Gbps   STDEV: 1.2   retrans: 3527
+     Sender CPU 1:   sys :  0.1   soft:  0.6   idle: 99.3   Total:0.7
+     Sender CPU 2:   usr :  0.6   sys : 96.9   soft:  2.4   steal:  0.0   idle:  0.1   Total:99.9
+   Receiver CPU 1:   sys :  0.1   soft: 10.2   steal:  0.0   idle: 89.7   Total:10.3
+   Receiver CPU 2:   usr :  0.9   sys : 56.2   idle: 42.8   Total:57.1
+    ** Throughput appears to be limited by application CPU on the Send Host **
+
+Test iperf3_default_BBR1 to Host: 10.3.56.2   (num tests: 5)
+       Throughput:   Mean: 37.7 Gbps   Max: 38.5 Gbps   STDEV: 1.3   retrans: 41528
+     Sender CPU 1:   sys :  0.1   soft:  0.8   idle: 99.1   Total:0.9
+     Sender CPU 2:   usr :  0.6   sys : 95.6   soft:  1.6   steal:  0.0   idle:  2.2   Total:97.8
+   Receiver CPU 1:   sys :  0.1   soft:  9.2   steal:  0.0   idle: 90.7   Total:9.3
+   Receiver CPU 2:   usr :  0.9   sys : 56.6   idle: 42.5   Total:57.5
+    ** Throughput appears to be limited by application CPU on the Send Host **
+
+Test iperf3_default_BBR_BIGTCP to Host: 10.3.56.2   (num tests: 5)
+       Throughput:   Mean: 42.8 Gbps   Max: 43.0 Gbps   STDEV: 0.1   retrans: 0
+     Sender CPU 1:   sys :  0.1   soft:  1.4   idle: 98.5   Total:1.5
+     Sender CPU 2:   usr :  0.7   sys : 97.7   soft:  1.3   idle:  0.4   Total:99.7
+   Receiver CPU 1:   sys :  0.1   soft:  9.4   steal:  0.0   idle: 90.5   Total:9.5
+   Receiver CPU 2:   usr :  0.9   sys : 60.8   idle: 38.3   Total:61.7
+    ** Throughput appears to be limited by application CPU on the Send Host **
+
+Test iperf3_default_BIGTCP to Host: 10.3.56.2   (num tests: 5)
+       Throughput:   Mean: 44.1 Gbps   Max: 44.6 Gbps   STDEV: 1.0   retrans: 0
+     Sender CPU 1:   sys :  0.1   soft:  0.8   steal:  0.0   idle: 99.1   Total:0.9
+     Sender CPU 2:   usr :  0.6   sys : 98.6   soft:  0.9   Total:100.1
+   Receiver CPU 1:   sys :  0.2   soft: 10.4   steal:  0.0   idle: 89.4   Total:10.6
+   Receiver CPU 2:   usr :  1.0   sys : 63.3   idle: 35.7   Total:64.3
+    ** Throughput appears to be limited by application CPU on the Send Host **
+
+Test iperf3_default_HTCP to Host: 10.3.56.2   (num tests: 5)
+       Throughput:   Mean: 38.0 Gbps   Max: 40.3 Gbps   STDEV: 1.8   retrans: 0
+     Sender CPU 1:   usr :  0.0   sys :  0.1   soft:  0.8   idle: 99.1   Total:0.9
+     Sender CPU 2:   usr :  0.5   sys : 89.7   soft:  2.4   idle:  7.3   Total:92.6
+   Receiver CPU 1:   usr :  0.0   sys :  0.1   soft:  8.7   steal:  0.0   idle: 91.1   Total:8.8
+   Receiver CPU 2:   usr :  0.9   sys : 54.6   idle: 44.6   Total:55.5
+    ** Throughput appears to be limited by application CPU on the Send Host **
+
+Test iperf3_skip_rx_copy to Host: 10.3.56.2   (num tests: 5)
+       Throughput:   Mean: 33.7 Gbps   Max: 40.3 Gbps   STDEV: 11.1   retrans: 2782
+     Sender CPU 1:   sys :  0.1   iowait:  0.0   soft:  0.9   steal:  0.0   idle: 98.9   Total:1.0
+     Sender CPU 2:   usr :  0.4   sys : 81.5   soft:  2.1   idle: 16.0   Total:84.0
+   Receiver CPU 1:   sys :  0.2   soft:  7.8   steal:  0.0   idle: 92.1   Total:8.0
+   Receiver CPU 2:   usr :  1.1   sys : 13.1   iowait:  0.0   steal:  0.0   idle: 85.8   Total:14.2
+     ** Throughput appears to be memory limited, CWND limited, or unknown **
+
+Test iperf3_skip_rx_copy_BBR to Host: 10.3.56.2   (num tests: 5)
+       Throughput:   Mean: 37.4 Gbps   Max: 38.1 Gbps   STDEV: 0.5   retrans: 0
+     Sender CPU 1:   sys :  0.1   soft:  1.1   steal:  0.0   idle: 98.8   Total:1.2
+     Sender CPU 2:   usr :  0.6   sys : 96.7   soft:  2.6   steal:  0.0   idle:  0.1   Total:99.9
+   Receiver CPU 1:   sys :  0.1   soft:  8.9   idle: 91.0   Total:9.0
+   Receiver CPU 2:   usr :  1.4   sys : 15.5   idle: 83.1   Total:16.9
+    ** Throughput appears to be limited by application CPU on the Send Host **
+
+Test iperf3_skip_rx_copy_BBR1 to Host: 10.3.56.2   (num tests: 5)
+       Throughput:   Mean: 37.3 Gbps   Max: 38.9 Gbps   STDEV: 2.6   retrans: 97605
+     Sender CPU 1:   sys :  0.1   iowait:  0.0   soft:  1.0   steal:  0.0   idle: 98.9   Total:1.1
+     Sender CPU 2:   usr :  0.5   sys : 94.7   soft:  1.7   steal:  0.0   idle:  3.1   Total:96.9
+   Receiver CPU 1:   sys :  0.1   soft: 10.4   steal:  0.0   idle: 89.5   Total:10.5
+   Receiver CPU 2:   usr :  1.3   sys : 15.2   idle: 83.5   Total:16.5
+    ** Throughput appears to be limited by application CPU on the Send Host **
+
+Test iperf3_skip_rx_copy_BBR_BIGTCP to Host: 10.3.56.2   (num tests: 5)
+       Throughput:   Mean: 41.6 Gbps   Max: 42.6 Gbps   STDEV: 2.0   retrans: 7108
+     Sender CPU 1:   usr :  0.0   sys :  0.1   soft:  1.5   steal:  0.0   idle: 98.3   Total:1.6
+     Sender CPU 2:   usr :  0.6   sys : 95.7   soft:  1.6   idle:  2.2   Total:97.9
+   Receiver CPU 1:   sys :  0.2   soft:  9.7   steal:  0.0   idle: 90.1   Total:9.9
+   Receiver CPU 2:   usr :  1.5   sys : 11.7   idle: 86.8   Total:13.2
+    ** Throughput appears to be limited by application CPU on the Send Host **
+
+Test iperf3_skip_rx_copy_BIGTCP to Host: 10.3.56.2   (num tests: 5)
+       Throughput:   Mean: 38.7 Gbps   Max: 44.5 Gbps   STDEV: 12.9   retrans: 1131
+     Sender CPU 1:   sys :  0.1   soft:  1.0   steal:  0.0   idle: 98.9   Total:1.1
+     Sender CPU 2:   usr :  0.5   sys : 89.1   soft:  0.0   idle: 10.4   Total:89.6
+   Receiver CPU 1:   sys :  0.1   soft:  9.5   steal:  0.0   idle: 90.3   Total:9.6
+   Receiver CPU 2:   usr :  1.3   sys : 10.9   idle: 87.7   Total:12.2
+     ** Throughput appears to be memory limited, CWND limited, or unknown **
+
+Test iperf3_skip_rx_copy_HTCP to Host: 10.3.56.2   (num tests: 5)
+       Throughput:   Mean: 39.9 Gbps   Max: 39.9 Gbps   STDEV: 0.0   retrans: 0
+     Sender CPU 1:   sys :  0.1   soft:  0.9   steal:  0.0   idle: 98.9   Total:1.0
+     Sender CPU 2:   usr :  0.6   sys : 99.4   steal:  0.0   Total:100.0
+   Receiver CPU 1:   sys :  0.1   soft:  9.7   steal:  0.0   idle: 90.1   Total:9.8
+   Receiver CPU 2:   usr :  1.4   sys : 16.3   idle: 82.3   Total:17.7
+    ** Throughput appears to be limited by application CPU on the Send Host **
+
+Test iperf3_skip_rx_copy_sendfile to Host: 10.3.56.2   (num tests: 5)
+       Throughput:   Mean: 47.8 Gbps   Max: 51.9 Gbps   STDEV: 5.3   retrans: 0
+     Sender CPU 1:   sys :  0.3   soft:  5.6   steal:  0.0   idle: 94.1   Total:5.9
+     Sender CPU 2:   usr :  0.6   sys : 21.0   iowait:  0.0   soft:  2.2   idle: 76.2   Total:23.8
+   Receiver CPU 1:   sys :  0.3   soft: 14.9   steal:  0.0   idle: 84.8   Total:15.2
+   Receiver CPU 2:   usr :  1.9   sys : 19.5   idle: 78.6   Total:21.4
+     ** Throughput appears to be memory limited, CWND limited, or unknown **
+
+Test iperf3_skip_rx_copy_sendfile_BBR to Host: 10.3.56.2   (num tests: 5)
+       Throughput:   Mean: 46.5 Gbps   Max: 49.3 Gbps   STDEV: 3.7   retrans: 1897039
+     Sender CPU 1:   sys :  0.2   soft:  4.3   steal:  0.0   idle: 95.5   Total:4.5
+     Sender CPU 2:   usr :  0.6   sys : 21.8   soft:  2.2   idle: 75.4   Total:24.6
+   Receiver CPU 1:   sys :  0.2   soft: 26.1   steal:  0.0   idle: 73.7   Total:26.3
+   Receiver CPU 2:   usr :  1.6   sys : 18.2   idle: 80.2   Total:19.8
+     ** Throughput appears to be memory limited, CWND limited, or unknown **
+
+Test iperf3_skip_rx_copy_sendfile_BBR1 to Host: 10.3.56.2   (num tests: 5)
+       Throughput:   Mean: 38.4 Gbps   Max: 39.6 Gbps   STDEV: 1.0   retrans: 4049335
+     Sender CPU 1:   sys :  0.1   soft:  2.2   steal:  0.0   idle: 97.6   Total:2.3
+     Sender CPU 2:   usr :  0.5   sys : 15.8   soft:  1.3   idle: 82.3   Total:17.6
+   Receiver CPU 1:   sys :  0.1   soft: 87.5   steal:  0.0   idle: 12.4   Total:87.6
+   Receiver CPU 2:   usr :  0.8   sys : 15.0   idle: 84.2   Total:15.8
+     ** Throughput appears to be memory limited, CWND limited, or unknown **
+
+Test iperf3_skip_rx_copy_sendfile_BIGTCP to Host: 10.3.56.2   (num tests: 5)
+       Throughput:   Mean: 52.5 Gbps   Max: 61.2 Gbps   STDEV: 7.4   retrans: 0
+     Sender CPU 1:   sys :  0.3   soft:  5.3   steal:  0.0   idle: 94.4   Total:5.6
+     Sender CPU 2:   usr :  0.7   sys : 21.1   soft:  2.1   idle: 76.1   Total:23.9
+   Receiver CPU 1:   sys :  0.3   soft: 16.6   steal:  0.0   idle: 83.0   Total:16.9
+   Receiver CPU 2:   usr :  1.9   sys : 21.1   iowait:  0.0   steal:  0.0   idle: 77.0   Total:23.0
+     ** Throughput appears to be memory limited, CWND limited, or unknown **
+
+Test iperf3_skip_rx_copy_sendfile_HTCP to Host: 10.3.56.2   (num tests: 5)
+       Throughput:   Mean: 45.6 Gbps   Max: 48.7 Gbps   STDEV: 5.7   retrans: 2
+     Sender CPU 1:   sys :  0.3   soft:  5.0   steal:  0.0   idle: 94.7   Total:5.3
+     Sender CPU 2:   usr :  0.6   sys : 19.6   soft:  2.0   idle: 77.8   Total:22.2
+   Receiver CPU 1:   sys :  0.3   iowait:  0.0   soft: 14.3   idle: 85.4   Total:14.6
+   Receiver CPU 2:   usr :  1.9   sys : 18.1   iowait:  0.0   idle: 80.0   Total:20.0
+     ** Throughput appears to be memory limited, CWND limited, or unknown **
+
+Test iperf3_skip_rx_copy_zerocopy to Host: 10.3.56.2   (num tests: 5)
+       Throughput:   Mean: 51.4 Gbps   Max: 56.7 Gbps   STDEV: 5.1   retrans: 0
+     Sender CPU 1:   sys :  0.3   soft:  3.9   steal:  0.0   idle: 95.8   Total:4.2
+     Sender CPU 2:   usr : 24.8   sys : 67.3   soft:  7.9   Total:100.0
+   Receiver CPU 1:   sys :  0.3   soft: 16.1   steal:  0.0   idle: 83.6   Total:16.4
+   Receiver CPU 2:   usr :  1.9   sys : 20.7   iowait:  0.0   idle: 77.5   Total:22.6
+    ** Throughput appears to be limited by application CPU on the Send Host **
+
+Test iperf3_skip_rx_copy_zerocopy_BBR to Host: 10.3.56.2   (num tests: 5)
+       Throughput:   Mean: 42.6 Gbps   Max: 45.6 Gbps   STDEV: 3.6   retrans: 1490212
+     Sender CPU 1:   sys :  0.1   soft:  4.0   idle: 95.8   Total:4.1
+     Sender CPU 2:   usr : 28.7   sys : 67.5   soft:  3.8   Total:100.0
+   Receiver CPU 1:   sys :  0.2   soft: 24.1   steal:  0.0   idle: 75.6   Total:24.3
+   Receiver CPU 2:   usr :  1.4   sys : 17.1   steal:  0.0   idle: 81.5   Total:18.5
+    ** Throughput appears to be limited by application CPU on the Send Host **
+
+Test iperf3_skip_rx_copy_zerocopy_BBR1 to Host: 10.3.56.2   (num tests: 5)
+       Throughput:   Mean: 40.1 Gbps   Max: 42.5 Gbps   STDEV: 1.8   retrans: 4152669
+     Sender CPU 1:   sys :  0.2   soft:  2.5   idle: 97.3   Total:2.7
+     Sender CPU 2:   usr : 29.8   sys : 67.0   soft:  3.2   Total:100.0
+   Receiver CPU 1:   sys :  0.1   soft: 82.2   steal:  0.0   idle: 17.7   Total:82.3
+   Receiver CPU 2:   usr :  1.0   sys : 16.2   idle: 82.8   Total:17.2
+    ** Throughput appears to be limited by application CPU on the Send Host **
+
+Test iperf3_skip_rx_copy_zerocopy_BBR_BIGTCP to Host: 10.3.56.2   (num tests: 5)
+       Throughput:   Mean: 39.5 Gbps   Max: 45.1 Gbps   STDEV: 6.9   retrans: 1325331
+     Sender CPU 1:   sys :  0.2   soft:  4.1   steal:  0.0   idle: 95.7   Total:4.3
+     Sender CPU 2:   usr : 28.7   sys : 67.5   soft:  3.8   Total:100.0
+   Receiver CPU 1:   sys :  0.2   soft: 23.9   steal:  0.0   idle: 75.9   Total:24.1
+   Receiver CPU 2:   usr :  1.4   sys : 15.8   idle: 82.8   Total:17.2
+    ** Throughput appears to be limited by application CPU on the Send Host **
+
+Test iperf3_skip_rx_copy_zerocopy_BIGTCP to Host: 10.3.56.2   (num tests: 5)
+       Throughput:   Mean: 42.3 Gbps   Max: 50.0 Gbps   STDEV: 9.8   retrans: 7694
+     Sender CPU 1:   sys :  0.3   soft:  3.7   idle: 96.0   Total:4.0
+     Sender CPU 2:   usr : 16.3   sys : 44.3   soft:  4.3   idle: 35.0   Total:64.9
+   Receiver CPU 1:   sys :  0.3   soft: 13.1   steal:  0.0   idle: 86.5   Total:13.4
+   Receiver CPU 2:   usr :  1.5   sys : 17.5   idle: 81.0   Total:19.0
+     ** Throughput appears to be memory limited, CWND limited, or unknown **
+
+Test iperf3_skip_rx_copy_zerocopy_HTCP to Host: 10.3.56.2   (num tests: 5)
+       Throughput:   Mean: 45.7 Gbps   Max: 50.7 Gbps   STDEV: 5.2   retrans: 1542
+     Sender CPU 1:   sys :  0.2   soft:  3.6   idle: 96.1   Total:3.8
+     Sender CPU 2:   usr : 22.3   sys : 59.2   soft:  6.2   idle: 12.3   Total:87.7
+   Receiver CPU 1:   sys :  0.3   soft: 14.6   steal:  0.0   idle: 85.1   Total:14.9
+   Receiver CPU 2:   usr :  1.7   sys : 19.2   idle: 79.1   Total:20.9
+     ** Throughput appears to be memory limited, CWND limited, or unknown **
+
+Test iperf3_default to Host: 10.3.58.2   (num tests: 5)
+       Throughput:   Mean: 29.7 Gbps   Max: 38.9 Gbps   STDEV: 11.7   retrans: 1223
+     Sender CPU 1:   sys :  0.1   iowait:  0.0   soft:  0.9   idle: 99.0   Total:1.0
+     Sender CPU 2:   usr :  0.4   sys : 73.8   soft:  1.5   idle: 24.2   Total:75.7
+   Receiver CPU 1:   sys :  0.1   soft:  6.9   steal:  0.0   idle: 93.0   Total:7.0
+   Receiver CPU 2:   usr :  0.7   sys : 41.7   iowait:  0.0   idle: 57.6   Total:42.4
+     ** Throughput appears to be memory limited, CWND limited, or unknown **
+
+Test iperf3_default_BBR to Host: 10.3.58.2   (num tests: 5)
+       Throughput:   Mean: 31.5 Gbps   Max: 34.1 Gbps   STDEV: 5.0   retrans: 55202
+     Sender CPU 1:   sys :  0.1   soft:  1.2   steal:  0.0   idle: 98.7   Total:1.3
+     Sender CPU 2:   usr :  0.4   sys : 71.7   soft:  3.0   idle: 24.9   Total:75.1
+   Receiver CPU 1:   sys :  0.1   soft:  7.8   idle: 92.1   Total:7.9
+   Receiver CPU 2:   usr :  0.8   sys : 44.4   idle: 54.9   Total:45.2
+     ** Throughput appears to be memory limited, CWND limited, or unknown **
+
+Test iperf3_default_BBR1 to Host: 10.3.58.2   (num tests: 5)
+       Throughput:   Mean: 34.0 Gbps   Max: 36.4 Gbps   STDEV: 1.5   retrans: 1549
+     Sender CPU 1:   sys :  0.0   soft:  0.9   idle: 99.1   Total:0.9
+     Sender CPU 2:   usr :  0.5   sys : 79.2   soft:  2.0   idle: 18.4   Total:81.7
+   Receiver CPU 1:   sys :  0.1   soft:  7.3   steal:  0.0   idle: 92.6   Total:7.4
+   Receiver CPU 2:   usr :  0.8   sys : 49.8   idle: 49.4   Total:50.6
+     ** Throughput appears to be memory limited, CWND limited, or unknown **
+
+Test iperf3_default_BBR_BIGTCP to Host: 10.3.58.2   (num tests: 5)
+       Throughput:   Mean: 38.2 Gbps   Max: 40.0 Gbps   STDEV: 2.6   retrans: 3805
+     Sender CPU 1:   sys :  0.1   soft:  1.0   steal:  0.0   idle: 98.9   Total:1.1
+     Sender CPU 2:   usr :  0.5   sys : 81.7   soft:  3.5   idle: 14.3   Total:85.7
+   Receiver CPU 1:   sys :  0.2   soft:  9.6   idle: 90.2   Total:9.8
+   Receiver CPU 2:   usr :  1.0   sys : 54.4   idle: 44.7   Total:55.4
+     ** Throughput appears to be memory limited, CWND limited, or unknown **
+
+Test iperf3_default_BIGTCP to Host: 10.3.58.2   (num tests: 5)
+       Throughput:   Mean: 24.5 Gbps   Max: 24.8 Gbps   STDEV: 0.5   retrans: 0
+     Sender CPU 1:   sys :  0.1   soft:  0.9   idle: 99.0   Total:1.0
+     Sender CPU 2:   usr :  0.3   sys : 50.1   soft:  1.0   idle: 48.6   Total:51.4
+   Receiver CPU 1:   sys :  0.1   soft:  5.2   idle: 94.7   Total:5.3
+   Receiver CPU 2:   usr :  0.6   sys : 33.8   idle: 65.6   Total:34.4
+     ** Throughput appears to be memory limited, CWND limited, or unknown **
+
+Test iperf3_default_HTCP to Host: 10.3.58.2   (num tests: 5)
+       Throughput:   Mean: 32.2 Gbps   Max: 39.0 Gbps   STDEV: 6.8   retrans: 0
+     Sender CPU 1:   sys :  0.1   iowait:  0.0   soft:  1.0   steal:  0.0   idle: 98.8   Total:1.1
+     Sender CPU 2:   usr :  0.4   sys : 75.4   soft:  3.0   steal:  0.0   idle: 21.2   Total:78.8
+   Receiver CPU 1:   sys :  0.1   soft:  8.0   idle: 91.9   Total:8.1
+   Receiver CPU 2:   usr :  0.8   sys : 46.0   idle: 53.2   Total:46.8
+     ** Throughput appears to be memory limited, CWND limited, or unknown **
+
+Test iperf3_skip_rx_copy to Host: 10.3.58.2   (num tests: 5)
+       Throughput:   Mean: 35.7 Gbps   Max: 38.8 Gbps   STDEV: 7.0   retrans: 0
+     Sender CPU 1:   sys :  0.1   iowait:  0.0   soft:  0.9   steal:  0.0   idle: 99.0   Total:1.0
+     Sender CPU 2:   usr :  0.5   sys : 85.2   soft:  0.7   idle: 13.6   Total:86.4
+   Receiver CPU 1:   sys :  0.1   soft:  8.4   idle: 91.4   Total:8.5
+   Receiver CPU 2:   usr :  1.2   sys : 14.9   iowait:  0.0   idle: 83.9   Total:16.1
+     ** Throughput appears to be memory limited, CWND limited, or unknown **
+
+Test iperf3_skip_rx_copy_BBR to Host: 10.3.58.2   (num tests: 5)
+       Throughput:   Mean: 34.0 Gbps   Max: 34.5 Gbps   STDEV: 0.5   retrans: 53874
+     Sender CPU 1:   sys :  0.1   soft:  1.3   steal:  0.0   idle: 98.5   Total:1.4
+     Sender CPU 2:   usr :  0.5   sys : 82.0   soft:  3.0   idle: 14.5   Total:85.5
+   Receiver CPU 1:   sys :  0.1   soft:  8.7   steal:  0.0   idle: 91.2   Total:8.8
+   Receiver CPU 2:   usr :  1.2   sys : 13.8   idle: 85.0   Total:15.0
+     ** Throughput appears to be memory limited, CWND limited, or unknown **
+
+Test iperf3_skip_rx_copy_BBR1 to Host: 10.3.58.2   (num tests: 5)
+       Throughput:   Mean: 33.9 Gbps   Max: 34.4 Gbps   STDEV: 0.4   retrans: 19747
+     Sender CPU 1:   sys :  0.1   iowait:  0.0   soft:  1.0   steal:  0.0   idle: 98.8   Total:1.1
+     Sender CPU 2:   usr :  0.5   sys : 77.5   soft:  1.8   idle: 20.2   Total:79.8
+   Receiver CPU 1:   sys :  0.1   soft:  8.9   steal:  0.0   idle: 91.0   Total:9.0
+   Receiver CPU 2:   usr :  1.2   sys : 13.7   idle: 85.1   Total:14.9
+     ** Throughput appears to be memory limited, CWND limited, or unknown **
+
+Test iperf3_skip_rx_copy_BBR_BIGTCP to Host: 10.3.58.2   (num tests: 5)
+       Throughput:   Mean: 29.8 Gbps   Max: 36.0 Gbps   STDEV: 6.0   retrans: 44449
+     Sender CPU 1:   sys :  0.1   soft:  1.0   idle: 98.9   Total:1.1
+     Sender CPU 2:   usr :  0.4   sys : 68.2   soft:  2.6   steal:  0.0   idle: 28.8   Total:71.2
+   Receiver CPU 1:   sys :  0.1   soft:  7.6   steal:  0.0   idle: 92.2   Total:7.7
+   Receiver CPU 2:   usr :  0.9   sys :  8.6   idle: 90.4   Total:9.5
+     ** Throughput appears to be memory limited, CWND limited, or unknown **
+
+Test iperf3_skip_rx_copy_BIGTCP to Host: 10.3.58.2   (num tests: 5)
+       Throughput:   Mean: 17.9 Gbps   Max: 24.8 Gbps   STDEV: 8.2   retrans: 9380
+     Sender CPU 1:   sys :  0.1   soft:  0.6   steal:  0.0   idle: 99.3   Total:0.7
+     Sender CPU 2:   usr :  0.2   sys : 37.1   soft:  0.9   steal:  0.0   idle: 61.8   Total:38.2
+   Receiver CPU 1:   sys :  0.1   soft:  3.8   idle: 96.1   Total:3.9
+   Receiver CPU 2:   usr :  0.6   sys :  5.1   steal:  0.0   idle: 94.3   Total:5.7
+     ** Throughput appears to be memory limited, CWND limited, or unknown **
+
+Test iperf3_skip_rx_copy_HTCP to Host: 10.3.58.2   (num tests: 5)
+       Throughput:   Mean: 38.8 Gbps   Max: 38.9 Gbps   STDEV: 0.0   retrans: 0
+     Sender CPU 1:   sys :  0.1   soft:  0.9   idle: 99.1   Total:1.0
+     Sender CPU 2:   usr :  0.6   sys : 92.9   soft:  0.1   idle:  6.5   Total:93.6
+   Receiver CPU 1:   sys :  0.1   soft:  9.7   idle: 90.2   Total:9.8
+   Receiver CPU 2:   usr :  1.5   sys : 16.3   iowait:  0.0   idle: 82.2   Total:17.8
+    ** Throughput appears to be limited by application CPU on the Send Host **
+
+Test iperf3_skip_rx_copy_sendfile to Host: 10.3.58.2   (num tests: 5)
+       Throughput:   Mean: 20.8 Gbps   Max: 34.2 Gbps   STDEV: 11.9   retrans: 2419
+     Sender CPU 1:   sys :  0.1   iowait:  0.0   soft:  2.5   idle: 97.4   Total:2.6
+     Sender CPU 2:   usr :  0.3   sys :  8.3   iowait:  0.0   soft:  0.6   idle: 90.8   Total:9.2
+   Receiver CPU 1:   sys :  0.1   soft:  5.5   idle: 94.4   Total:5.6
+   Receiver CPU 2:   usr :  0.8   sys :  8.5   steal:  0.0   idle: 90.6   Total:9.3
+     ** Throughput appears to be memory limited, CWND limited, or unknown **
+
+Test iperf3_skip_rx_copy_sendfile_BBR to Host: 10.3.58.2   (num tests: 5)
+       Throughput:   Mean: 28.5 Gbps   Max: 37.0 Gbps   STDEV: 4.9   retrans: 4123
+     Sender CPU 1:   sys :  0.2   iowait:  0.0   soft:  3.8   idle: 96.0   Total:4.0
+     Sender CPU 2:   usr :  0.3   sys : 11.8   soft:  0.6   steal:  0.0   idle: 87.4   Total:12.7
+   Receiver CPU 1:   sys :  0.2   soft:  7.3   idle: 92.5   Total:7.5
+   Receiver CPU 2:   usr :  1.0   sys : 11.0   idle: 87.9   Total:12.0
+     ** Throughput appears to be memory limited, CWND limited, or unknown **
+
+Test iperf3_skip_rx_copy_sendfile_BBR1 to Host: 10.3.58.2   (num tests: 5)
+       Throughput:   Mean: 35.4 Gbps   Max: 38.0 Gbps   STDEV: 2.3   retrans: 172966
+     Sender CPU 1:   sys :  0.1   soft:  4.2   steal:  0.0   idle: 95.7   Total:4.3
+     Sender CPU 2:   usr :  0.4   sys : 14.7   soft:  0.9   idle: 84.0   Total:16.0
+   Receiver CPU 1:   sys :  0.2   soft: 11.3   steal:  0.0   idle: 88.5   Total:11.5
+   Receiver CPU 2:   usr :  1.3   sys : 13.8   idle: 84.9   Total:15.1
+     ** Throughput appears to be memory limited, CWND limited, or unknown **
+
+Test iperf3_skip_rx_copy_sendfile_BIGTCP to Host: 10.3.58.2   (num tests: 5)
+       Throughput:   Mean: 12.2 Gbps   Max: 12.3 Gbps   STDEV: 0.0   retrans: 0
+     Sender CPU 1:   sys :  0.1   soft:  1.3   idle: 98.6   Total:1.4
+     Sender CPU 2:   usr :  0.1   sys :  3.8   soft:  0.1   idle: 95.9   Total:4.0
+   Receiver CPU 1:   sys :  0.1   soft:  4.2   steal:  0.0   idle: 95.6   Total:4.3
+   Receiver CPU 2:   usr :  0.6   sys :  5.5   idle: 93.9   Total:6.1
+     ** Throughput appears to be memory limited, CWND limited, or unknown **
+
+Test iperf3_skip_rx_copy_sendfile_HTCP to Host: 10.3.58.2   (num tests: 5)
+       Throughput:   Mean: 20.6 Gbps   Max: 24.4 Gbps   STDEV: 3.0   retrans: 0
+     Sender CPU 1:   sys :  0.2   soft:  2.5   steal:  0.0   idle: 97.3   Total:2.7
+     Sender CPU 2:   usr :  0.2   sys :  7.1   soft:  0.5   idle: 92.2   Total:7.8
+   Receiver CPU 1:   sys :  0.2   soft:  5.2   steal:  0.0   idle: 94.6   Total:5.4
+   Receiver CPU 2:   usr :  0.8   sys :  8.3   iowait:  0.0   steal:  0.0   idle: 90.9   Total:9.1
+     ** Throughput appears to be memory limited, CWND limited, or unknown **
+
+Test iperf3_skip_rx_copy_zerocopy to Host: 10.3.58.2   (num tests: 5)
+       Throughput:   Mean: 23.6 Gbps   Max: 23.6 Gbps   STDEV: 0.0   retrans: 0
+     Sender CPU 1:   sys :  0.2   soft:  3.0   idle: 96.9   Total:3.2
+     Sender CPU 2:   usr : 30.3   sys : 60.9   soft:  2.7   idle:  6.1   Total:93.9
+   Receiver CPU 1:   sys :  0.2   soft:  5.8   idle: 94.1   Total:6.0
+   Receiver CPU 2:   usr :  0.9   sys :  9.9   idle: 89.3   Total:10.8
+    ** Throughput appears to be limited by application CPU on the Send Host **
+
+Test iperf3_skip_rx_copy_zerocopy_BBR to Host: 10.3.58.2   (num tests: 5)
+       Throughput:   Mean: 20.5 Gbps   Max: 22.1 Gbps   STDEV: 2.2   retrans: 40074
+     Sender CPU 1:   sys :  0.2   soft:  3.1   idle: 96.7   Total:3.3
+     Sender CPU 2:   usr : 30.8   sys : 60.0   soft:  3.1   steal:  0.0   idle:  6.0   Total:93.9
+   Receiver CPU 1:   sys :  0.2   soft:  5.1   idle: 94.8   Total:5.3
+   Receiver CPU 2:   usr :  0.8   sys :  8.7   idle: 90.5   Total:9.5
+    ** Throughput appears to be limited by application CPU on the Send Host **
+
+Test iperf3_skip_rx_copy_zerocopy_BBR1 to Host: 10.3.58.2   (num tests: 5)
+       Throughput:   Mean: 21.7 Gbps   Max: 22.7 Gbps   STDEV: 1.3   retrans: 88
+     Sender CPU 1:   sys :  0.2   soft:  3.0   steal:  0.0   idle: 96.8   Total:3.2
+     Sender CPU 2:   usr : 30.8   sys : 60.4   soft:  2.8   steal:  0.0   idle:  6.0   Total:94.0
+   Receiver CPU 1:   sys :  0.2   soft:  5.0   steal:  0.0   idle: 94.9   Total:5.2
+   Receiver CPU 2:   usr :  0.8   sys :  8.9   steal:  0.0   idle: 90.3   Total:9.7
+    ** Throughput appears to be limited by application CPU on the Send Host **
+
+Test iperf3_skip_rx_copy_zerocopy_BBR_BIGTCP to Host: 10.3.58.2   (num tests: 2)
+       Throughput:   Mean: 22.2 Gbps   Max: 22.2 Gbps   STDEV: 0.0   retrans: 21552
+     Sender CPU 1:   usr :  0.2   sys :  0.3   soft:  4.1   idle: 95.4   Total:4.6
+     Sender CPU 2:   usr : 31.8   sys : 59.9   soft:  2.4   idle:  6.0   Total:94.1
+   Receiver CPU 1:   sys :  0.1   soft:  5.1   idle: 94.8   Total:5.2
+   Receiver CPU 2:   usr :  0.9   sys :  8.7   idle: 90.5   Total:9.6
+    ** Throughput appears to be limited by application CPU on the Send Host **
+
+Test iperf3_skip_rx_copy_zerocopy_BIGTCP to Host: 10.3.58.2   (num tests: 5)
+       Throughput:   Mean: 20.8 Gbps   Max: 23.6 Gbps   STDEV: 6.2   retrans: 0
+     Sender CPU 1:   sys :  0.2   soft:  3.5   steal:  0.0   idle: 96.3   Total:3.7
+     Sender CPU 2:   usr : 32.0   sys : 60.2   soft:  1.9   idle:  6.0   Total:94.1
+   Receiver CPU 1:   sys :  0.2   soft:  5.3   idle: 94.5   Total:5.5
+   Receiver CPU 2:   usr :  0.8   sys :  8.8   idle: 90.4   Total:9.6
+    ** Throughput appears to be limited by application CPU on the Send Host **
+
+Test iperf3_skip_rx_copy_zerocopy_HTCP to Host: 10.3.58.2   (num tests: 5)
+       Throughput:   Mean: 19.8 Gbps   Max: 23.6 Gbps   STDEV: 8.3   retrans: 3827
+     Sender CPU 1:   usr :  0.0   sys :  0.2   soft:  3.5   steal:  0.0   idle: 96.3   Total:3.7
+     Sender CPU 2:   usr : 30.8   sys : 60.2   soft:  2.9   idle:  6.0   Total:93.9
+   Receiver CPU 1:   sys :  0.2   soft:  4.6   idle: 95.3   Total:4.8
+   Receiver CPU 2:   usr :  0.7   sys :  8.4   idle: 90.8   Total:9.1
+    ** Throughput appears to be limited by application CPU on the Send Host **
+
+Test iperf3_default to Host: 10.3.60.2   (num tests: 5)
+       Throughput:   Mean: 32.5 Gbps   Max: 38.2 Gbps   STDEV: 5.2   retrans: 0
+     Sender CPU 1:   sys :  0.2   iowait:  0.0   soft:  1.5   steal:  0.0   idle: 98.3   Total:1.7
+     Sender CPU 2:   usr :  0.4   sys : 82.3   soft:  6.9   steal:  0.0   idle: 10.4   Total:89.6
+   Receiver CPU 1:   sys :  0.1   soft:  7.0   idle: 92.8   Total:7.1
+   Receiver CPU 2:   usr :  0.8   sys : 44.3   idle: 54.9   Total:45.1
+     ** Throughput appears to be memory limited, CWND limited, or unknown **
+
+Test iperf3_default_BBR to Host: 10.3.60.2   (num tests: 5)
+       Throughput:   Mean: 37.8 Gbps   Max: 37.9 Gbps   STDEV: 0.2   retrans: 245
+     Sender CPU 1:   sys :  0.1   soft:  0.8   idle: 99.1   Total:0.9
+     Sender CPU 2:   usr :  0.6   sys : 97.5   soft:  1.9   steal:  0.0   idle:  0.0   Total:100.0
+   Receiver CPU 1:   sys :  0.1   soft:  8.8   steal:  0.0   idle: 91.1   Total:8.9
+   Receiver CPU 2:   usr :  0.9   sys : 57.2   steal:  0.0   idle: 41.9   Total:58.1
+    ** Throughput appears to be limited by application CPU on the Send Host **
+
+Test iperf3_default_BBR1 to Host: 10.3.60.2   (num tests: 5)
+       Throughput:   Mean: 37.4 Gbps   Max: 37.8 Gbps   STDEV: 0.3   retrans: 27860
+     Sender CPU 1:   sys :  0.1   iowait:  0.0   soft:  0.7   idle: 99.2   Total:0.8
+     Sender CPU 2:   usr :  0.6   sys : 96.4   soft:  1.9   idle:  1.0   Total:98.9
+   Receiver CPU 1:   sys :  0.1   soft:  9.0   idle: 90.9   Total:9.1
+   Receiver CPU 2:   usr :  0.9   sys : 56.4   idle: 42.7   Total:57.3
+    ** Throughput appears to be limited by application CPU on the Send Host **
+
+Test iperf3_default_BBR_BIGTCP to Host: 10.3.60.2   (num tests: 5)
+       Throughput:   Mean: 37.1 Gbps   Max: 37.5 Gbps   STDEV: 0.4   retrans: 0
+     Sender CPU 1:   sys :  0.1   soft:  0.8   steal:  0.0   idle: 99.1   Total:0.9
+     Sender CPU 2:   usr :  0.5   sys : 96.9   soft:  2.5   idle:  0.0   Total:99.9
+   Receiver CPU 1:   sys :  0.1   soft:  8.4   idle: 91.5   Total:8.5
+   Receiver CPU 2:   usr :  0.9   sys : 55.6   idle: 43.5   Total:56.5
+    ** Throughput appears to be limited by application CPU on the Send Host **
+
+Test iperf3_default_BIGTCP to Host: 10.3.60.2   (num tests: 5)
+       Throughput:   Mean: 36.1 Gbps   Max: 38.1 Gbps   STDEV: 2.1   retrans: 0
+     Sender CPU 1:   sys :  0.1   soft:  1.1   idle: 98.8   Total:1.2
+     Sender CPU 2:   usr :  0.5   sys : 93.5   soft:  5.5   idle:  0.4   Total:99.5
+   Receiver CPU 1:   sys :  0.3   soft: 10.2   steal:  0.0   idle: 89.6   Total:10.5
+   Receiver CPU 2:   usr :  1.0   sys : 53.7   idle: 45.3   Total:54.7
+    ** Throughput appears to be limited by application CPU on the Send Host **
+
+Test iperf3_default_HTCP to Host: 10.3.60.2   (num tests: 5)
+       Throughput:   Mean: 37.2 Gbps   Max: 38.2 Gbps   STDEV: 2.2   retrans: 0
+     Sender CPU 1:   usr :  0.3   sys :  0.3   iowait:  0.1   soft:  0.9   steal:  0.0   idle: 98.4   Total:1.6
+     Sender CPU 2:   usr :  0.5   sys : 93.1   soft:  2.5   idle:  3.8   Total:96.1
+   Receiver CPU 1:   usr :  0.0   sys :  0.1   soft:  8.5   steal:  0.0   idle: 91.4   Total:8.6
+   Receiver CPU 2:   usr :  0.8   sys : 54.6   iowait:  0.0   idle: 44.6   Total:55.4
+    ** Throughput appears to be limited by application CPU on the Send Host **
+
+Test iperf3_skip_rx_copy to Host: 10.3.60.2   (num tests: 5)
+       Throughput:   Mean: 31.6 Gbps   Max: 38.3 Gbps   STDEV: 4.3   retrans: 0
+     Sender CPU 1:   usr :  0.0   sys :  0.2   soft:  1.4   idle: 98.4   Total:1.6
+     Sender CPU 2:   usr :  0.5   sys : 80.8   soft:  8.8   idle:  9.9   Total:90.1
+   Receiver CPU 1:   sys :  0.2   soft:  7.2   steal:  0.0   idle: 92.6   Total:7.4
+   Receiver CPU 2:   usr :  1.1   sys : 11.9   iowait:  0.0   idle: 87.0   Total:13.0
+    ** Throughput appears to be limited by application CPU on the Send Host **
+
+Test iperf3_skip_rx_copy_BBR to Host: 10.3.60.2   (num tests: 5)
+       Throughput:   Mean: 38.0 Gbps   Max: 38.1 Gbps   STDEV: 0.1   retrans: 0
+     Sender CPU 1:   sys :  0.1   soft:  0.9   idle: 99.0   Total:1.0
+     Sender CPU 2:   usr :  0.6   sys : 97.3   soft:  2.1   steal:  0.0   idle:  0.0   Total:100.0
+   Receiver CPU 1:   sys :  0.1   soft:  9.5   steal:  0.0   idle: 90.4   Total:9.6
+   Receiver CPU 2:   usr :  1.4   sys : 16.1   iowait:  0.0   idle: 82.5   Total:17.5
+    ** Throughput appears to be limited by application CPU on the Send Host **
+
+Test iperf3_skip_rx_copy_BBR1 to Host: 10.3.60.2   (num tests: 5)
+       Throughput:   Mean: 33.4 Gbps   Max: 34.8 Gbps   STDEV: 1.4   retrans: 1631302
+     Sender CPU 1:   sys :  0.1   soft:  1.0   steal:  0.0   idle: 98.9   Total:1.1
+     Sender CPU 2:   usr :  0.6   sys : 92.7   soft:  4.8   idle:  2.0   Total:98.1
+   Receiver CPU 1:   sys :  0.1   soft: 37.5   steal:  0.0   idle: 62.3   Total:37.6
+   Receiver CPU 2:   usr :  0.8   sys : 14.1   iowait:  0.0   idle: 85.1   Total:14.9
+    ** Throughput appears to be limited by application CPU on the Send Host **
+
+Test iperf3_skip_rx_copy_BBR_BIGTCP to Host: 10.3.60.2   (num tests: 5)
+       Throughput:   Mean: 37.7 Gbps   Max: 38.0 Gbps   STDEV: 0.2   retrans: 0
+     Sender CPU 1:   usr :  0.0   sys :  0.1   soft:  1.3   steal:  0.0   idle: 98.6   Total:1.4
+     Sender CPU 2:   usr :  0.6   sys : 97.0   soft:  2.4   idle:  0.0   Total:100.0
+   Receiver CPU 1:   sys :  0.1   soft:  9.0   idle: 90.9   Total:9.1
+   Receiver CPU 2:   usr :  1.3   sys : 15.5   idle: 83.2   Total:16.8
+    ** Throughput appears to be limited by application CPU on the Send Host **
+
+Test iperf3_skip_rx_copy_BIGTCP to Host: 10.3.60.2   (num tests: 5)
+       Throughput:   Mean: 26.2 Gbps   Max: 31.5 Gbps   STDEV: 6.3   retrans: 163
+     Sender CPU 1:   usr :  0.0   sys :  0.2   soft:  1.4   steal:  0.0   idle: 98.3   Total:1.6
+     Sender CPU 2:   usr :  0.4   sys : 73.1   soft:  9.7   idle: 16.8   Total:83.2
+   Receiver CPU 1:   sys :  0.2   soft:  6.4   steal:  0.0   idle: 93.4   Total:6.6
+   Receiver CPU 2:   usr :  0.9   sys : 10.3   idle: 88.8   Total:11.2
+     ** Throughput appears to be memory limited, CWND limited, or unknown **
+
+Test iperf3_skip_rx_copy_HTCP to Host: 10.3.60.2   (num tests: 5)
+       Throughput:   Mean: 33.8 Gbps   Max: 37.8 Gbps   STDEV: 3.6   retrans: 18
+     Sender CPU 1:   sys :  0.1   soft:  1.2   idle: 98.7   Total:1.3
+     Sender CPU 2:   usr :  0.5   sys : 83.2   soft:  4.3   steal:  0.0   idle: 11.9   Total:88.0
+   Receiver CPU 1:   sys :  0.2   soft:  7.9   steal:  0.0   idle: 91.9   Total:8.1
+   Receiver CPU 2:   usr :  1.2   sys : 13.3   idle: 85.5   Total:14.5
+     ** Throughput appears to be memory limited, CWND limited, or unknown **
+
+Test iperf3_skip_rx_copy_sendfile to Host: 10.3.60.2   (num tests: 5)
+       Throughput:   Mean: 27.4 Gbps   Max: 33.2 Gbps   STDEV: 4.5   retrans: 18490
+     Sender CPU 1:   sys :  0.2   iowait:  0.0   soft:  3.4   steal:  0.0   idle: 96.3   Total:3.6
+     Sender CPU 2:   usr :  0.3   sys : 10.9   soft:  0.9   idle: 87.9   Total:12.1
+   Receiver CPU 1:   sys :  0.3   soft:  7.4   steal:  0.0   idle: 92.3   Total:7.7
+   Receiver CPU 2:   usr :  1.0   sys : 11.5   idle: 87.4   Total:12.5
+     ** Throughput appears to be memory limited, CWND limited, or unknown **
+
+Test iperf3_skip_rx_copy_sendfile_BBR to Host: 10.3.60.2   (num tests: 5)
+       Throughput:   Mean: 35.3 Gbps   Max: 36.0 Gbps   STDEV: 0.6   retrans: 948617
+     Sender CPU 1:   sys :  0.2   soft:  4.0   steal:  0.0   idle: 95.9   Total:4.2
+     Sender CPU 2:   usr :  0.4   sys : 15.1   iowait:  0.0   soft:  1.2   idle: 83.2   Total:16.7
+   Receiver CPU 1:   sys :  0.2   soft: 28.8   steal:  0.0   idle: 71.0   Total:29.0
+   Receiver CPU 2:   usr :  1.1   sys : 14.4   iowait:  0.0   soft:  0.0   idle: 84.5   Total:15.5
+     ** Throughput appears to be memory limited, CWND limited, or unknown **
+
+Test iperf3_skip_rx_copy_sendfile_BBR1 to Host: 10.3.60.2   (num tests: 5)
+       Throughput:   Mean: 30.7 Gbps   Max: 33.7 Gbps   STDEV: 4.3   retrans: 4995999
+     Sender CPU 1:   sys :  0.1   soft:  3.7   idle: 96.2   Total:3.8
+     Sender CPU 2:   usr :  0.4   sys : 12.9   soft:  1.3   idle: 85.4   Total:14.6
+   Receiver CPU 1:   sys :  0.1   soft: 69.4   steal:  0.0   idle: 30.5   Total:69.5
+   Receiver CPU 2:   usr :  0.7   sys : 12.2   soft:  0.0   idle: 87.0   Total:12.9
+     ** Throughput appears to be memory limited, CWND limited, or unknown **
+
+Test iperf3_skip_rx_copy_sendfile_BIGTCP to Host: 10.3.60.2   (num tests: 5)
+       Throughput:   Mean: 24.7 Gbps   Max: 26.9 Gbps   STDEV: 2.0   retrans: 15667
+     Sender CPU 1:   sys :  0.2   soft:  3.1   steal:  0.0   idle: 96.7   Total:3.3
+     Sender CPU 2:   usr :  0.3   sys :  8.8   soft:  0.7   idle: 90.2   Total:9.8
+   Receiver CPU 1:   sys :  0.2   soft:  6.0   steal:  0.0   idle: 93.8   Total:6.2
+   Receiver CPU 2:   usr :  1.0   sys :  9.9   idle: 89.2   Total:10.9
+     ** Throughput appears to be memory limited, CWND limited, or unknown **
+
+Test iperf3_skip_rx_copy_sendfile_HTCP to Host: 10.3.60.2   (num tests: 5)
+       Throughput:   Mean: 25.1 Gbps   Max: 28.6 Gbps   STDEV: 2.1   retrans: 45982
+     Sender CPU 1:   usr :  0.0   sys :  0.2   soft:  3.2   steal:  0.0   idle: 96.6   Total:3.4
+     Sender CPU 2:   usr :  0.3   sys :  9.8   soft:  0.8   idle: 89.2   Total:10.9
+   Receiver CPU 1:   sys :  0.3   soft:  7.3   steal:  0.0   idle: 92.5   Total:7.6
+   Receiver CPU 2:   usr :  0.9   sys : 10.0   iowait:  0.0   idle: 89.0   Total:10.9
+     ** Throughput appears to be memory limited, CWND limited, or unknown **
+
+Test iperf3_skip_rx_copy_zerocopy to Host: 10.3.60.2   (num tests: 5)
+       Throughput:   Mean: 27.2 Gbps   Max: 31.7 Gbps   STDEV: 3.6   retrans: 6454
+     Sender CPU 1:   sys :  0.3   soft:  3.0   steal:  0.0   idle: 96.7   Total:3.3
+     Sender CPU 2:   usr : 31.0   sys : 64.6   soft:  4.4   idle:  0.0   Total:100.0
+   Receiver CPU 1:   sys :  0.2   soft:  7.1   idle: 92.7   Total:7.3
+   Receiver CPU 2:   usr :  1.1   sys : 11.3   idle: 87.6   Total:12.4
+    ** Throughput appears to be limited by application CPU on the Send Host **
+
+Test iperf3_skip_rx_copy_zerocopy_BBR to Host: 10.3.60.2   (num tests: 5)
+       Throughput:   Mean: 34.8 Gbps   Max: 35.4 Gbps   STDEV: 0.7   retrans: 663214
+     Sender CPU 1:   sys :  0.2   soft:  3.7   idle: 96.1   Total:3.9
+     Sender CPU 2:   usr : 30.6   sys : 65.8   soft:  3.6   idle:  0.0   Total:100.0
+   Receiver CPU 1:   sys :  0.2   soft: 23.6   steal:  0.0   idle: 76.2   Total:23.8
+   Receiver CPU 2:   usr :  1.1   sys : 14.1   idle: 84.8   Total:15.2
+    ** Throughput appears to be limited by application CPU on the Send Host **
+
+Test iperf3_skip_rx_copy_zerocopy_BBR1 to Host: 10.3.60.2   (num tests: 5)
+       Throughput:   Mean: 27.3 Gbps   Max: 31.3 Gbps   STDEV: 2.9   retrans: 2353827
+     Sender CPU 1:   sys :  0.1   soft:  2.3   idle: 97.6   Total:2.4
+     Sender CPU 2:   usr : 28.7   sys : 69.3   soft:  2.0   Total:100.0
+   Receiver CPU 1:   sys :  0.1   soft: 36.6   steal:  0.0   idle: 63.3   Total:36.7
+   Receiver CPU 2:   usr :  0.7   sys : 10.2   idle: 89.1   Total:10.9
+    ** Throughput appears to be limited by application CPU on the Send Host **
+
+Test iperf3_skip_rx_copy_zerocopy_BIGTCP to Host: 10.3.60.2   (num tests: 5)
+       Throughput:   Mean: 29.7 Gbps   Max: 33.5 Gbps   STDEV: 4.1   retrans: 18809
+     Sender CPU 1:   sys :  0.2   soft:  3.1   steal:  0.0   idle: 96.7   Total:3.3
+     Sender CPU 2:   usr : 30.9   sys : 64.4   soft:  4.7   steal:  0.0   idle:  0.0   Total:100.0
+   Receiver CPU 1:   sys :  0.2   soft:  7.8   steal:  0.0   idle: 92.0   Total:8.0
+   Receiver CPU 2:   usr :  1.1   sys : 12.2   iowait:  0.0   idle: 86.7   Total:13.3
+    ** Throughput appears to be limited by application CPU on the Send Host **
+
+Test iperf3_skip_rx_copy_zerocopy_HTCP to Host: 10.3.60.2   (num tests: 5)
+       Throughput:   Mean: 28.4 Gbps   Max: 32.1 Gbps   STDEV: 2.2   retrans: 35658
+     Sender CPU 1:   sys :  0.3   soft:  2.6   idle: 97.1   Total:2.9
+     Sender CPU 2:   usr : 32.0   sys : 63.9   soft:  4.1   steal:  0.0   idle:  0.0   Total:100.0
+   Receiver CPU 1:   sys :  0.2   soft:  7.6   steal:  0.0   idle: 92.2   Total:7.8
+   Receiver CPU 2:   usr :  1.0   sys : 10.6   iowait:  0.0   idle: 88.4   Total:11.6
+    ** Throughput appears to be limited by application CPU on the Send Host **
+
+
+Result Summary, sorted by Average Throughput:
+IP Address: 10.3.54.2
+     Test Name: iperf3_skip_rx_copy_sendfile_BIGTCP, Ave Throughput: 98.9 Gbps (stdev: 0.0)
+     Test Name: iperf3_skip_rx_copy_sendfile, Ave Throughput: 98.9 Gbps (stdev: 0.0)
+     Test Name: iperf3_skip_rx_copy_zerocopy_BIGTCP, Ave Throughput: 98.8 Gbps (stdev: 0.0)
+     Test Name: iperf3_skip_rx_copy_zerocopy, Ave Throughput: 98.6 Gbps (stdev: 0.0)
+     Test Name: iperf3_skip_rx_copy_sendfile_HTCP, Ave Throughput: 97.8 Gbps (stdev: 0.5)
+     Test Name: iperf3_skip_rx_copy_BIGTCP, Ave Throughput: 97.4 Gbps (stdev: 1.9)
+     Test Name: iperf3_skip_rx_copy_zerocopy_HTCP, Ave Throughput: 97.4 Gbps (stdev: 0.1)
+     Test Name: iperf3_skip_rx_copy_HTCP, Ave Throughput: 82.1 Gbps (stdev: 0.3)
+     Test Name: iperf3_skip_rx_copy, Ave Throughput: 82.0 Gbps (stdev: 0.7)
+     Test Name: iperf3_skip_rx_copy_BBR_BIGTCP, Ave Throughput: 78.9 Gbps (stdev: 0.6)
+     Test Name: iperf3_skip_rx_copy_zerocopy_BBR1, Ave Throughput: 76.3 Gbps (stdev: 0.4)
+     Test Name: iperf3_skip_rx_copy_sendfile_BBR1, Ave Throughput: 76.1 Gbps (stdev: 0.6)
+     Test Name: iperf3_skip_rx_copy_zerocopy_BBR_BIGTCP, Ave Throughput: 69.7 Gbps (stdev: 1.1)
+     Test Name: iperf3_skip_rx_copy_zerocopy_BBR, Ave Throughput: 69.6 Gbps (stdev: 6.3)
+     Test Name: iperf3_skip_rx_copy_BBR1, Ave Throughput: 64.6 Gbps (stdev: 0.2)
+     Test Name: iperf3_skip_rx_copy_BBR, Ave Throughput: 64.4 Gbps (stdev: 2.5)
+     Test Name: iperf3_skip_rx_copy_sendfile_BBR, Ave Throughput: 63.5 Gbps (stdev: 1.0)
+     Test Name: iperf3_default_HTCP, Ave Throughput: 57.8 Gbps (stdev: 4.4)
+     Test Name: iperf3_default_BIGTCP, Ave Throughput: 55.7 Gbps (stdev: 3.6)
+     Test Name: iperf3_default, Ave Throughput: 54.4 Gbps (stdev: 2.8)
+     Test Name: iperf3_default_BBR1, Ave Throughput: 49.8 Gbps (stdev: 0.4)
+     Test Name: iperf3_default_BBR_BIGTCP, Ave Throughput: 49.5 Gbps (stdev: 0.8)
+     Test Name: iperf3_default_BBR, Ave Throughput: 48.9 Gbps (stdev: 0.8)
+IP Address: 10.3.56.2
+     Test Name: iperf3_skip_rx_copy_sendfile_BIGTCP, Ave Throughput: 52.5 Gbps (stdev: 7.4)
+     Test Name: iperf3_skip_rx_copy_zerocopy, Ave Throughput: 51.4 Gbps (stdev: 5.1)
+     Test Name: iperf3_skip_rx_copy_sendfile, Ave Throughput: 47.8 Gbps (stdev: 5.3)
+     Test Name: iperf3_skip_rx_copy_sendfile_BBR, Ave Throughput: 46.5 Gbps (stdev: 3.7)
+     Test Name: iperf3_skip_rx_copy_zerocopy_HTCP, Ave Throughput: 45.7 Gbps (stdev: 5.2)
+     Test Name: iperf3_skip_rx_copy_sendfile_HTCP, Ave Throughput: 45.6 Gbps (stdev: 5.7)
+     Test Name: iperf3_default_BIGTCP, Ave Throughput: 44.1 Gbps (stdev: 1.0)
+     Test Name: iperf3_default_BBR_BIGTCP, Ave Throughput: 42.8 Gbps (stdev: 0.1)
+     Test Name: iperf3_skip_rx_copy_zerocopy_BBR, Ave Throughput: 42.6 Gbps (stdev: 3.6)
+     Test Name: iperf3_skip_rx_copy_zerocopy_BIGTCP, Ave Throughput: 42.3 Gbps (stdev: 9.8)
+     Test Name: iperf3_skip_rx_copy_BBR_BIGTCP, Ave Throughput: 41.6 Gbps (stdev: 2.0)
+     Test Name: iperf3_default, Ave Throughput: 40.6 Gbps (stdev: 0.3)
+     Test Name: iperf3_skip_rx_copy_zerocopy_BBR1, Ave Throughput: 40.1 Gbps (stdev: 1.8)
+     Test Name: iperf3_skip_rx_copy_HTCP, Ave Throughput: 39.9 Gbps (stdev: 0.0)
+     Test Name: iperf3_skip_rx_copy_zerocopy_BBR_BIGTCP, Ave Throughput: 39.5 Gbps (stdev: 6.9)
+     Test Name: iperf3_skip_rx_copy_BIGTCP, Ave Throughput: 38.7 Gbps (stdev: 12.9)
+     Test Name: iperf3_skip_rx_copy_sendfile_BBR1, Ave Throughput: 38.4 Gbps (stdev: 1.0)
+     Test Name: iperf3_default_HTCP, Ave Throughput: 38.0 Gbps (stdev: 1.8)
+     Test Name: iperf3_default_BBR, Ave Throughput: 37.9 Gbps (stdev: 1.2)
+     Test Name: iperf3_default_BBR1, Ave Throughput: 37.7 Gbps (stdev: 1.3)
+     Test Name: iperf3_skip_rx_copy_BBR, Ave Throughput: 37.4 Gbps (stdev: 0.5)
+     Test Name: iperf3_skip_rx_copy_BBR1, Ave Throughput: 37.3 Gbps (stdev: 2.6)
+     Test Name: iperf3_skip_rx_copy, Ave Throughput: 33.7 Gbps (stdev: 11.1)
+IP Address: 10.3.58.2
+     Test Name: iperf3_skip_rx_copy_HTCP, Ave Throughput: 38.8 Gbps (stdev: 0.0)
+     Test Name: iperf3_default_BBR_BIGTCP, Ave Throughput: 38.2 Gbps (stdev: 2.6)
+     Test Name: iperf3_skip_rx_copy, Ave Throughput: 35.7 Gbps (stdev: 7.0)
+     Test Name: iperf3_skip_rx_copy_sendfile_BBR1, Ave Throughput: 35.4 Gbps (stdev: 2.3)
+     Test Name: iperf3_skip_rx_copy_BBR, Ave Throughput: 34.0 Gbps (stdev: 0.5)
+     Test Name: iperf3_default_BBR1, Ave Throughput: 34.0 Gbps (stdev: 1.5)
+     Test Name: iperf3_skip_rx_copy_BBR1, Ave Throughput: 33.9 Gbps (stdev: 0.4)
+     Test Name: iperf3_default_HTCP, Ave Throughput: 32.2 Gbps (stdev: 6.8)
+     Test Name: iperf3_default_BBR, Ave Throughput: 31.5 Gbps (stdev: 5.0)
+     Test Name: iperf3_skip_rx_copy_BBR_BIGTCP, Ave Throughput: 29.8 Gbps (stdev: 6.0)
+     Test Name: iperf3_default, Ave Throughput: 29.7 Gbps (stdev: 11.7)
+     Test Name: iperf3_skip_rx_copy_sendfile_BBR, Ave Throughput: 28.5 Gbps (stdev: 4.9)
+     Test Name: iperf3_default_BIGTCP, Ave Throughput: 24.5 Gbps (stdev: 0.5)
+     Test Name: iperf3_skip_rx_copy_zerocopy, Ave Throughput: 23.6 Gbps (stdev: 0.0)
+     Test Name: iperf3_skip_rx_copy_zerocopy_BBR_BIGTCP, Ave Throughput: 22.2 Gbps (stdev: 0.0)
+     Test Name: iperf3_skip_rx_copy_zerocopy_BBR1, Ave Throughput: 21.7 Gbps (stdev: 1.3)
+     Test Name: iperf3_skip_rx_copy_sendfile, Ave Throughput: 20.8 Gbps (stdev: 11.9)
+     Test Name: iperf3_skip_rx_copy_zerocopy_BIGTCP, Ave Throughput: 20.8 Gbps (stdev: 6.2)
+     Test Name: iperf3_skip_rx_copy_sendfile_HTCP, Ave Throughput: 20.6 Gbps (stdev: 3.0)
+     Test Name: iperf3_skip_rx_copy_zerocopy_BBR, Ave Throughput: 20.5 Gbps (stdev: 2.2)
+     Test Name: iperf3_skip_rx_copy_zerocopy_HTCP, Ave Throughput: 19.8 Gbps (stdev: 8.3)
+     Test Name: iperf3_skip_rx_copy_BIGTCP, Ave Throughput: 17.9 Gbps (stdev: 8.2)
+     Test Name: iperf3_skip_rx_copy_sendfile_BIGTCP, Ave Throughput: 12.2 Gbps (stdev: 0.0)
+IP Address: 10.3.60.2
+     Test Name: iperf3_skip_rx_copy_BBR, Ave Throughput: 38.0 Gbps (stdev: 0.1)
+     Test Name: iperf3_default_BBR, Ave Throughput: 37.8 Gbps (stdev: 0.2)
+     Test Name: iperf3_skip_rx_copy_BBR_BIGTCP, Ave Throughput: 37.7 Gbps (stdev: 0.2)
+     Test Name: iperf3_default_BBR1, Ave Throughput: 37.4 Gbps (stdev: 0.3)
+     Test Name: iperf3_default_HTCP, Ave Throughput: 37.2 Gbps (stdev: 2.2)
+     Test Name: iperf3_default_BBR_BIGTCP, Ave Throughput: 37.1 Gbps (stdev: 0.4)
+     Test Name: iperf3_default_BIGTCP, Ave Throughput: 36.1 Gbps (stdev: 2.1)
+     Test Name: iperf3_skip_rx_copy_sendfile_BBR, Ave Throughput: 35.3 Gbps (stdev: 0.6)
+     Test Name: iperf3_skip_rx_copy_zerocopy_BBR, Ave Throughput: 34.8 Gbps (stdev: 0.7)
+     Test Name: iperf3_skip_rx_copy_HTCP, Ave Throughput: 33.8 Gbps (stdev: 3.6)
+     Test Name: iperf3_skip_rx_copy_BBR1, Ave Throughput: 33.4 Gbps (stdev: 1.4)
+     Test Name: iperf3_default, Ave Throughput: 32.5 Gbps (stdev: 5.2)
+     Test Name: iperf3_skip_rx_copy, Ave Throughput: 31.6 Gbps (stdev: 4.3)
+     Test Name: iperf3_skip_rx_copy_sendfile_BBR1, Ave Throughput: 30.7 Gbps (stdev: 4.3)
+     Test Name: iperf3_skip_rx_copy_zerocopy_BIGTCP, Ave Throughput: 29.7 Gbps (stdev: 4.1)
+     Test Name: iperf3_skip_rx_copy_zerocopy_HTCP, Ave Throughput: 28.4 Gbps (stdev: 2.2)
+     Test Name: iperf3_skip_rx_copy_sendfile, Ave Throughput: 27.4 Gbps (stdev: 4.5)
+     Test Name: iperf3_skip_rx_copy_zerocopy_BBR1, Ave Throughput: 27.3 Gbps (stdev: 2.9)
+     Test Name: iperf3_skip_rx_copy_zerocopy, Ave Throughput: 27.2 Gbps (stdev: 3.6)
+     Test Name: iperf3_skip_rx_copy_BIGTCP, Ave Throughput: 26.2 Gbps (stdev: 6.3)
+     Test Name: iperf3_skip_rx_copy_sendfile_HTCP, Ave Throughput: 25.1 Gbps (stdev: 2.1)
+     Test Name: iperf3_skip_rx_copy_sendfile_BIGTCP, Ave Throughput: 24.7 Gbps (stdev: 2.0)
