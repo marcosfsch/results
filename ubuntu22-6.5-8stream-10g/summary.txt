@@ -1,0 +1,736 @@
+
+Collecting Results from all files...
+
+ Got mpstat data from 20 sender files and 20 receiver files
+
+Computing CPU Averages...
+
+Summary of all testing: 
+
+
+Test iperf3_default to Host: 10.3.54.2   (num tests: 5)
+       Throughput:   Mean: 75.7 Gbps   Max: 77.7 Gbps   STDEV: 1.9   retrans: 0
+     Sender CPU 1:   sys :  0.1   soft:  0.3   idle: 99.6   Total:0.4
+     Sender CPU 2:   sys :  0.0   iowait:  0.0   soft:  0.1   steal:  0.0   idle: 99.9   Total:0.1
+     Sender CPU 3:   sys :  0.1   soft:  0.1   idle: 99.8   Total:0.2
+     Sender CPU 4:   sys :  0.1   soft:  0.2   idle: 99.7   Total:0.3
+     Sender CPU 5:   sys :  0.2   idle: 99.8   Total:0.2
+     Sender CPU 6:   sys :  0.1   soft:  1.5   steal:  0.0   idle: 98.4   Total:1.6
+     Sender CPU 7:   usr :  0.0   sys :  0.1   soft:  0.2   steal:  0.0   idle: 99.7   Total:0.3
+     Sender CPU 8:   usr :  0.0   sys :  0.0   soft:  0.4   idle: 99.6   Total:0.4
+     Sender CPU 9:   usr :  0.4   sys : 70.6   soft:  5.7   steal:  0.0   idle: 23.4   Total:76.7
+     Sender CPU 10:   usr :  0.4   sys : 68.6   soft: 12.2   idle: 18.7   Total:81.2
+     Sender CPU 11:   usr :  0.4   sys : 66.6   soft:  9.0   idle: 24.0   Total:76.0
+     Sender CPU 12:   usr :  0.4   sys : 70.6   soft: 11.3   idle: 17.7   Total:82.3
+     Sender CPU 13:   usr :  0.4   sys : 68.3   soft: 11.8   idle: 19.6   Total:80.5
+     Sender CPU 14:   usr :  0.3   sys : 67.1   soft:  8.4   idle: 24.1   Total:75.8
+     Sender CPU 15:   usr :  0.4   sys : 54.9   soft: 15.7   idle: 29.0   Total:71.0
+     Sender CPU 16:   usr :  0.4   sys : 55.7   soft:  8.2   steal:  0.0   idle: 35.6   Total:64.3
+   Receiver CPU 1:   sys :  0.1   soft:  5.2   idle: 94.6   Total:5.3
+   Receiver CPU 2:   sys :  0.1   soft:  0.5   idle: 99.4   Total:0.6
+   Receiver CPU 3:   usr :  0.2   sys :  0.3   iowait:  0.1   soft:  0.6   idle: 98.8   Total:1.2
+   Receiver CPU 4:   sys :  0.2   soft:  5.5   idle: 94.3   Total:5.7
+   Receiver CPU 5:   sys :  0.1   soft:  0.7   idle: 99.2   Total:0.8
+   Receiver CPU 6:   sys :  0.1   soft:  1.0   idle: 98.9   Total:1.1
+   Receiver CPU 7:   sys :  0.1   soft:  0.8   steal:  0.0   idle: 99.1   Total:0.9
+   Receiver CPU 8:   sys :  0.1   soft:  3.2   steal:  0.0   idle: 96.6   Total:3.3
+   Receiver CPU 9:   usr :  0.6   sys : 21.3   idle: 78.0   Total:21.9
+   Receiver CPU 10:   usr :  0.6   sys : 20.9   idle: 78.4   Total:21.5
+   Receiver CPU 11:   usr :  0.6   sys : 20.1   steal:  0.0   idle: 79.3   Total:20.7
+   Receiver CPU 12:   usr :  0.4   sys : 15.8   idle: 83.8   Total:16.2
+   Receiver CPU 13:   usr :  0.6   sys : 21.7   idle: 77.7   Total:22.3
+   Receiver CPU 14:   usr :  0.5   sys : 20.7   iowait:  0.0   idle: 78.7   Total:21.2
+   Receiver CPU 15:   usr :  0.6   sys : 28.8   idle: 70.6   Total:29.4
+   Receiver CPU 16:   usr :  0.5   sys : 28.8   idle: 70.7   Total:29.3
+
+Test iperf3_default_BBR to Host: 10.3.54.2   (num tests: 5)
+       Throughput:   Mean: 75.6 Gbps   Max: 75.8 Gbps   STDEV: 0.2   retrans: 0
+     Sender CPU 1:   sys :  0.2   soft:  0.8   idle: 99.0   Total:1.0
+     Sender CPU 2:   sys :  0.2   iowait:  0.0   soft:  1.4   steal:  0.0   idle: 98.5   Total:1.6
+     Sender CPU 3:   sys :  0.0   soft:  0.3   idle: 99.7   Total:0.3
+     Sender CPU 4:   sys :  0.1   soft:  0.2   idle: 99.7   Total:0.3
+     Sender CPU 5:   usr :  0.0   sys :  0.0   soft:  0.3   idle: 99.7   Total:0.3
+     Sender CPU 6:   sys :  0.1   soft:  1.6   idle: 98.3   Total:1.7
+     Sender CPU 7:   usr :  0.0   sys :  0.2   soft:  0.9   idle: 98.9   Total:1.1
+     Sender CPU 8:   usr :  0.0   sys :  0.1   soft:  0.2   idle: 99.7   Total:0.3
+     Sender CPU 9:   usr :  0.2   sys : 20.9   soft:  2.9   steal:  0.0   idle: 76.0   Total:24.0
+     Sender CPU 10:   usr :  0.3   sys : 18.4   iowait:  0.0   soft:  1.9   idle: 79.4   Total:20.6
+     Sender CPU 11:   usr :  0.3   sys : 18.7   soft:  2.6   idle: 78.4   Total:21.6
+     Sender CPU 12:   usr :  0.2   sys : 18.8   soft:  1.3   idle: 79.6   Total:20.3
+     Sender CPU 13:   usr :  0.2   sys : 19.1   soft:  2.8   idle: 77.8   Total:22.1
+     Sender CPU 14:   usr :  0.3   sys : 19.4   soft:  2.2   idle: 78.1   Total:21.9
+     Sender CPU 15:   usr :  0.3   sys : 20.0   soft:  3.2   idle: 76.4   Total:23.5
+     Sender CPU 16:   usr :  0.3   sys : 19.2   soft:  3.5   steal:  0.0   idle: 77.0   Total:23.0
+   Receiver CPU 1:   sys :  0.1   soft:  3.6   idle: 96.3   Total:3.7
+   Receiver CPU 2:   usr :  0.0   sys :  0.1   soft:  1.4   steal:  0.0   idle: 98.5   Total:1.5
+   Receiver CPU 3:   usr :  0.0   sys :  0.2   soft:  1.7   steal:  0.0   idle: 98.2   Total:1.9
+   Receiver CPU 4:   sys :  0.1   soft:  1.7   idle: 98.2   Total:1.8
+   Receiver CPU 5:   sys :  0.1   soft:  1.2   idle: 98.6   Total:1.3
+   Receiver CPU 6:   sys :  0.1   soft:  1.5   steal:  0.0   idle: 98.4   Total:1.6
+   Receiver CPU 7:   sys :  0.1   soft:  0.9   steal:  0.0   idle: 99.0   Total:1.0
+   Receiver CPU 8:   sys :  0.1   soft:  1.2   steal:  0.0   idle: 98.8   Total:1.3
+   Receiver CPU 9:   usr :  0.5   sys : 19.8   iowait:  0.0   steal:  0.0   idle: 79.7   Total:20.3
+   Receiver CPU 10:   usr :  0.5   sys : 19.7   steal:  0.0   idle: 79.7   Total:20.2
+   Receiver CPU 11:   usr :  0.5   sys : 18.9   idle: 80.5   Total:19.4
+   Receiver CPU 12:   usr :  0.5   sys : 19.5   iowait:  0.0   idle: 79.9   Total:20.0
+   Receiver CPU 13:   usr :  0.5   sys : 19.9   idle: 79.6   Total:20.4
+   Receiver CPU 14:   usr :  0.6   sys : 19.2   idle: 80.2   Total:19.8
+   Receiver CPU 15:   usr :  0.5   sys : 28.0   idle: 71.5   Total:28.5
+   Receiver CPU 16:   usr :  0.6   sys : 28.9   steal:  0.0   idle: 70.6   Total:29.5
+
+Test iperf3_default_BBR1_BIGTCP to Host: 10.3.54.2   (num tests: 5)
+       Throughput:   Mean: 77.3 Gbps   Max: 77.5 Gbps   STDEV: 0.1   retrans: 0
+     Sender CPU 1:   sys :  0.1   soft:  0.4   idle: 99.5   Total:0.5
+     Sender CPU 2:   sys :  0.1   soft:  0.4   idle: 99.5   Total:0.5
+     Sender CPU 3:   sys :  0.0   soft:  0.4   idle: 99.6   Total:0.4
+     Sender CPU 4:   sys :  0.1   soft:  0.5   idle: 99.4   Total:0.6
+     Sender CPU 5:   usr :  0.0   sys :  0.0   soft:  0.6   idle: 99.4   Total:0.6
+     Sender CPU 6:   sys :  0.1   iowait:  0.0   soft:  1.4   idle: 98.5   Total:1.5
+     Sender CPU 7:   sys :  0.1   soft:  0.8   idle: 99.1   Total:0.9
+     Sender CPU 8:   sys :  0.0   soft:  0.2   idle: 99.7   Total:0.2
+     Sender CPU 9:   usr :  0.3   sys : 27.0   soft:  2.9   steal:  0.0   idle: 69.9   Total:30.2
+     Sender CPU 10:   usr :  0.3   sys : 27.2   soft:  2.1   idle: 70.4   Total:29.6
+     Sender CPU 11:   usr :  0.2   sys : 25.6   soft:  3.5   idle: 70.7   Total:29.3
+     Sender CPU 12:   usr :  0.3   sys : 26.9   soft:  2.2   idle: 70.7   Total:29.4
+     Sender CPU 13:   usr :  0.3   sys : 29.1   soft:  3.3   steal:  0.0   idle: 67.4   Total:32.7
+     Sender CPU 14:   usr :  0.3   sys : 27.9   soft:  2.6   idle: 69.2   Total:30.8
+     Sender CPU 15:   usr :  0.4   sys : 25.8   soft:  2.1   idle: 71.7   Total:28.3
+     Sender CPU 16:   usr :  0.3   sys : 25.1   soft:  5.0   idle: 69.6   Total:30.4
+   Receiver CPU 1:   sys :  0.1   soft:  2.7   steal:  0.0   idle: 97.2   Total:2.8
+   Receiver CPU 2:   sys :  0.1   soft:  1.0   idle: 98.9   Total:1.1
+   Receiver CPU 3:   usr :  0.0   sys :  0.1   soft:  1.0   idle: 98.9   Total:1.1
+   Receiver CPU 4:   sys :  0.1   soft:  2.1   steal:  0.0   idle: 97.8   Total:2.2
+   Receiver CPU 5:   usr :  0.0   sys :  0.1   soft:  1.5   idle: 98.4   Total:1.6
+   Receiver CPU 6:   sys :  0.1   soft:  1.7   idle: 98.2   Total:1.8
+   Receiver CPU 7:   usr :  0.0   sys :  0.1   soft:  1.7   steal:  0.0   idle: 98.1   Total:1.8
+   Receiver CPU 8:   sys :  0.1   soft:  1.7   steal:  0.0   idle: 98.1   Total:1.8
+   Receiver CPU 9:   usr :  0.5   sys : 22.0   iowait:  0.0   steal:  0.0   idle: 77.5   Total:22.5
+   Receiver CPU 10:   usr :  0.5   sys : 20.2   steal:  0.0   idle: 79.3   Total:20.7
+   Receiver CPU 11:   usr :  0.6   sys : 20.3   iowait:  0.0   steal:  0.0   idle: 79.2   Total:20.9
+   Receiver CPU 12:   usr :  0.5   sys : 20.2   idle: 79.3   Total:20.7
+   Receiver CPU 13:   usr :  0.5   sys : 21.2   steal:  0.0   idle: 78.3   Total:21.7
+   Receiver CPU 14:   usr :  0.5   sys : 20.9   steal:  0.0   idle: 78.5   Total:21.4
+   Receiver CPU 15:   usr :  0.6   sys : 31.8   steal:  0.0   idle: 67.6   Total:32.4
+   Receiver CPU 16:   usr :  0.6   sys : 32.2   idle: 67.2   Total:32.8
+
+Test iperf3_default_BBR_BIGTCP to Host: 10.3.54.2   (num tests: 5)
+       Throughput:   Mean: 75.5 Gbps   Max: 76.0 Gbps   STDEV: 0.4   retrans: 0
+     Sender CPU 1:   sys :  0.1   soft:  0.6   idle: 99.3   Total:0.7
+     Sender CPU 2:   sys :  0.2   soft:  0.5   steal:  0.0   idle: 99.3   Total:0.7
+     Sender CPU 3:   sys :  0.1   soft:  0.5   idle: 99.3   Total:0.6
+     Sender CPU 4:   sys :  0.1   iowait:  0.0   soft:  1.0   idle: 98.9   Total:1.1
+     Sender CPU 5:   usr :  0.0   sys :  0.1   soft:  0.5   idle: 99.4   Total:0.6
+     Sender CPU 6:   sys :  0.1   soft:  1.0   idle: 98.9   Total:1.1
+     Sender CPU 7:   sys :  0.1   soft:  0.6   idle: 99.3   Total:0.7
+     Sender CPU 8:   sys :  0.0   soft:  0.3   idle: 99.7   Total:0.3
+     Sender CPU 9:   usr :  0.3   sys : 19.8   soft:  2.1   idle: 77.8   Total:22.2
+     Sender CPU 10:   usr :  0.3   sys : 19.2   soft:  1.3   idle: 79.2   Total:20.8
+     Sender CPU 11:   usr :  0.2   sys : 18.2   soft:  2.5   idle: 79.1   Total:20.9
+     Sender CPU 12:   usr :  0.3   sys : 19.4   iowait:  0.0   soft:  1.3   idle: 79.1   Total:21.0
+     Sender CPU 13:   usr :  0.2   sys : 20.0   soft:  2.6   idle: 77.2   Total:22.8
+     Sender CPU 14:   usr :  0.3   sys : 19.2   soft:  1.9   idle: 78.6   Total:21.4
+     Sender CPU 15:   usr :  0.3   sys : 20.2   soft:  2.4   steal:  0.0   idle: 77.1   Total:22.9
+     Sender CPU 16:   usr :  0.2   sys : 18.2   soft:  5.3   steal:  0.0   idle: 76.3   Total:23.7
+   Receiver CPU 1:   sys :  0.2   soft:  5.4   idle: 94.4   Total:5.6
+   Receiver CPU 2:   sys :  0.1   soft:  1.4   idle: 98.5   Total:1.5
+   Receiver CPU 3:   sys :  0.1   soft:  4.6   idle: 95.2   Total:4.7
+   Receiver CPU 4:   sys :  0.1   soft:  1.2   idle: 98.7   Total:1.3
+   Receiver CPU 5:   sys :  0.1   soft:  0.7   steal:  0.0   idle: 99.2   Total:0.8
+   Receiver CPU 6:   usr :  0.0   sys :  0.1   soft:  0.9   idle: 99.0   Total:1.0
+   Receiver CPU 7:   sys :  0.1   soft:  2.2   idle: 97.7   Total:2.3
+   Receiver CPU 8:   sys :  0.1   soft:  2.3   steal:  0.0   idle: 97.6   Total:2.4
+   Receiver CPU 9:   usr :  0.5   sys : 21.2   idle: 78.2   Total:21.7
+   Receiver CPU 10:   usr :  0.5   sys : 20.1   iowait:  0.0   steal:  0.0   idle: 79.4   Total:20.6
+   Receiver CPU 11:   usr :  0.5   sys : 19.9   steal:  0.0   idle: 79.6   Total:20.4
+   Receiver CPU 12:   usr :  0.6   sys : 21.7   idle: 77.7   Total:22.3
+   Receiver CPU 13:   usr :  0.6   sys : 21.2   idle: 78.2   Total:21.8
+   Receiver CPU 14:   usr :  0.5   sys : 21.3   iowait:  0.0   idle: 78.1   Total:21.8
+   Receiver CPU 15:   usr :  0.6   sys : 32.0   idle: 67.4   Total:32.6
+   Receiver CPU 16:   usr :  0.6   sys : 30.5   idle: 68.9   Total:31.1
+
+Test iperf3_default_BIGTCP to Host: 10.3.54.2   (num tests: 5)
+       Throughput:   Mean: 72.4 Gbps   Max: 74.8 Gbps   STDEV: 1.8   retrans: 0
+     Sender CPU 1:   usr :  0.0   sys :  0.2   soft:  0.5   steal:  0.0   idle: 99.3   Total:0.7
+     Sender CPU 2:   usr :  0.0   sys :  0.1   soft:  0.1   idle: 99.8   Total:0.2
+     Sender CPU 3:   sys :  0.1   iowait:  0.0   soft:  0.5   steal:  0.0   idle: 99.4   Total:0.6
+     Sender CPU 4:   usr :  0.0   sys :  0.2   soft:  0.2   steal:  0.0   idle: 99.6   Total:0.4
+     Sender CPU 5:   usr :  0.0   sys :  0.2   soft:  0.7   steal:  0.0   idle: 99.1   Total:0.9
+     Sender CPU 6:   sys :  0.2   soft:  1.4   idle: 98.4   Total:1.6
+     Sender CPU 7:   sys :  0.0   idle: 100.0   Total:0.0
+     Sender CPU 8:   sys :  0.1   soft:  0.1   idle: 99.9   Total:0.2
+     Sender CPU 9:   usr :  0.4   sys : 70.2   soft: 10.0   steal:  0.0   idle: 19.4   Total:80.6
+     Sender CPU 10:   usr :  0.3   sys : 67.2   soft:  7.9   idle: 24.6   Total:75.4
+     Sender CPU 11:   usr :  0.3   sys : 68.8   soft:  8.8   steal:  0.0   idle: 22.1   Total:77.9
+     Sender CPU 12:   usr :  0.3   sys : 68.1   soft: 11.2   steal:  0.0   idle: 20.3   Total:79.6
+     Sender CPU 13:   usr :  0.4   sys : 65.9   soft:  7.5   steal:  0.0   idle: 26.2   Total:73.8
+     Sender CPU 14:   usr :  0.4   sys : 69.8   soft:  7.2   steal:  0.0   idle: 22.6   Total:77.4
+     Sender CPU 15:   usr :  0.4   sys : 51.3   soft:  5.8   steal:  0.0   idle: 42.5   Total:57.5
+     Sender CPU 16:   usr :  0.4   sys : 50.0   soft:  5.5   idle: 44.2   Total:55.9
+   Receiver CPU 1:   sys :  0.1   iowait:  0.0   soft:  2.5   steal:  0.0   idle: 97.4   Total:2.6
+   Receiver CPU 2:   sys :  0.1   soft:  1.1   idle: 98.8   Total:1.2
+   Receiver CPU 3:   sys :  0.1   soft:  0.9   steal:  0.0   idle: 99.0   Total:1.0
+   Receiver CPU 4:   sys :  0.1   iowait:  0.0   soft:  2.0   steal:  0.0   idle: 97.9   Total:2.1
+   Receiver CPU 5:   sys :  0.2   soft:  2.7   idle: 97.1   Total:2.9
+   Receiver CPU 6:   sys :  0.1   soft:  2.7   idle: 97.1   Total:2.8
+   Receiver CPU 7:   usr :  0.0   sys :  0.1   soft:  0.5   steal:  0.0   idle: 99.4   Total:0.6
+   Receiver CPU 8:   sys :  0.1   soft:  0.2   steal:  0.0   idle: 99.7   Total:0.3
+   Receiver CPU 9:   usr :  0.5   sys : 21.9   steal:  0.0   idle: 77.6   Total:22.4
+   Receiver CPU 10:   usr :  0.5   sys : 21.1   idle: 78.4   Total:21.6
+   Receiver CPU 11:   usr :  0.5   sys : 20.1   idle: 79.4   Total:20.6
+   Receiver CPU 12:   usr :  0.5   sys : 19.1   idle: 80.4   Total:19.6
+   Receiver CPU 13:   usr :  0.5   sys : 20.3   iowait:  0.0   idle: 79.1   Total:20.8
+   Receiver CPU 14:   usr :  0.5   sys : 20.4   idle: 79.1   Total:20.9
+   Receiver CPU 15:   usr :  0.5   sys : 30.2   steal:  0.0   idle: 69.2   Total:30.7
+   Receiver CPU 16:   usr :  0.5   sys : 31.6   idle: 67.9   Total:32.1
+
+Test iperf3_default to Host: 10.3.56.2   (num tests: 5)
+       Throughput:   Mean: 56.1 Gbps   Max: 64.1 Gbps   STDEV: 5.2   retrans: 0
+     Sender CPU 1:   sys :  0.2   soft:  0.3   steal:  0.0   idle: 99.5   Total:0.5
+     Sender CPU 2:   sys :  0.0   iowait:  0.0   soft:  0.0   idle: 99.9   Total:0.0
+     Sender CPU 3:   sys :  0.1   soft:  0.1   steal:  0.0   idle: 99.8   Total:0.2
+     Sender CPU 4:   usr :  0.0   sys :  0.1   soft:  0.2   steal:  0.0   idle: 99.7   Total:0.3
+     Sender CPU 5:   usr :  0.0   sys :  0.3   soft:  0.0   steal:  0.0   idle: 99.6   Total:0.3
+     Sender CPU 6:   sys :  0.0   soft:  0.5   idle: 99.5   Total:0.5
+     Sender CPU 7:   usr :  0.0   sys :  0.2   soft:  0.1   steal:  0.0   idle: 99.6   Total:0.3
+     Sender CPU 8:   usr :  0.0   sys :  0.1   iowait:  0.0   soft:  0.2   steal:  0.0   idle: 99.8   Total:0.3
+     Sender CPU 9:   usr :  0.3   sys : 77.9   soft:  5.8   steal:  0.0   idle: 16.0   Total:84.0
+     Sender CPU 10:   usr :  0.4   sys : 85.2   soft:  5.4   idle:  9.0   Total:91.0
+     Sender CPU 11:   usr :  0.4   sys : 89.4   soft:  4.6   steal:  0.0   idle:  5.7   Total:94.4
+     Sender CPU 12:   usr :  0.3   sys : 79.7   soft:  6.0   idle: 13.9   Total:86.0
+     Sender CPU 13:   usr :  0.3   sys : 92.7   soft:  5.1   steal:  0.0   idle:  1.9   Total:98.1
+     Sender CPU 14:   usr :  0.4   sys : 93.1   soft:  3.6   steal:  0.0   idle:  3.0   Total:97.1
+     Sender CPU 15:   usr :  0.4   sys : 95.0   soft:  4.5   steal:  0.1   idle:  0.1   Total:100.0
+     Sender CPU 16:   usr :  0.3   sys : 94.8   soft:  4.9   steal:  0.0   Total:100.0
+   Receiver CPU 1:   sys :  0.1   iowait:  0.0   soft:  2.7   steal:  0.0   idle: 97.1   Total:2.8
+   Receiver CPU 2:   sys :  0.1   soft:  1.0   idle: 98.9   Total:1.1
+   Receiver CPU 3:   sys :  0.1   soft:  1.2   idle: 98.7   Total:1.3
+   Receiver CPU 4:   sys :  0.1   soft:  0.4   steal:  0.0   idle: 99.5   Total:0.5
+   Receiver CPU 5:   sys :  0.1   soft:  0.8   steal:  0.0   idle: 99.1   Total:0.9
+   Receiver CPU 6:   sys :  0.1   soft:  0.9   idle: 98.9   Total:1.0
+   Receiver CPU 7:   sys :  0.1   soft:  0.8   steal:  0.0   idle: 99.1   Total:0.9
+   Receiver CPU 8:   sys :  0.1   soft:  0.8   steal:  0.0   idle: 99.1   Total:0.9
+   Receiver CPU 9:   usr :  0.5   sys : 15.5   idle: 84.1   Total:16.0
+   Receiver CPU 10:   usr :  0.4   sys : 14.9   idle: 84.7   Total:15.3
+   Receiver CPU 11:   usr :  0.4   sys : 14.1   idle: 85.5   Total:14.5
+   Receiver CPU 12:   usr :  0.5   sys : 14.3   iowait:  0.0   steal:  0.0   idle: 85.2   Total:14.8
+   Receiver CPU 13:   usr :  0.4   sys : 14.7   idle: 84.8   Total:15.1
+   Receiver CPU 14:   usr :  0.5   sys : 15.6   idle: 83.9   Total:16.1
+   Receiver CPU 15:   usr :  0.4   sys : 21.6   idle: 78.0   Total:22.0
+   Receiver CPU 16:   usr :  0.5   sys : 23.9   steal:  0.0   idle: 75.6   Total:24.4
+
+Test iperf3_default_BBR to Host: 10.3.56.2   (num tests: 5)
+       Throughput:   Mean: 56.2 Gbps   Max: 58.6 Gbps   STDEV: 2.0   retrans: 20070
+     Sender CPU 1:   sys :  0.1   soft:  0.1   idle: 99.7   Total:0.2
+     Sender CPU 2:   sys :  0.2   soft:  0.2   idle: 99.6   Total:0.4
+     Sender CPU 3:   sys :  0.1   soft:  0.3   steal:  0.0   idle: 99.7   Total:0.4
+     Sender CPU 4:   sys :  0.2   iowait:  0.0   soft:  0.1   idle: 99.8   Total:0.3
+     Sender CPU 5:   usr :  0.0   sys :  0.1   soft:  0.1   steal:  0.0   idle: 99.7   Total:0.2
+     Sender CPU 6:   sys :  0.2   soft:  0.3   steal:  0.0   idle: 99.5   Total:0.5
+     Sender CPU 7:   usr :  0.0   sys :  0.1   soft:  0.2   idle: 99.7   Total:0.3
+     Sender CPU 8:   sys :  0.0   soft:  0.1   idle: 99.9   Total:0.1
+     Sender CPU 9:   usr :  0.4   sys : 90.0   soft:  7.1   steal:  0.0   idle:  2.6   Total:97.5
+     Sender CPU 10:   usr :  0.3   sys : 81.4   soft:  7.9   idle: 10.4   Total:89.6
+     Sender CPU 11:   usr :  0.3   sys : 81.2   soft:  5.5   steal:  0.0   idle: 13.0   Total:87.0
+     Sender CPU 12:   usr :  0.4   sys : 88.1   soft:  6.7   steal:  0.0   idle:  4.9   Total:95.2
+     Sender CPU 13:   usr :  0.4   sys : 87.9   soft:  4.6   steal:  0.0   idle:  7.1   Total:92.9
+     Sender CPU 14:   usr :  0.4   sys : 87.6   soft:  3.6   steal:  0.0   idle:  8.4   Total:91.6
+     Sender CPU 15:   usr :  0.3   sys : 92.5   soft:  6.2   steal:  0.0   idle:  1.0   Total:99.0
+     Sender CPU 16:   usr :  0.4   sys : 91.1   soft:  7.6   idle:  1.0   Total:99.1
+   Receiver CPU 1:   sys :  0.1   iowait:  0.0   soft:  4.3   steal:  0.0   idle: 95.6   Total:4.4
+   Receiver CPU 2:   sys :  0.1   iowait:  0.0   soft:  0.9   steal:  0.0   idle: 98.9   Total:1.0
+   Receiver CPU 3:   sys :  0.1   soft:  0.8   steal:  0.0   idle: 99.2   Total:0.9
+   Receiver CPU 4:   usr :  0.0   sys :  0.1   soft:  1.9   idle: 98.0   Total:2.0
+   Receiver CPU 5:   sys :  0.1   soft:  0.6   steal:  0.0   idle: 99.3   Total:0.7
+   Receiver CPU 6:   sys :  0.1   soft:  0.5   steal:  0.0   idle: 99.4   Total:0.6
+   Receiver CPU 7:   sys :  0.1   soft:  0.8   steal:  0.0   idle: 99.2   Total:0.9
+   Receiver CPU 8:   sys :  0.1   soft:  1.2   steal:  0.0   idle: 98.6   Total:1.3
+   Receiver CPU 9:   usr :  0.5   sys : 17.2   steal:  0.0   idle: 82.3   Total:17.7
+   Receiver CPU 10:   usr :  0.4   sys : 15.6   idle: 83.9   Total:16.0
+   Receiver CPU 11:   usr :  0.4   sys : 14.7   steal:  0.0   idle: 84.9   Total:15.1
+   Receiver CPU 12:   usr :  0.4   sys : 15.2   steal:  0.0   idle: 84.4   Total:15.6
+   Receiver CPU 13:   usr :  0.5   sys : 14.9   idle: 84.6   Total:15.4
+   Receiver CPU 14:   usr :  0.5   sys : 14.9   idle: 84.7   Total:15.4
+   Receiver CPU 15:   usr :  0.5   sys : 22.4   steal:  0.0   idle: 77.1   Total:22.9
+   Receiver CPU 16:   usr :  0.5   sys : 22.7   steal:  0.0   idle: 76.8   Total:23.2
+
+Test iperf3_default_BBR1_BIGTCP to Host: 10.3.56.2   (num tests: 5)
+       Throughput:   Mean: 56.4 Gbps   Max: 57.5 Gbps   STDEV: 1.0   retrans: 138598
+     Sender CPU 1:   sys :  0.3   soft:  0.1   idle: 99.7   Total:0.4
+     Sender CPU 2:   usr :  0.0   sys :  0.1   soft:  0.2   steal:  0.0   idle: 99.7   Total:0.3
+     Sender CPU 3:   sys :  0.1   idle: 99.9   Total:0.1
+     Sender CPU 4:   usr :  0.0   sys :  0.1   soft:  0.1   idle: 99.8   Total:0.2
+     Sender CPU 5:   usr :  0.0   sys :  0.2   soft:  0.3   idle: 99.4   Total:0.5
+     Sender CPU 6:   sys :  0.2   iowait:  0.0   soft:  0.5   idle: 99.3   Total:0.7
+     Sender CPU 7:   usr :  0.0   sys :  0.1   soft:  0.1   steal:  0.0   idle: 99.7   Total:0.2
+     Sender CPU 8:   sys :  0.0   soft:  0.0   idle: 100.0   Total:0.0
+     Sender CPU 9:   usr :  0.3   sys : 82.1   soft:  7.1   steal:  0.0   idle: 10.4   Total:89.5
+     Sender CPU 10:   usr :  0.4   sys : 91.3   soft:  4.1   steal:  0.0   idle:  4.2   Total:95.8
+     Sender CPU 11:   usr :  0.4   sys : 91.9   soft:  4.2   steal:  0.0   idle:  3.5   Total:96.5
+     Sender CPU 12:   usr :  0.4   sys : 91.4   soft:  4.2   steal:  0.0   idle:  4.0   Total:96.0
+     Sender CPU 13:   usr :  0.3   sys : 78.4   soft:  5.4   steal:  0.0   idle: 15.9   Total:84.1
+     Sender CPU 14:   usr :  0.3   sys : 86.6   soft:  5.5   idle:  7.5   Total:92.4
+     Sender CPU 15:   usr :  0.4   sys : 88.8   soft:  6.4   steal:  0.0   idle:  4.4   Total:95.6
+     Sender CPU 16:   usr :  0.3   sys : 89.1   soft:  6.7   steal:  0.0   idle:  3.9   Total:96.1
+   Receiver CPU 1:   sys :  0.1   iowait:  0.0   soft:  2.8   steal:  0.0   idle: 97.1   Total:2.9
+   Receiver CPU 2:   usr :  0.0   sys :  0.1   soft:  1.3   steal:  0.0   idle: 98.6   Total:1.4
+   Receiver CPU 3:   sys :  0.1   soft:  1.3   steal:  0.0   idle: 98.6   Total:1.4
+   Receiver CPU 4:   usr :  0.0   sys :  0.1   soft:  0.6   steal:  0.0   idle: 99.2   Total:0.7
+   Receiver CPU 5:   sys :  0.1   soft:  0.9   steal:  0.0   idle: 99.0   Total:1.0
+   Receiver CPU 6:   sys :  0.1   soft:  0.4   steal:  0.0   idle: 99.5   Total:0.5
+   Receiver CPU 7:   sys :  0.1   soft:  1.4   steal:  0.0   idle: 98.5   Total:1.5
+   Receiver CPU 8:   sys :  0.1   soft:  0.3   steal:  0.0   idle: 99.6   Total:0.4
+   Receiver CPU 9:   usr :  0.4   sys : 15.9   iowait:  0.0   idle: 83.6   Total:16.3
+   Receiver CPU 10:   usr :  0.4   sys : 16.0   idle: 83.6   Total:16.4
+   Receiver CPU 11:   usr :  0.4   sys : 15.6   idle: 84.0   Total:16.0
+   Receiver CPU 12:   usr :  0.4   sys : 16.3   steal:  0.0   idle: 83.3   Total:16.7
+   Receiver CPU 13:   usr :  0.5   sys : 16.1   steal:  0.0   idle: 83.4   Total:16.6
+   Receiver CPU 14:   usr :  0.4   sys : 16.2   idle: 83.4   Total:16.6
+   Receiver CPU 15:   usr :  0.5   sys : 25.7   steal:  0.0   idle: 73.8   Total:26.2
+   Receiver CPU 16:   usr :  0.4   sys : 22.4   soft:  0.0   steal:  0.0   idle: 77.2   Total:22.8
+
+Test iperf3_default_BBR_BIGTCP to Host: 10.3.56.2   (num tests: 5)
+       Throughput:   Mean: 55.8 Gbps   Max: 58.6 Gbps   STDEV: 3.1   retrans: 22438
+     Sender CPU 1:   usr :  0.0   sys :  0.2   soft:  0.3   steal:  0.0   idle: 99.5   Total:0.5
+     Sender CPU 2:   usr :  0.0   sys :  0.2   iowait:  0.0   soft:  0.1   idle: 99.6   Total:0.3
+     Sender CPU 3:   sys :  0.2   soft:  0.1   steal:  0.0   idle: 99.7   Total:0.3
+     Sender CPU 4:   usr :  0.0   sys :  0.2   soft:  0.1   idle: 99.7   Total:0.3
+     Sender CPU 5:   usr :  0.0   sys :  0.1   soft:  0.1   idle: 99.8   Total:0.2
+     Sender CPU 6:   sys :  0.0   soft:  0.1   idle: 99.9   Total:0.1
+     Sender CPU 7:   usr :  0.0   sys :  0.1   iowait:  0.0   soft:  0.1   idle: 99.9   Total:0.2
+     Sender CPU 8:   usr :  0.0   sys :  0.0   soft:  0.0   idle: 100.0   Total:0.0
+     Sender CPU 9:   usr :  0.4   sys : 87.0   soft:  5.7   idle:  6.9   Total:93.1
+     Sender CPU 10:   usr :  0.4   sys : 86.2   soft:  5.6   steal:  0.0   idle:  7.9   Total:92.2
+     Sender CPU 11:   usr :  0.4   sys : 87.6   soft:  6.2   idle:  5.8   Total:94.2
+     Sender CPU 12:   usr :  0.4   sys : 85.4   soft:  5.7   steal:  0.0   idle:  8.6   Total:91.5
+     Sender CPU 13:   usr :  0.3   sys : 87.3   soft:  6.6   idle:  5.8   Total:94.2
+     Sender CPU 14:   usr :  0.4   sys : 87.5   soft:  4.8   idle:  7.3   Total:92.7
+     Sender CPU 15:   usr :  0.4   sys : 86.6   soft: 10.0   steal:  0.0   idle:  3.0   Total:97.0
+     Sender CPU 16:   usr :  0.3   sys : 88.7   soft:  6.5   idle:  4.4   Total:95.5
+   Receiver CPU 1:   sys :  0.1   soft:  2.4   idle: 97.5   Total:2.5
+   Receiver CPU 2:   sys :  0.1   soft:  1.0   idle: 99.0   Total:1.1
+   Receiver CPU 3:   sys :  0.1   soft:  0.8   idle: 99.2   Total:0.9
+   Receiver CPU 4:   sys :  0.1   soft:  1.6   steal:  0.0   idle: 98.3   Total:1.7
+   Receiver CPU 5:   sys :  0.1   soft:  0.5   steal:  0.0   idle: 99.5   Total:0.6
+   Receiver CPU 6:   usr :  0.0   sys :  0.1   soft:  0.5   steal:  0.0   idle: 99.4   Total:0.6
+   Receiver CPU 7:   sys :  0.1   soft:  1.1   steal:  0.0   idle: 98.8   Total:1.2
+   Receiver CPU 8:   sys :  0.1   soft:  0.7   idle: 99.2   Total:0.8
+   Receiver CPU 9:   usr :  0.3   sys : 15.3   steal:  0.0   idle: 84.3   Total:15.6
+   Receiver CPU 10:   usr :  0.4   sys : 15.5   idle: 84.1   Total:15.9
+   Receiver CPU 11:   usr :  0.5   sys : 14.6   iowait:  0.0   steal:  0.0   idle: 85.0   Total:15.1
+   Receiver CPU 12:   usr :  0.4   sys : 15.3   idle: 84.3   Total:15.7
+   Receiver CPU 13:   usr :  0.5   sys : 15.4   idle: 84.1   Total:15.9
+   Receiver CPU 14:   usr :  0.4   sys : 15.2   iowait:  0.0   idle: 84.4   Total:15.6
+   Receiver CPU 15:   usr :  0.4   sys : 23.5   idle: 76.0   Total:23.9
+   Receiver CPU 16:   usr :  0.4   sys : 23.0   steal:  0.0   idle: 76.5   Total:23.4
+
+Test iperf3_default_BIGTCP to Host: 10.3.56.2   (num tests: 5)
+       Throughput:   Mean: 55.6 Gbps   Max: 62.5 Gbps   STDEV: 5.0   retrans: 122
+     Sender CPU 1:   sys :  0.2   soft:  0.2   idle: 99.6   Total:0.4
+     Sender CPU 2:   usr :  0.0   sys :  0.2   soft:  0.2   steal:  0.0   idle: 99.6   Total:0.4
+     Sender CPU 3:   usr :  0.0   sys :  0.1   iowait:  0.0   soft:  0.1   idle: 99.8   Total:0.2
+     Sender CPU 4:   usr :  0.0   sys :  0.2   soft:  0.1   steal:  0.0   idle: 99.6   Total:0.3
+     Sender CPU 5:   idle: 100.0   Total:0.0
+     Sender CPU 6:   sys :  0.0   soft:  0.2   idle: 99.8   Total:0.2
+     Sender CPU 7:   sys :  0.0   soft:  0.1   idle: 99.9   Total:0.1
+     Sender CPU 8:   sys :  0.0   soft:  0.0   idle: 100.0   Total:0.0
+     Sender CPU 9:   usr :  0.4   sys : 92.9   soft:  4.9   steal:  0.0   idle:  1.8   Total:98.2
+     Sender CPU 10:   usr :  0.4   sys : 86.3   soft:  4.4   steal:  0.0   idle:  9.0   Total:91.1
+     Sender CPU 11:   usr :  0.4   sys : 82.8   soft:  3.0   steal:  0.0   idle: 13.9   Total:86.2
+     Sender CPU 12:   usr :  0.4   sys : 82.2   soft:  6.2   steal:  0.0   idle: 11.2   Total:88.8
+     Sender CPU 13:   usr :  0.3   sys : 80.2   soft:  6.3   steal:  0.0   idle: 13.2   Total:86.8
+     Sender CPU 14:   usr :  0.4   sys : 92.7   soft:  5.6   idle:  1.3   Total:98.7
+     Sender CPU 15:   usr :  0.4   sys : 95.8   soft:  3.5   steal:  0.0   idle:  0.3   Total:99.7
+     Sender CPU 16:   usr :  0.4   sys : 95.6   soft:  3.7   idle:  0.3   Total:99.7
+   Receiver CPU 1:   sys :  0.1   soft:  1.9   steal:  0.0   idle: 98.0   Total:2.0
+   Receiver CPU 2:   sys :  0.1   soft:  1.0   steal:  0.0   idle: 98.9   Total:1.1
+   Receiver CPU 3:   sys :  0.1   soft:  0.7   steal:  0.1   idle: 99.1   Total:0.9
+   Receiver CPU 4:   sys :  0.1   soft:  0.9   steal:  0.0   idle: 99.0   Total:1.0
+   Receiver CPU 5:   sys :  0.1   soft:  0.7   steal:  0.0   idle: 99.2   Total:0.8
+   Receiver CPU 6:   sys :  0.1   iowait:  0.0   soft:  0.8   steal:  0.0   idle: 99.1   Total:0.9
+   Receiver CPU 7:   sys :  0.1   soft:  0.3   steal:  0.0   idle: 99.6   Total:0.4
+   Receiver CPU 8:   sys :  0.1   iowait:  0.0   soft:  0.6   steal:  0.1   idle: 99.2   Total:0.8
+   Receiver CPU 9:   usr :  0.4   sys : 16.4   idle: 83.1   Total:16.8
+   Receiver CPU 10:   usr :  0.4   sys : 14.9   iowait:  0.0   steal:  0.0   idle: 84.6   Total:15.3
+   Receiver CPU 11:   usr :  0.5   sys : 14.7   steal:  0.0   idle: 84.9   Total:15.2
+   Receiver CPU 12:   usr :  0.3   sys : 13.5   steal:  0.0   idle: 86.1   Total:13.8
+   Receiver CPU 13:   usr :  0.4   sys : 15.0   steal:  0.0   idle: 84.6   Total:15.4
+   Receiver CPU 14:   usr :  0.4   sys : 14.7   iowait:  0.0   idle: 84.9   Total:15.1
+   Receiver CPU 15:   usr :  0.5   sys : 23.9   steal:  0.0   idle: 75.6   Total:24.4
+   Receiver CPU 16:   usr :  0.4   sys : 20.0   steal:  0.0   idle: 79.6   Total:20.4
+
+Test iperf3_default to Host: 10.3.58.2   (num tests: 5)
+       Throughput:   Mean: 37.0 Gbps   Max: 40.9 Gbps   STDEV: 3.4   retrans: 219
+     Sender CPU 1:   sys :  0.2   iowait:  0.0   soft:  0.0   steal:  0.0   idle: 99.8   Total:0.2
+     Sender CPU 2:   usr :  0.0   sys :  0.1   iowait:  0.0   soft:  0.1   steal:  0.0   idle: 99.8   Total:0.2
+     Sender CPU 3:   sys :  0.1   iowait:  0.0   soft:  0.1   idle: 99.8   Total:0.2
+     Sender CPU 4:   usr :  0.0   sys :  0.0   soft:  0.1   idle: 99.9   Total:0.1
+     Sender CPU 5:   sys :  0.0   soft:  0.1   steal:  0.0   idle: 99.8   Total:0.1
+     Sender CPU 6:   sys :  0.1   soft:  0.3   idle: 99.6   Total:0.4
+     Sender CPU 7:   usr :  0.0   sys :  0.2   soft:  0.1   steal:  0.0   idle: 99.7   Total:0.3
+     Sender CPU 8:   idle: 100.0   Total:0.0
+     Sender CPU 9:   usr :  0.2   sys : 37.4   soft:  4.0   steal:  0.0   idle: 58.4   Total:41.6
+     Sender CPU 10:   usr :  0.2   sys : 33.3   soft:  3.4   idle: 63.1   Total:36.9
+     Sender CPU 11:   usr :  0.2   sys : 37.4   soft:  4.1   steal:  0.0   idle: 58.3   Total:41.7
+     Sender CPU 12:   usr :  0.1   sys : 34.4   soft:  3.6   steal:  0.0   idle: 61.8   Total:38.1
+     Sender CPU 13:   usr :  0.1   sys : 32.7   soft:  3.1   steal:  0.0   idle: 64.1   Total:35.9
+     Sender CPU 14:   usr :  0.2   sys : 38.6   soft:  3.8   steal:  0.0   idle: 57.4   Total:42.6
+     Sender CPU 15:   usr :  0.1   sys : 35.3   soft:  3.5   steal:  0.0   idle: 61.0   Total:38.9
+     Sender CPU 16:   usr :  0.2   sys : 34.1   soft:  3.5   steal:  0.0   idle: 62.1   Total:37.8
+   Receiver CPU 1:   sys :  0.1   soft:  2.2   steal:  0.0   idle: 97.7   Total:2.3
+   Receiver CPU 2:   sys :  0.1   soft:  0.8   steal:  0.0   idle: 99.1   Total:0.9
+   Receiver CPU 3:   sys :  0.1   soft:  1.3   steal:  0.0   idle: 98.6   Total:1.4
+   Receiver CPU 4:   usr :  0.0   sys :  0.1   soft:  0.4   steal:  0.0   idle: 99.5   Total:0.5
+   Receiver CPU 5:   sys :  0.1   soft:  1.2   steal:  0.0   idle: 98.7   Total:1.3
+   Receiver CPU 6:   sys :  0.1   soft:  0.8   steal:  0.0   idle: 99.1   Total:0.9
+   Receiver CPU 7:   sys :  0.1   soft:  0.4   steal:  0.0   idle: 99.5   Total:0.5
+   Receiver CPU 8:   sys :  0.1   soft:  0.2   steal:  0.0   idle: 99.7   Total:0.3
+   Receiver CPU 9:   usr :  0.3   sys :  9.6   idle: 90.1   Total:9.9
+   Receiver CPU 10:   usr :  0.3   sys :  8.9   iowait:  0.0   steal:  0.0   idle: 90.8   Total:9.2
+   Receiver CPU 11:   usr :  0.2   sys :  8.9   iowait:  0.0   idle: 90.8   Total:9.1
+   Receiver CPU 12:   usr :  0.3   sys :  9.7   steal:  0.0   idle: 89.9   Total:10.0
+   Receiver CPU 13:   usr :  0.2   sys :  9.9   idle: 89.8   Total:10.1
+   Receiver CPU 14:   usr :  0.2   sys :  9.3   steal:  0.0   idle: 90.5   Total:9.5
+   Receiver CPU 15:   usr :  0.2   sys : 10.5   steal:  0.0   idle: 89.2   Total:10.7
+   Receiver CPU 16:   usr :  0.2   sys : 11.6   iowait:  0.0   steal:  0.0   idle: 88.2   Total:11.8
+
+Test iperf3_default_BBR to Host: 10.3.58.2   (num tests: 5)
+       Throughput:   Mean: 28.0 Gbps   Max: 33.8 Gbps   STDEV: 7.6   retrans: 98
+     Sender CPU 1:   sys :  0.0   soft:  0.1   steal:  0.0   idle: 99.9   Total:0.1
+     Sender CPU 2:   sys :  0.0   soft:  0.0   idle: 100.0   Total:0.0
+     Sender CPU 3:   sys :  0.0   idle: 100.0   Total:0.0
+     Sender CPU 4:   usr :  0.0   sys :  0.1   soft:  0.2   idle: 99.7   Total:0.3
+     Sender CPU 5:   usr :  0.0   sys :  0.1   soft:  0.1   idle: 99.9   Total:0.2
+     Sender CPU 6:   sys :  0.0   soft:  0.1   steal:  0.0   idle: 99.9   Total:0.1
+     Sender CPU 7:   usr :  0.0   sys :  0.0   soft:  0.1   idle: 99.9   Total:0.1
+     Sender CPU 8:   sys :  0.2   soft:  0.1   steal:  0.0   idle: 99.8   Total:0.3
+     Sender CPU 9:   usr :  0.1   sys : 31.9   soft:  2.2   idle: 65.8   Total:34.2
+     Sender CPU 10:   usr :  0.1   sys : 29.3   soft:  2.4   idle: 68.2   Total:31.8
+     Sender CPU 11:   usr :  0.1   sys : 31.7   soft:  2.0   steal:  0.0   idle: 66.2   Total:33.8
+     Sender CPU 12:   usr :  0.1   sys : 30.6   soft:  2.6   idle: 66.7   Total:33.3
+     Sender CPU 13:   usr :  0.1   sys : 31.3   soft:  2.3   idle: 66.3   Total:33.7
+     Sender CPU 14:   usr :  0.2   sys : 30.5   soft:  2.2   idle: 67.2   Total:32.9
+     Sender CPU 15:   usr :  0.1   sys : 31.5   soft:  2.1   idle: 66.3   Total:33.7
+     Sender CPU 16:   usr :  0.1   sys : 30.9   soft:  2.0   steal:  0.0   idle: 67.1   Total:33.0
+   Receiver CPU 1:   sys :  0.1   soft:  2.3   steal:  0.0   idle: 97.7   Total:2.4
+   Receiver CPU 2:   sys :  0.1   iowait:  0.0   soft:  0.4   idle: 99.5   Total:0.5
+   Receiver CPU 3:   sys :  0.1   soft:  0.8   idle: 99.2   Total:0.9
+   Receiver CPU 4:   sys :  0.1   soft:  0.6   idle: 99.3   Total:0.7
+   Receiver CPU 5:   sys :  0.1   soft:  0.2   idle: 99.8   Total:0.3
+   Receiver CPU 6:   sys :  0.0   soft:  0.3   steal:  0.0   idle: 99.7   Total:0.3
+   Receiver CPU 7:   sys :  0.0   soft:  0.9   idle: 99.1   Total:0.9
+   Receiver CPU 8:   sys :  0.1   soft:  0.7   steal:  0.0   idle: 99.2   Total:0.8
+   Receiver CPU 9:   usr :  0.3   sys :  8.4   idle: 91.4   Total:8.7
+   Receiver CPU 10:   usr :  0.2   sys :  6.8   steal:  0.0   idle: 93.0   Total:7.0
+   Receiver CPU 11:   usr :  0.2   sys :  6.4   idle: 93.4   Total:6.6
+   Receiver CPU 12:   usr :  0.2   sys :  8.0   idle: 91.8   Total:8.2
+   Receiver CPU 13:   usr :  0.2   sys :  8.1   idle: 91.7   Total:8.3
+   Receiver CPU 14:   usr :  0.2   sys :  6.5   idle: 93.3   Total:6.7
+   Receiver CPU 15:   usr :  0.2   sys :  8.7   idle: 91.2   Total:8.9
+   Receiver CPU 16:   usr :  0.2   sys :  9.9   idle: 89.9   Total:10.1
+
+Test iperf3_default_BBR1_BIGTCP to Host: 10.3.58.2   (num tests: 5)
+       Throughput:   Mean: 17.8 Gbps   Max: 22.8 Gbps   STDEV: 3.4   retrans: 8409
+     Sender CPU 1:   sys :  0.0   soft:  0.0   idle: 99.9   Total:0.0
+     Sender CPU 2:   sys :  0.0   iowait:  0.0   soft:  0.1   idle: 99.9   Total:0.1
+     Sender CPU 3:   sys :  0.1   iowait:  0.0   soft:  0.1   steal:  0.0   idle: 99.8   Total:0.2
+     Sender CPU 4:   usr :  0.0   sys :  0.0   soft:  0.2   idle: 99.8   Total:0.2
+     Sender CPU 5:   sys :  0.0   soft:  0.0   steal:  0.0   idle: 99.9   Total:0.0
+     Sender CPU 6:   sys :  0.0   iowait:  0.0   soft:  0.2   idle: 99.8   Total:0.2
+     Sender CPU 7:   sys :  0.0   soft:  0.0   steal:  0.0   idle: 100.0   Total:0.0
+     Sender CPU 8:   sys :  0.0   soft:  0.0   idle: 100.0   Total:0.0
+     Sender CPU 9:   usr :  0.0   sys :  8.8   soft:  1.1   steal:  0.0   idle: 90.0   Total:9.9
+     Sender CPU 10:   usr :  0.1   sys : 12.2   soft:  1.6   idle: 86.1   Total:13.9
+     Sender CPU 11:   usr :  0.0   sys :  3.8   soft:  0.4   idle: 95.8   Total:4.2
+     Sender CPU 12:   usr :  0.1   sys : 10.0   soft:  1.3   idle: 88.6   Total:11.4
+     Sender CPU 13:   usr :  0.0   sys :  6.8   soft:  0.9   idle: 92.3   Total:7.7
+     Sender CPU 14:   usr :  0.0   sys : 11.0   soft:  1.1   idle: 87.9   Total:12.1
+     Sender CPU 15:   usr :  0.1   sys : 12.0   soft:  1.5   steal:  0.0   idle: 86.3   Total:13.6
+     Sender CPU 16:   usr :  0.1   sys : 20.5   soft:  2.8   steal:  0.0   idle: 76.5   Total:23.4
+   Receiver CPU 1:   sys :  0.0   soft:  0.8   idle: 99.2   Total:0.8
+   Receiver CPU 2:   sys :  0.0   soft:  0.4   steal:  0.0   idle: 99.5   Total:0.4
+   Receiver CPU 3:   sys :  0.1   iowait:  0.0   soft:  0.1   steal:  0.0   idle: 99.8   Total:0.2
+   Receiver CPU 4:   usr :  0.0   sys :  0.0   soft:  0.2   idle: 99.7   Total:0.2
+   Receiver CPU 5:   usr :  0.0   sys :  0.0   soft:  0.4   steal:  0.0   idle: 99.5   Total:0.4
+   Receiver CPU 6:   sys :  0.0   soft:  0.3   idle: 99.6   Total:0.3
+   Receiver CPU 7:   sys :  0.0   soft:  0.4   idle: 99.6   Total:0.4
+   Receiver CPU 8:   sys :  0.1   soft:  0.7   idle: 99.2   Total:0.8
+   Receiver CPU 9:   usr :  0.2   sys :  6.1   idle: 93.8   Total:6.3
+   Receiver CPU 10:   usr :  0.1   sys :  3.8   idle: 96.0   Total:3.9
+   Receiver CPU 11:   usr :  0.1   sys :  4.5   idle: 95.4   Total:4.6
+   Receiver CPU 12:   usr :  0.1   sys :  3.6   idle: 96.3   Total:3.7
+   Receiver CPU 13:   usr :  0.1   sys :  3.8   iowait:  0.0   idle: 96.0   Total:3.9
+   Receiver CPU 14:   usr :  0.1   sys :  4.5   idle: 95.4   Total:4.6
+   Receiver CPU 15:   usr :  0.1   sys :  4.4   steal:  0.0   idle: 95.5   Total:4.5
+   Receiver CPU 16:   usr :  0.1   sys :  6.4   idle: 93.5   Total:6.5
+
+Test iperf3_default_BBR_BIGTCP to Host: 10.3.58.2   (num tests: 5)
+       Throughput:   Mean: 24.6 Gbps   Max: 33.9 Gbps   STDEV: 8.4   retrans: 0
+     Sender CPU 1:   sys :  0.0   soft:  0.0   idle: 100.0   Total:0.0
+     Sender CPU 2:   sys :  0.0   iowait:  0.0   soft:  0.0   idle: 100.0   Total:0.0
+     Sender CPU 3:   sys :  0.0   soft:  0.1   idle: 99.8   Total:0.1
+     Sender CPU 4:   sys :  0.2   soft:  0.1   steal:  0.0   idle: 99.8   Total:0.3
+     Sender CPU 5:   usr :  0.0   sys :  0.2   soft:  0.2   steal:  0.0   idle: 99.7   Total:0.4
+     Sender CPU 6:   sys :  0.1   soft:  0.1   idle: 99.8   Total:0.2
+     Sender CPU 7:   sys :  0.0   soft:  0.0   steal:  0.0   idle: 100.0   Total:0.0
+     Sender CPU 8:   sys :  0.0   soft:  0.1   idle: 99.9   Total:0.1
+     Sender CPU 9:   usr :  0.1   sys : 26.3   soft:  1.8   idle: 71.8   Total:28.2
+     Sender CPU 10:   usr :  0.1   sys : 25.7   soft:  2.1   steal:  0.0   idle: 72.1   Total:27.9
+     Sender CPU 11:   usr :  0.1   sys : 25.4   soft:  2.3   steal:  0.0   idle: 72.2   Total:27.8
+     Sender CPU 12:   usr :  0.1   sys : 22.5   soft:  1.9   idle: 75.5   Total:24.5
+     Sender CPU 13:   usr :  0.1   sys : 22.2   soft:  1.6   idle: 76.1   Total:23.9
+     Sender CPU 14:   usr :  0.1   sys : 24.8   soft:  1.9   steal:  0.0   idle: 73.2   Total:26.8
+     Sender CPU 15:   usr :  0.1   sys : 27.2   soft:  1.9   idle: 70.8   Total:29.2
+     Sender CPU 16:   usr :  0.1   sys : 26.6   soft:  2.3   steal:  0.0   idle: 71.0   Total:29.0
+   Receiver CPU 1:   sys :  0.1   soft:  0.9   idle: 99.1   Total:1.0
+   Receiver CPU 2:   sys :  0.1   soft:  0.5   idle: 99.5   Total:0.6
+   Receiver CPU 3:   sys :  0.1   soft:  0.7   steal:  0.0   idle: 99.2   Total:0.8
+   Receiver CPU 4:   sys :  0.0   soft:  0.2   steal:  0.0   idle: 99.8   Total:0.2
+   Receiver CPU 5:   sys :  0.1   soft:  0.4   steal:  0.0   idle: 99.6   Total:0.5
+   Receiver CPU 6:   sys :  0.1   soft:  0.9   steal:  0.0   idle: 99.0   Total:1.0
+   Receiver CPU 7:   sys :  0.1   soft:  0.5   idle: 99.5   Total:0.6
+   Receiver CPU 8:   sys :  0.1   soft:  0.5   idle: 99.5   Total:0.6
+   Receiver CPU 9:   usr :  0.1   sys :  6.6   iowait:  0.0   steal:  0.0   idle: 93.3   Total:6.7
+   Receiver CPU 10:   usr :  0.2   sys :  5.9   idle: 93.9   Total:6.1
+   Receiver CPU 11:   usr :  0.2   sys :  5.8   iowait:  0.0   steal:  0.0   idle: 94.0   Total:6.0
+   Receiver CPU 12:   usr :  0.2   sys :  6.7   idle: 93.1   Total:6.9
+   Receiver CPU 13:   usr :  0.2   sys :  7.1   idle: 92.7   Total:7.3
+   Receiver CPU 14:   usr :  0.2   sys :  5.9   steal:  0.0   idle: 93.9   Total:6.1
+   Receiver CPU 15:   usr :  0.2   sys :  8.1   idle: 91.7   Total:8.3
+   Receiver CPU 16:   usr :  0.2   sys :  9.6   steal:  0.0   idle: 90.2   Total:9.8
+
+Test iperf3_default_BIGTCP to Host: 10.3.58.2   (num tests: 5)
+       Throughput:   Mean: 30.4 Gbps   Max: 33.9 Gbps   STDEV: 6.9   retrans: 4608
+     Sender CPU 1:   sys :  0.1   soft:  0.0   steal:  0.0   idle: 99.8   Total:0.1
+     Sender CPU 2:   sys :  0.3   soft:  0.2   steal:  0.0   idle: 99.5   Total:0.5
+     Sender CPU 3:   sys :  0.0   iowait:  0.0   soft:  0.0   idle: 100.0   Total:0.0
+     Sender CPU 4:   sys :  0.0   iowait:  0.0   soft:  0.0   idle: 99.9   Total:0.0
+     Sender CPU 5:   sys :  0.1   soft:  0.1   idle: 99.8   Total:0.2
+     Sender CPU 6:   sys :  0.0   soft:  0.1   idle: 99.9   Total:0.1
+     Sender CPU 7:   usr :  0.0   sys :  0.1   soft:  0.1   idle: 99.8   Total:0.2
+     Sender CPU 8:   sys :  0.0   soft:  0.1   idle: 99.9   Total:0.1
+     Sender CPU 9:   usr :  0.2   sys : 36.5   soft:  2.2   idle: 61.2   Total:38.9
+     Sender CPU 10:   usr :  0.2   sys : 35.0   soft:  2.1   idle: 62.7   Total:37.3
+     Sender CPU 11:   usr :  0.2   sys : 36.2   soft:  2.3   steal:  0.0   idle: 61.3   Total:38.7
+     Sender CPU 12:   usr :  0.2   sys : 35.9   soft:  2.9   idle: 61.0   Total:39.0
+     Sender CPU 13:   usr :  0.1   sys : 35.0   soft:  2.8   idle: 62.0   Total:37.9
+     Sender CPU 14:   usr :  0.2   sys : 35.4   soft:  2.2   steal:  0.0   idle: 62.3   Total:37.8
+     Sender CPU 15:   usr :  0.1   sys : 36.2   soft:  2.7   steal:  0.0   idle: 60.9   Total:39.0
+     Sender CPU 16:   usr :  0.1   sys : 35.7   soft:  2.2   steal:  0.0   idle: 61.9   Total:38.0
+   Receiver CPU 1:   sys :  0.1   soft:  1.8   idle: 98.2   Total:1.9
+   Receiver CPU 2:   usr :  0.0   sys :  0.1   soft:  0.5   idle: 99.4   Total:0.6
+   Receiver CPU 3:   usr :  0.0   sys :  0.1   soft:  0.1   idle: 99.8   Total:0.2
+   Receiver CPU 4:   sys :  0.1   soft:  0.3   idle: 99.7   Total:0.4
+   Receiver CPU 5:   sys :  0.1   soft:  0.4   idle: 99.5   Total:0.5
+   Receiver CPU 6:   sys :  0.0   soft:  0.4   idle: 99.6   Total:0.4
+   Receiver CPU 7:   sys :  0.1   soft:  0.7   idle: 99.3   Total:0.8
+   Receiver CPU 8:   usr :  0.0   sys :  0.0   soft:  2.1   steal:  0.0   idle: 97.8   Total:2.1
+   Receiver CPU 9:   usr :  0.3   sys :  9.3   idle: 90.4   Total:9.6
+   Receiver CPU 10:   usr :  0.3   sys :  8.1   iowait:  0.0   idle: 91.6   Total:8.4
+   Receiver CPU 11:   usr :  0.3   sys :  8.5   steal:  0.0   idle: 91.2   Total:8.8
+   Receiver CPU 12:   usr :  0.3   sys :  8.1   idle: 91.6   Total:8.4
+   Receiver CPU 13:   usr :  0.2   sys :  7.6   idle: 92.2   Total:7.8
+   Receiver CPU 14:   usr :  0.3   sys :  8.0   idle: 91.7   Total:8.3
+   Receiver CPU 15:   usr :  0.3   sys : 11.6   steal:  0.0   idle: 88.1   Total:11.9
+   Receiver CPU 16:   usr :  0.2   sys : 10.4   idle: 89.4   Total:10.6
+
+Test iperf3_default to Host: 10.3.60.2   (num tests: 5)
+       Throughput:   Mean: 56.5 Gbps   Max: 64.2 Gbps   STDEV: 6.4   retrans: 0
+     Sender CPU 1:   sys :  0.2   soft:  0.1   steal:  0.0   idle: 99.7   Total:0.3
+     Sender CPU 2:   usr :  0.0   sys :  0.0   iowait:  0.0   soft:  0.1   idle: 99.8   Total:0.1
+     Sender CPU 3:   sys :  0.0   idle: 100.0   Total:0.0
+     Sender CPU 4:   usr :  0.0   sys :  0.1   soft:  0.1   idle: 99.8   Total:0.2
+     Sender CPU 5:   sys :  0.1   soft:  0.2   steal:  0.0   idle: 99.7   Total:0.3
+     Sender CPU 6:   usr :  0.0   sys :  0.2   soft:  0.1   steal:  0.0   idle: 99.6   Total:0.3
+     Sender CPU 7:   usr :  0.0   sys :  0.2   soft:  0.1   steal:  0.0   idle: 99.8   Total:0.3
+     Sender CPU 8:   sys :  0.1   soft:  0.0   steal:  0.0   idle: 99.9   Total:0.1
+     Sender CPU 9:   usr :  0.5   sys : 91.9   soft:  5.1   steal:  0.0   idle:  2.6   Total:97.5
+     Sender CPU 10:   usr :  0.3   sys : 92.0   soft:  5.2   idle:  2.5   Total:97.5
+     Sender CPU 11:   usr :  0.3   sys : 93.3   soft:  4.3   steal:  0.0   idle:  2.1   Total:97.9
+     Sender CPU 12:   usr :  0.4   sys : 87.7   soft:  3.6   steal:  0.0   idle:  8.3   Total:91.7
+     Sender CPU 13:   usr :  0.3   sys : 87.7   soft:  7.7   steal:  0.0   idle:  4.3   Total:95.7
+     Sender CPU 14:   usr :  0.4   sys : 90.4   soft:  6.6   steal:  0.0   idle:  2.6   Total:97.4
+     Sender CPU 15:   usr :  0.3   sys : 93.7   soft:  5.9   steal:  0.0   idle:  0.1   Total:99.9
+     Sender CPU 16:   usr :  0.4   sys : 93.7   soft:  5.8   steal:  0.0   idle:  0.1   Total:99.9
+   Receiver CPU 1:   usr :  0.0   sys :  0.1   soft:  3.0   idle: 96.9   Total:3.1
+   Receiver CPU 2:   sys :  0.1   soft:  0.8   steal:  0.1   idle: 99.0   Total:1.0
+   Receiver CPU 3:   sys :  0.1   soft:  1.0   steal:  0.0   idle: 98.9   Total:1.1
+   Receiver CPU 4:   usr :  0.0   sys :  0.1   soft:  0.7   steal:  0.1   idle: 99.2   Total:0.9
+   Receiver CPU 5:   sys :  0.1   soft:  1.2   steal:  0.0   idle: 98.7   Total:1.3
+   Receiver CPU 6:   sys :  0.1   soft:  0.1   steal:  0.0   idle: 99.8   Total:0.2
+   Receiver CPU 7:   sys :  0.1   soft:  0.6   steal:  0.0   idle: 99.3   Total:0.7
+   Receiver CPU 8:   sys :  0.1   soft:  0.2   steal:  0.1   idle: 99.6   Total:0.4
+   Receiver CPU 9:   usr :  0.5   sys : 15.1   iowait:  0.0   steal:  0.0   idle: 84.4   Total:15.6
+   Receiver CPU 10:   usr :  0.4   sys : 14.8   steal:  0.0   idle: 84.7   Total:15.2
+   Receiver CPU 11:   usr :  0.3   sys : 13.2   idle: 86.5   Total:13.5
+   Receiver CPU 12:   usr :  0.4   sys : 15.0   idle: 84.6   Total:15.4
+   Receiver CPU 13:   usr :  0.4   sys : 15.4   idle: 84.2   Total:15.8
+   Receiver CPU 14:   usr :  0.3   sys : 14.3   steal:  0.0   idle: 85.3   Total:14.6
+   Receiver CPU 15:   usr :  0.4   sys : 20.3   steal:  0.0   idle: 79.3   Total:20.7
+   Receiver CPU 16:   usr :  0.4   sys : 20.8   steal:  0.0   idle: 78.8   Total:21.2
+
+Test iperf3_default_BBR to Host: 10.3.60.2   (num tests: 5)
+       Throughput:   Mean: 56.1 Gbps   Max: 57.0 Gbps   STDEV: 0.9   retrans: 407
+     Sender CPU 1:   usr :  0.0   idle: 100.0   Total:0.0
+     Sender CPU 2:   usr :  0.0   sys :  0.1   soft:  0.1   steal:  0.0   idle: 99.8   Total:0.2
+     Sender CPU 3:   sys :  0.1   soft:  0.1   idle: 99.8   Total:0.2
+     Sender CPU 4:   usr :  0.0   sys :  0.0   soft:  0.1   idle: 99.8   Total:0.1
+     Sender CPU 5:   usr :  0.0   sys :  0.3   soft:  0.2   steal:  0.0   idle: 99.5   Total:0.5
+     Sender CPU 6:   sys :  0.2   soft:  0.5   idle: 99.3   Total:0.7
+     Sender CPU 7:   usr :  0.0   sys :  0.2   iowait:  0.0   soft:  0.5   idle: 99.3   Total:0.7
+     Sender CPU 8:   sys :  0.2   iowait:  0.0   soft:  0.1   idle: 99.7   Total:0.3
+     Sender CPU 9:   usr :  0.4   sys : 93.3   soft:  4.5   steal:  0.0   idle:  1.8   Total:98.2
+     Sender CPU 10:   usr :  0.4   sys : 84.3   soft:  6.8   steal:  0.0   idle:  8.5   Total:91.5
+     Sender CPU 11:   usr :  0.4   sys : 90.6   soft:  5.3   idle:  3.8   Total:96.3
+     Sender CPU 12:   usr :  0.4   sys : 88.1   soft:  3.9   idle:  7.6   Total:92.4
+     Sender CPU 13:   usr :  0.3   sys : 82.2   soft:  8.1   idle:  9.3   Total:90.6
+     Sender CPU 14:   usr :  0.4   sys : 91.6   soft:  4.4   idle:  3.6   Total:96.4
+     Sender CPU 15:   usr :  0.3   sys : 92.6   soft:  5.9   idle:  1.2   Total:98.8
+     Sender CPU 16:   usr :  0.3   sys : 89.8   soft:  8.6   steal:  0.0   idle:  1.2   Total:98.7
+   Receiver CPU 1:   sys :  0.1   soft:  4.2   idle: 95.7   Total:4.3
+   Receiver CPU 2:   sys :  0.1   iowait:  0.0   soft:  1.0   steal:  0.0   idle: 98.8   Total:1.1
+   Receiver CPU 3:   sys :  0.1   soft:  0.5   steal:  0.0   idle: 99.4   Total:0.6
+   Receiver CPU 4:   sys :  0.1   iowait:  0.0   soft:  0.4   steal:  0.0   idle: 99.5   Total:0.5
+   Receiver CPU 5:   sys :  0.1   soft:  0.7   steal:  0.0   idle: 99.2   Total:0.8
+   Receiver CPU 6:   sys :  0.1   soft:  0.2   steal:  0.0   idle: 99.7   Total:0.3
+   Receiver CPU 7:   sys :  0.1   soft:  0.6   steal:  0.0   idle: 99.3   Total:0.7
+   Receiver CPU 8:   sys :  0.1   soft:  2.1   steal:  0.0   idle: 97.8   Total:2.2
+   Receiver CPU 9:   usr :  0.4   sys : 16.0   steal:  0.0   idle: 83.6   Total:16.4
+   Receiver CPU 10:   usr :  0.4   sys : 14.7   idle: 84.9   Total:15.1
+   Receiver CPU 11:   usr :  0.4   sys : 14.9   idle: 84.7   Total:15.3
+   Receiver CPU 12:   usr :  0.4   sys : 15.6   steal:  0.0   idle: 84.0   Total:16.0
+   Receiver CPU 13:   usr :  0.4   sys : 16.5   steal:  0.0   idle: 83.1   Total:16.9
+   Receiver CPU 14:   usr :  0.4   sys : 14.7   idle: 84.9   Total:15.1
+   Receiver CPU 15:   usr :  0.5   sys : 22.5   idle: 77.1   Total:23.0
+   Receiver CPU 16:   usr :  0.5   sys : 24.1   steal:  0.0   idle: 75.5   Total:24.6
+
+Test iperf3_default_BBR1_BIGTCP to Host: 10.3.60.2   (num tests: 5)
+       Throughput:   Mean: 57.5 Gbps   Max: 58.8 Gbps   STDEV: 1.4   retrans: 4
+     Sender CPU 1:   sys :  0.2   iowait:  0.0   soft:  0.1   idle: 99.7   Total:0.3
+     Sender CPU 2:   usr :  0.0   sys :  0.2   soft:  0.1   idle: 99.7   Total:0.3
+     Sender CPU 3:   sys :  0.2   soft:  0.1   idle: 99.8   Total:0.3
+     Sender CPU 4:   sys :  0.1   soft:  0.1   idle: 99.8   Total:0.2
+     Sender CPU 5:   usr :  0.0   sys :  0.1   soft:  0.1   idle: 99.8   Total:0.2
+     Sender CPU 6:   sys :  0.0   soft:  0.3   idle: 99.7   Total:0.3
+     Sender CPU 7:   usr :  0.0   sys :  0.0   soft:  0.1   steal:  0.0   idle: 99.8   Total:0.1
+     Sender CPU 8:   sys :  0.2   steal:  0.0   idle: 99.8   Total:0.2
+     Sender CPU 9:   usr :  0.3   sys : 86.2   soft:  9.1   steal:  0.0   idle:  4.4   Total:95.6
+     Sender CPU 10:   usr :  0.4   sys : 87.0   soft:  3.0   steal:  0.0   idle:  9.6   Total:90.4
+     Sender CPU 11:   usr :  0.4   sys : 83.2   soft:  5.3   steal:  0.0   idle: 11.2   Total:88.9
+     Sender CPU 12:   usr :  0.4   sys : 85.2   soft:  5.8   steal:  0.0   idle:  8.7   Total:91.4
+     Sender CPU 13:   usr :  0.3   sys : 88.0   soft:  4.3   idle:  7.4   Total:92.6
+     Sender CPU 14:   usr :  0.3   sys : 85.4   soft:  5.6   steal:  0.0   idle:  8.6   Total:91.3
+     Sender CPU 15:   usr :  0.4   sys : 90.6   soft:  6.1   steal:  0.0   idle:  2.8   Total:97.1
+     Sender CPU 16:   usr :  0.3   sys : 91.1   soft:  6.3   steal:  0.0   idle:  2.3   Total:97.7
+   Receiver CPU 1:   usr :  0.0   sys :  0.1   soft:  4.6   steal:  0.0   idle: 95.3   Total:4.7
+   Receiver CPU 2:   sys :  0.1   soft:  0.4   steal:  0.0   idle: 99.4   Total:0.5
+   Receiver CPU 3:   sys :  0.1   iowait:  0.0   soft:  0.3   idle: 99.6   Total:0.4
+   Receiver CPU 4:   sys :  0.1   soft:  0.4   idle: 99.5   Total:0.5
+   Receiver CPU 5:   usr :  0.0   sys :  0.1   soft:  0.6   idle: 99.3   Total:0.7
+   Receiver CPU 6:   sys :  0.1   soft:  1.1   idle: 98.8   Total:1.2
+   Receiver CPU 7:   sys :  0.1   iowait:  0.0   soft:  1.4   idle: 98.5   Total:1.5
+   Receiver CPU 8:   sys :  0.2   soft:  1.6   steal:  0.0   idle: 98.3   Total:1.8
+   Receiver CPU 9:   usr :  0.4   sys : 16.9   idle: 82.7   Total:17.3
+   Receiver CPU 10:   usr :  0.4   sys : 16.1   steal:  0.0   idle: 83.5   Total:16.5
+   Receiver CPU 11:   usr :  0.5   sys : 15.9   steal:  0.0   idle: 83.6   Total:16.4
+   Receiver CPU 12:   usr :  0.4   sys : 15.4   steal:  0.0   idle: 84.2   Total:15.8
+   Receiver CPU 13:   usr :  0.4   sys : 16.2   idle: 83.4   Total:16.6
+   Receiver CPU 14:   usr :  0.4   sys : 16.1   idle: 83.5   Total:16.5
+   Receiver CPU 15:   usr :  0.5   sys : 24.9   idle: 74.6   Total:25.4
+   Receiver CPU 16:   usr :  0.4   sys : 23.8   idle: 75.8   Total:24.2
+
+Test iperf3_default_BBR_BIGTCP to Host: 10.3.60.2   (num tests: 5)
+       Throughput:   Mean: 53.8 Gbps   Max: 54.8 Gbps   STDEV: 0.9   retrans: 39
+     Sender CPU 1:   usr :  0.0   sys :  0.1   iowait:  0.0   soft:  0.2   steal:  0.0   idle: 99.6   Total:0.3
+     Sender CPU 2:   sys :  0.1   soft:  0.2   steal:  0.0   idle: 99.7   Total:0.3
+     Sender CPU 3:   sys :  0.0   soft:  0.0   idle: 99.9   Total:0.0
+     Sender CPU 4:   usr :  0.0   sys :  0.2   soft:  0.4   idle: 99.4   Total:0.6
+     Sender CPU 5:   usr :  0.0   sys :  0.1   soft:  0.3   idle: 99.6   Total:0.4
+     Sender CPU 6:   usr :  0.0   sys :  0.0   iowait:  0.0   soft:  0.3   steal:  0.0   idle: 99.6   Total:0.3
+     Sender CPU 7:   usr :  0.0   sys :  0.2   soft:  0.2   idle: 99.6   Total:0.4
+     Sender CPU 8:   sys :  0.2   soft:  0.3   idle: 99.6   Total:0.5
+     Sender CPU 9:   usr :  0.4   sys : 90.8   soft:  4.2   steal:  0.0   idle:  4.6   Total:95.4
+     Sender CPU 10:   usr :  0.4   sys : 82.0   soft:  4.4   idle: 13.3   Total:86.8
+     Sender CPU 11:   usr :  0.4   sys : 90.8   soft:  4.9   steal:  0.0   idle:  3.9   Total:96.1
+     Sender CPU 12:   usr :  0.4   sys : 83.1   soft:  6.7   steal:  0.0   idle:  9.8   Total:90.2
+     Sender CPU 13:   usr :  0.4   sys : 92.1   soft:  4.8   steal:  0.0   idle:  2.7   Total:97.3
+     Sender CPU 14:   usr :  0.3   sys : 86.1   soft:  4.8   idle:  8.8   Total:91.2
+     Sender CPU 15:   usr :  0.3   sys : 90.6   soft:  6.2   steal:  0.0   idle:  2.9   Total:97.1
+     Sender CPU 16:   usr :  0.4   sys : 90.9   soft:  6.5   steal:  0.0   idle:  2.3   Total:97.8
+   Receiver CPU 1:   sys :  0.1   iowait:  0.0   soft:  2.8   steal:  0.0   idle: 97.1   Total:2.9
+   Receiver CPU 2:   sys :  0.1   soft:  0.9   steal:  0.0   idle: 98.9   Total:1.0
+   Receiver CPU 3:   sys :  0.1   soft:  0.8   steal:  0.0   idle: 99.1   Total:0.9
+   Receiver CPU 4:   sys :  0.1   soft:  0.8   steal:  0.0   idle: 99.1   Total:0.9
+   Receiver CPU 5:   sys :  0.1   soft:  1.7   steal:  0.0   idle: 98.2   Total:1.8
+   Receiver CPU 6:   sys :  0.1   soft:  0.8   steal:  0.0   idle: 99.1   Total:0.9
+   Receiver CPU 7:   sys :  0.1   soft:  0.6   steal:  0.0   idle: 99.3   Total:0.7
+   Receiver CPU 8:   sys :  0.1   soft:  0.4   steal:  0.0   idle: 99.5   Total:0.5
+   Receiver CPU 9:   usr :  0.4   sys : 15.1   steal:  0.0   idle: 84.5   Total:15.5
+   Receiver CPU 10:   usr :  0.5   sys : 14.7   iowait:  0.0   idle: 84.8   Total:15.2
+   Receiver CPU 11:   usr :  0.5   sys : 14.7   idle: 84.9   Total:15.2
+   Receiver CPU 12:   usr :  0.4   sys : 14.6   idle: 85.0   Total:15.0
+   Receiver CPU 13:   usr :  0.4   sys : 15.4   steal:  0.1   idle: 84.1   Total:15.9
+   Receiver CPU 14:   usr :  0.4   sys : 14.1   steal:  0.0   idle: 85.5   Total:14.5
+   Receiver CPU 15:   usr :  0.6   sys : 23.4   steal:  0.0   idle: 76.0   Total:24.0
+   Receiver CPU 16:   usr :  0.4   sys : 23.1   steal:  0.0   idle: 76.5   Total:23.5
+
+Test iperf3_default_BIGTCP to Host: 10.3.60.2   (num tests: 5)
+       Throughput:   Mean: 52.5 Gbps   Max: 54.6 Gbps   STDEV: 1.8   retrans: 0
+     Sender CPU 1:   sys :  0.3   soft:  0.4   idle: 99.3   Total:0.7
+     Sender CPU 2:   usr :  0.0   sys :  0.1   soft:  0.0   idle: 99.9   Total:0.1
+     Sender CPU 3:   usr :  0.0   sys :  0.1   soft:  0.0   idle: 99.9   Total:0.1
+     Sender CPU 4:   usr :  0.0   sys :  0.2   iowait:  0.0   soft:  0.1   steal:  0.0   idle: 99.7   Total:0.3
+     Sender CPU 5:   usr :  0.0   sys :  0.0   soft:  0.1   steal:  0.0   idle: 99.9   Total:0.1
+     Sender CPU 6:   usr :  0.0   sys :  0.1   soft:  0.3   steal:  0.0   idle: 99.6   Total:0.4
+     Sender CPU 7:   usr :  0.0   sys :  0.2   soft:  0.1   steal:  0.0   idle: 99.6   Total:0.3
+     Sender CPU 8:   sys :  0.1   soft:  0.0   steal:  0.0   idle: 99.9   Total:0.1
+     Sender CPU 9:   usr :  0.4   sys : 89.9   soft:  5.7   steal:  0.0   idle:  4.0   Total:96.0
+     Sender CPU 10:   usr :  0.3   sys : 87.8   soft:  4.0   steal:  0.0   idle:  7.9   Total:92.1
+     Sender CPU 11:   usr :  0.3   sys : 89.0   soft:  7.1   steal:  0.0   idle:  3.6   Total:96.4
+     Sender CPU 12:   usr :  0.4   sys : 89.7   soft:  6.2   steal:  0.0   idle:  3.6   Total:96.3
+     Sender CPU 13:   usr :  0.3   sys : 86.7   soft:  4.5   steal:  0.0   idle:  8.5   Total:91.5
+     Sender CPU 14:   usr :  0.4   sys : 90.1   soft:  4.8   steal:  0.0   idle:  4.7   Total:95.3
+     Sender CPU 15:   usr :  0.3   sys : 95.4   soft:  4.2   steal:  0.0   idle:  0.0   Total:99.9
+     Sender CPU 16:   usr :  0.3   sys : 94.7   soft:  4.9   steal:  0.1   idle:  0.0   Total:100.0
+   Receiver CPU 1:   sys :  0.1   soft:  2.2   idle: 97.7   Total:2.3
+   Receiver CPU 2:   sys :  0.1   soft:  0.5   steal:  0.0   idle: 99.4   Total:0.6
+   Receiver CPU 3:   sys :  0.1   soft:  0.3   steal:  0.1   idle: 99.6   Total:0.5
+   Receiver CPU 4:   sys :  0.1   soft:  0.8   steal:  0.0   idle: 99.1   Total:0.9
+   Receiver CPU 5:   sys :  0.1   soft:  0.7   steal:  0.0   idle: 99.2   Total:0.8
+   Receiver CPU 6:   sys :  0.1   soft:  0.3   steal:  0.0   idle: 99.6   Total:0.4
+   Receiver CPU 7:   sys :  0.1   soft:  0.6   steal:  0.1   idle: 99.3   Total:0.8
+   Receiver CPU 8:   sys :  0.1   soft:  0.7   steal:  0.1   idle: 99.1   Total:0.9
+   Receiver CPU 9:   usr :  0.4   sys : 14.6   steal:  0.0   idle: 85.0   Total:15.0
+   Receiver CPU 10:   usr :  0.4   sys : 14.3   steal:  0.0   idle: 85.3   Total:14.7
+   Receiver CPU 11:   usr :  0.3   sys : 13.7   idle: 86.0   Total:14.0
+   Receiver CPU 12:   usr :  0.3   sys : 14.0   iowait:  0.0   idle: 85.7   Total:14.3
+   Receiver CPU 13:   usr :  0.4   sys : 14.7   idle: 84.9   Total:15.1
+   Receiver CPU 14:   usr :  0.3   sys : 14.3   idle: 85.4   Total:14.6
+   Receiver CPU 15:   usr :  0.4   sys : 20.1   steal:  0.1   idle: 79.4   Total:20.6
+   Receiver CPU 16:   usr :  0.4   sys : 21.5   steal:  0.0   idle: 78.0   Total:21.9
+
+
+Result Summary, sorted by Average Throughput:
+IP Address: 10.3.54.2
+     Test Name: iperf3_default_BBR1_BIGTCP, Ave Throughput: 77.3 Gbps (stdev: 0.1)
+     Test Name: iperf3_default, Ave Throughput: 75.7 Gbps (stdev: 1.9)
+     Test Name: iperf3_default_BBR, Ave Throughput: 75.6 Gbps (stdev: 0.2)
+     Test Name: iperf3_default_BBR_BIGTCP, Ave Throughput: 75.5 Gbps (stdev: 0.4)
+     Test Name: iperf3_default_BIGTCP, Ave Throughput: 72.4 Gbps (stdev: 1.8)
+IP Address: 10.3.56.2
+     Test Name: iperf3_default_BBR1_BIGTCP, Ave Throughput: 56.4 Gbps (stdev: 1.0)
+     Test Name: iperf3_default_BBR, Ave Throughput: 56.2 Gbps (stdev: 2.0)
+     Test Name: iperf3_default, Ave Throughput: 56.1 Gbps (stdev: 5.2)
+     Test Name: iperf3_default_BBR_BIGTCP, Ave Throughput: 55.8 Gbps (stdev: 3.1)
+     Test Name: iperf3_default_BIGTCP, Ave Throughput: 55.6 Gbps (stdev: 5.0)
+IP Address: 10.3.58.2
+     Test Name: iperf3_default, Ave Throughput: 37.0 Gbps (stdev: 3.4)
+     Test Name: iperf3_default_BIGTCP, Ave Throughput: 30.4 Gbps (stdev: 6.9)
+     Test Name: iperf3_default_BBR, Ave Throughput: 28.0 Gbps (stdev: 7.6)
+     Test Name: iperf3_default_BBR_BIGTCP, Ave Throughput: 24.6 Gbps (stdev: 8.4)
+     Test Name: iperf3_default_BBR1_BIGTCP, Ave Throughput: 17.8 Gbps (stdev: 3.4)
+IP Address: 10.3.60.2
+     Test Name: iperf3_default_BBR1_BIGTCP, Ave Throughput: 57.5 Gbps (stdev: 1.4)
+     Test Name: iperf3_default, Ave Throughput: 56.5 Gbps (stdev: 6.4)
+     Test Name: iperf3_default_BBR, Ave Throughput: 56.1 Gbps (stdev: 0.9)
+     Test Name: iperf3_default_BBR_BIGTCP, Ave Throughput: 53.8 Gbps (stdev: 0.9)
+     Test Name: iperf3_default_BIGTCP, Ave Throughput: 52.5 Gbps (stdev: 1.8)
