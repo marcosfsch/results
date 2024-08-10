@@ -1,38 +1,60 @@
 
 Collecting Results from all files...
-Error parsing data in file:  /home/vagrant/results/ubuntu22-6.8/sender/2024-08-06:00:45/iperf3_4streams_default/src-cmd:10.3.58.9:1
-Error parsing data in file:  /home/vagrant/results/ubuntu22-6.8/sender/2024-08-06:00:45/iperf3_4streams_default/src-cmd:10.3.60.2:2
-Error parsing data in file:  /home/vagrant/results/ubuntu22-6.8/sender/2024-08-06:00:45/iperf3_4streams_default_fq20/src-cmd:10.3.56.2:9
-Error parsing data in file:  /home/vagrant/results/ubuntu22-6.8/sender/2024-08-06:00:45/iperf3_8streams_default/src-cmd:10.3.60.2:8
-Error parsing data in file:  /home/vagrant/results/ubuntu22-6.8/sender/2024-08-06:00:45/iperf3_8streams_default/src-cmd:10.3.60.2:4
-Error parsing data in file:  /home/vagrant/results/ubuntu22-6.8/sender/2024-08-06:00:45/iperf3_8streams_default/src-cmd:10.3.56.2:3
-Error parsing data in file:  /home/vagrant/results/ubuntu22-6.8/sender/2024-08-06:00:45/iperf3_8streams_default_fq10/src-cmd:10.3.56.2:10
-Error parsing data in file:  /home/vagrant/results/ubuntu22-6.8/sender/2024-08-06:00:45/iperf3_8streams_default_fq10/src-cmd:10.3.60.2:5
+Error parsing data in file:  /home/mschwarz/results/AmLight/ubuntu22-6.8/ubuntu22-6.8/sender/2024-08-06:00:45/iperf3_4streams_default_fq20/src-cmd:10.3.56.2:9
+Error parsing data in file:  /home/mschwarz/results/AmLight/ubuntu22-6.8/ubuntu22-6.8/sender/2024-08-06:00:45/iperf3_8streams_default/src-cmd:10.3.60.2:8
+Error parsing data in file:  /home/mschwarz/results/AmLight/ubuntu22-6.8/ubuntu22-6.8/sender/2024-08-06:00:45/iperf3_8streams_default/src-cmd:10.3.60.2:4
+Error parsing data in file:  /home/mschwarz/results/AmLight/ubuntu22-6.8/ubuntu22-6.8/sender/2024-08-06:00:45/iperf3_8streams_default/src-cmd:10.3.56.2:3
+Error parsing data in file:  /home/mschwarz/results/AmLight/ubuntu22-6.8/ubuntu22-6.8/sender/2024-08-06:00:45/iperf3_8streams_default_fq10/src-cmd:10.3.60.2:5
+Error parsing data in file:  /home/mschwarz/results/AmLight/ubuntu22-6.8/ubuntu22-6.8/sender/2024-08-06:00:45/iperf3_8streams_default_fq10/src-cmd:10.3.56.2:10
+Error parsing data in file:  /home/mschwarz/results/AmLight/ubuntu22-6.8/ubuntu22-6.8/sender/2024-08-06:00:45/iperf3_4streams_default/src-cmd:10.3.58.9:1
+Error parsing data in file:  /home/mschwarz/results/AmLight/ubuntu22-6.8/ubuntu22-6.8/sender/2024-08-06:00:45/iperf3_4streams_default/src-cmd:10.3.60.2:2
+Error parsing data in file:  /home/mschwarz/results/AmLight/ubuntu22-6.8/sender/2024-08-06:00:45/iperf3_4streams_default_fq20/src-cmd:10.3.56.2:9
+Error parsing data in file:  /home/mschwarz/results/AmLight/ubuntu22-6.8/sender/2024-08-06:00:45/iperf3_8streams_default/src-cmd:10.3.60.2:8
+Error parsing data in file:  /home/mschwarz/results/AmLight/ubuntu22-6.8/sender/2024-08-06:00:45/iperf3_8streams_default/src-cmd:10.3.60.2:4
+Error parsing data in file:  /home/mschwarz/results/AmLight/ubuntu22-6.8/sender/2024-08-06:00:45/iperf3_8streams_default/src-cmd:10.3.56.2:3
+Error parsing data in file:  /home/mschwarz/results/AmLight/ubuntu22-6.8/sender/2024-08-06:00:45/iperf3_8streams_default_fq10/src-cmd:10.3.60.2:5
+Error parsing data in file:  /home/mschwarz/results/AmLight/ubuntu22-6.8/sender/2024-08-06:00:45/iperf3_8streams_default_fq10/src-cmd:10.3.56.2:10
+Error parsing data in file:  /home/mschwarz/results/AmLight/ubuntu22-6.8/sender/2024-08-06:00:45/iperf3_4streams_default/src-cmd:10.3.58.9:1
+Error parsing data in file:  /home/mschwarz/results/AmLight/ubuntu22-6.8/sender/2024-08-06:00:45/iperf3_4streams_default/src-cmd:10.3.60.2:2
 
- Got iperf3 data from 40 files
+ Got iperf3 data from 48 files
 
- Got mpstat data from 40 sender files and 40 receiver files
+ Got mpstat data from 48 sender files and 48 receiver files
 
 Computing CPU Averages...
 
 Summary of all testing: 
 
 
-Test iperf3_1stream_default to Host: 10.3.54.2   (num tests: 10)
+Test iperf3_1stream_default to Host: 10.3.54.2   (num tests: 20)
        Throughput:   Mean: 55.4 Gbps   Min: 50.7 Gbps  Max: 57.4 Gbps   STDEV: 2.3   Retr: 127
      Sender CPU 1:   idle: 100.0   Total:0.0
      Sender CPU 2:   usr :  0.9   sys : 83.8   soft:  4.9   steal:  0.0   idle: 10.4   Total:89.6
    Receiver CPU 1:   sys :  0.2   soft:  1.4   steal:  0.0   idle: 98.4   Total:1.6
    Receiver CPU 2:   usr :  1.0   sys : 97.2   soft:  1.7   steal:  0.0   idle:  0.0   Total:99.9
 
-Test iperf3_1stream_zerocopy_pacing50 to Host: 10.3.54.2   (num tests: 10)
+Test iperf3_1stream_default_pacing50 to Host: 10.3.54.2   (num tests: 10)
+       Throughput:   Mean: 50.0 Gbps   Min: 50.0 Gbps  Max: 50.0 Gbps   STDEV: 0.0   Retr: 0
+     Sender CPU 1:   idle: 100.0   Total:0.0
+     Sender CPU 2:   usr :  0.9   sys : 88.4   soft:  9.5   steal:  0.0   idle:  1.2   Total:98.8
+   Receiver CPU 1:   sys :  0.2   soft:  1.4   steal:  0.0   idle: 98.4   Total:1.6
+   Receiver CPU 2:   usr :  1.2   sys : 67.8   soft:  1.0   steal:  0.0   idle: 30.0   Total:70.0
+
+Test iperf3_1stream_zerocopy to Host: 10.3.54.2   (num tests: 10)
+       Throughput:   Mean: 56.9 Gbps   Min: 52.7 Gbps  Max: 58.7 Gbps   STDEV: 1.9   Retr: 26
+     Sender CPU 1:   sys :  0.0   idle: 100.0   Total:0.0
+     Sender CPU 2:   usr :  0.8   sys : 23.5   soft:  0.2   steal:  0.0   idle: 75.5   Total:24.5
+   Receiver CPU 1:   sys :  0.2   soft:  1.4   steal:  0.0   idle: 98.4   Total:1.6
+   Receiver CPU 2:   usr :  1.1   sys : 97.3   soft:  1.6   steal:  0.0   Total:100.0
+
+Test iperf3_1stream_zerocopy_pacing50 to Host: 10.3.54.2   (num tests: 20)
        Throughput:   Mean: 50.0 Gbps   Min: 50.0 Gbps  Max: 50.0 Gbps   STDEV: 0.0   Retr: 0
      Sender CPU 1:   idle: 100.0   Total:0.0
      Sender CPU 2:   usr :  0.6   sys : 16.8   iowait:  0.0   soft:  0.7   steal:  0.0   idle: 81.8   Total:18.1
    Receiver CPU 1:   sys :  0.2   soft:  1.4   steal:  0.0   idle: 98.4   Total:1.6
    Receiver CPU 2:   usr :  1.2   sys : 78.8   soft:  1.3   idle: 18.8   Total:81.3
 
-Test iperf3_4streams_default to Host: 10.3.54.2   (num tests: 9)
+Test iperf3_4streams_default to Host: 10.3.54.2   (num tests: 18)
        Throughput:   Mean: 91.4 Gbps   Min: 89.5 Gbps  Max: 93.7 Gbps   STDEV: 1.5   Retr: 11
      Sender CPU 1:   idle: 100.0   Total:0.0
      Sender CPU 2:   idle: 100.0   Total:0.0
@@ -67,7 +89,7 @@ Test iperf3_4streams_default to Host: 10.3.54.2   (num tests: 9)
    Receiver CPU 15:   sys :  0.0   idle: 100.0   Total:0.0
    Receiver CPU 16:   idle: 100.0   Total:0.0
 
-Test iperf3_4streams_default_fq20 to Host: 10.3.54.2   (num tests: 10)
+Test iperf3_4streams_default_fq20 to Host: 10.3.54.2   (num tests: 20)
        Throughput:   Mean: 80.0 Gbps   Min: 80.0 Gbps  Max: 80.0 Gbps   STDEV: 0.0   Retr: 0
      Sender CPU 1:   sys :  0.0   iowait:  0.0   idle: 100.0   Total:0.0
      Sender CPU 2:   steal:  0.0   idle: 100.0   Total:0.0
@@ -102,7 +124,7 @@ Test iperf3_4streams_default_fq20 to Host: 10.3.54.2   (num tests: 10)
    Receiver CPU 15:   sys :  0.0   idle: 100.0   Total:0.0
    Receiver CPU 16:   idle: 100.0   Total:0.0
 
-Test iperf3_4streams_zerocopy to Host: 10.3.54.2   (num tests: 10)
+Test iperf3_4streams_zerocopy to Host: 10.3.54.2   (num tests: 20)
        Throughput:   Mean: 99.0 Gbps   Min: 99.0 Gbps  Max: 99.0 Gbps   STDEV: 0.0   Retr: 24
      Sender CPU 1:   soft:  0.0   idle: 100.0   Total:0.0
      Sender CPU 2:   idle: 100.0   Total:0.0
@@ -137,7 +159,7 @@ Test iperf3_4streams_zerocopy to Host: 10.3.54.2   (num tests: 10)
    Receiver CPU 15:   sys :  0.0   iowait:  0.0   idle: 100.0   Total:0.0
    Receiver CPU 16:   idle: 100.0   Total:0.0
 
-Test iperf3_4streams_zerocopy_fq20 to Host: 10.3.54.2   (num tests: 10)
+Test iperf3_4streams_zerocopy_fq20 to Host: 10.3.54.2   (num tests: 20)
        Throughput:   Mean: 80.0 Gbps   Min: 80.0 Gbps  Max: 80.0 Gbps   STDEV: 0.0   Retr: 129
      Sender CPU 1:   idle: 100.0   Total:0.0
      Sender CPU 2:   sys :  0.0   idle: 100.0   Total:0.0
@@ -172,8 +194,8 @@ Test iperf3_4streams_zerocopy_fq20 to Host: 10.3.54.2   (num tests: 10)
    Receiver CPU 15:   iowait:  0.0   idle: 100.0   Total:0.0
    Receiver CPU 16:   sys :  0.2   idle: 99.8   Total:0.2
 
-Test iperf3_8streams_default to Host: 10.3.54.2   (num tests: 10)
-       Throughput:   Mean: 63.9 Gbps   Min: 61.2 Gbps  Max: 68.4 Gbps   STDEV: 2.7   Retr: 97
+Test iperf3_8streams_default to Host: 10.3.54.2   (num tests: 20)
+       Throughput:   Mean: 63.9 Gbps   Min: 61.2 Gbps  Max: 68.4 Gbps   STDEV: 2.6   Retr: 97
      Sender CPU 1:   sys :  0.0   iowait:  0.0   idle: 100.0   Total:0.0
      Sender CPU 2:   idle: 100.0   Total:0.0
      Sender CPU 3:   sys :  0.1   soft:  0.1   steal:  0.1   idle: 99.7   Total:0.3
@@ -207,7 +229,7 @@ Test iperf3_8streams_default to Host: 10.3.54.2   (num tests: 10)
    Receiver CPU 15:   usr :  0.4   sys : 16.0   soft:  0.6   idle: 83.0   Total:17.0
    Receiver CPU 16:   usr :  0.4   sys : 13.9   iowait:  0.0   soft:  0.6   steal:  0.0   idle: 85.1   Total:14.9
 
-Test iperf3_8streams_default_fq10 to Host: 10.3.54.2   (num tests: 10)
+Test iperf3_8streams_default_fq10 to Host: 10.3.54.2   (num tests: 20)
        Throughput:   Mean: 67.3 Gbps   Min: 64.9 Gbps  Max: 70.8 Gbps   STDEV: 1.9   Retr: 49
      Sender CPU 1:   sys :  0.4   steal:  0.0   idle: 99.6   Total:0.4
      Sender CPU 2:   sys :  0.0   iowait:  0.0   idle: 100.0   Total:0.0
@@ -242,7 +264,7 @@ Test iperf3_8streams_default_fq10 to Host: 10.3.54.2   (num tests: 10)
    Receiver CPU 15:   usr :  0.4   sys : 19.5   soft:  0.6   steal:  0.0   idle: 79.4   Total:20.5
    Receiver CPU 16:   usr :  0.4   sys : 17.5   iowait:  0.0   soft:  0.6   steal:  0.0   idle: 81.6   Total:18.5
 
-Test iperf3_8streams_zerocopy to Host: 10.3.54.2   (num tests: 10)
+Test iperf3_8streams_zerocopy to Host: 10.3.54.2   (num tests: 20)
        Throughput:   Mean: 99.0 Gbps   Min: 99.0 Gbps  Max: 99.0 Gbps   STDEV: 0.0   Retr: 54
      Sender CPU 1:   sys :  0.1   steal:  0.0   idle: 99.8   Total:0.1
      Sender CPU 2:   sys :  0.0   idle: 100.0   Total:0.0
@@ -277,7 +299,7 @@ Test iperf3_8streams_zerocopy to Host: 10.3.54.2   (num tests: 10)
    Receiver CPU 15:   usr :  0.4   sys : 26.6   soft:  0.7   steal:  0.0   idle: 72.3   Total:27.7
    Receiver CPU 16:   usr :  0.4   sys : 21.1   iowait:  0.0   soft:  0.6   steal:  0.0   idle: 77.9   Total:22.1
 
-Test iperf3_8streams_zerocopy_fq10 to Host: 10.3.54.2   (num tests: 10)
+Test iperf3_8streams_zerocopy_fq10 to Host: 10.3.54.2   (num tests: 20)
        Throughput:   Mean: 80.0 Gbps   Min: 80.0 Gbps  Max: 80.0 Gbps   STDEV: 0.0   Retr: 63
      Sender CPU 1:   sys :  0.1   idle: 99.9   Total:0.1
      Sender CPU 2:   iowait:  0.0   idle: 100.0   Total:0.0
@@ -312,22 +334,36 @@ Test iperf3_8streams_zerocopy_fq10 to Host: 10.3.54.2   (num tests: 10)
    Receiver CPU 15:   usr :  0.5   sys : 30.6   soft:  0.8   steal:  0.0   idle: 68.1   Total:31.9
    Receiver CPU 16:   usr :  0.5   sys : 21.9   soft:  0.6   steal:  0.0   idle: 77.0   Total:23.0
 
-Test iperf3_1stream_default to Host: 10.3.56.2   (num tests: 9)
-       Throughput:   Mean: 37.1 Gbps   Min: 29.2 Gbps  Max: 38.4 Gbps   STDEV: 3.0   Retr: 1572
+Test iperf3_1stream_default to Host: 10.3.56.2   (num tests: 18)
+       Throughput:   Mean: 37.1 Gbps   Min: 29.2 Gbps  Max: 38.4 Gbps   STDEV: 2.9   Retr: 1572
      Sender CPU 1:   idle: 100.0   Total:0.0
      Sender CPU 2:   usr :  0.5   sys : 87.4   soft:  2.1   steal:  0.0   idle: 10.0   Total:90.0
    Receiver CPU 1:   sys :  0.1   soft:  0.7   steal:  0.0   idle: 99.2   Total:0.8
    Receiver CPU 2:   usr :  0.9   sys : 52.2   iowait:  0.0   soft:  0.7   idle: 46.3   Total:53.8
 
-Test iperf3_1stream_zerocopy_pacing50 to Host: 10.3.56.2   (num tests: 10)
-       Throughput:   Mean: 47.4 Gbps   Min: 23.7 Gbps  Max: 50.0 Gbps   STDEV: 8.3   Retr: 1559
+Test iperf3_1stream_default_pacing50 to Host: 10.3.56.2   (num tests: 10)
+       Throughput:   Mean: 37.8 Gbps   Min: 34.8 Gbps  Max: 38.8 Gbps   STDEV: 1.2   Retr: 477
+     Sender CPU 1:   idle: 100.0   Total:0.0
+     Sender CPU 2:   usr :  0.6   sys : 97.5   soft:  1.9   steal:  0.0   Total:100.0
+   Receiver CPU 1:   sys :  0.2   iowait:  0.0   soft:  0.8   steal:  0.0   idle: 99.0   Total:1.0
+   Receiver CPU 2:   usr :  0.9   sys : 54.6   soft:  0.8   idle: 43.7   Total:56.3
+
+Test iperf3_1stream_zerocopy to Host: 10.3.56.2   (num tests: 10)
+       Throughput:   Mean: 35.9 Gbps   Min: 31.1 Gbps  Max: 40.4 Gbps   STDEV: 3.1   Retr: 1043
+     Sender CPU 1:   sys :  0.0   idle: 100.0   Total:0.0
+     Sender CPU 2:   usr : 18.0   sys : 55.3   soft:  2.8   steal:  0.0   idle: 23.8   Total:76.1
+   Receiver CPU 1:   sys :  0.2   soft:  1.1   steal:  0.0   idle: 98.7   Total:1.3
+   Receiver CPU 2:   usr :  0.9   sys : 55.3   soft:  1.4   idle: 42.4   Total:57.6
+
+Test iperf3_1stream_zerocopy_pacing50 to Host: 10.3.56.2   (num tests: 20)
+       Throughput:   Mean: 47.4 Gbps   Min: 23.7 Gbps  Max: 50.0 Gbps   STDEV: 8.1   Retr: 1559
      Sender CPU 1:   idle: 100.0   Total:0.0
      Sender CPU 2:   usr : 17.8   sys : 50.4   soft: 16.0   steal:  0.0   idle: 15.8   Total:84.2
    Receiver CPU 1:   sys :  0.2   soft:  1.5   steal:  0.0   idle: 98.4   Total:1.7
    Receiver CPU 2:   usr :  1.1   sys : 74.7   soft:  1.1   idle: 23.0   Total:76.9
 
-Test iperf3_4streams_default to Host: 10.3.56.2   (num tests: 9)
-       Throughput:   Mean: 48.5 Gbps   Min: 25.1 Gbps  Max: 53.5 Gbps   STDEV: 8.8   Retr: 2085
+Test iperf3_4streams_default to Host: 10.3.56.2   (num tests: 18)
+       Throughput:   Mean: 48.5 Gbps   Min: 25.1 Gbps  Max: 53.5 Gbps   STDEV: 8.6   Retr: 2085
      Sender CPU 1:   idle: 100.0   Total:0.0
      Sender CPU 2:   sys :  0.0   idle: 100.0   Total:0.0
      Sender CPU 3:   sys :  0.0   iowait:  0.0   idle: 100.0   Total:0.0
@@ -361,8 +397,8 @@ Test iperf3_4streams_default to Host: 10.3.56.2   (num tests: 9)
    Receiver CPU 15:   idle: 100.0   Total:0.0
    Receiver CPU 16:   idle: 100.0   Total:0.0
 
-Test iperf3_4streams_default_fq20 to Host: 10.3.56.2   (num tests: 8)
-       Throughput:   Mean: 53.1 Gbps   Min: 31.1 Gbps  Max: 60.1 Gbps   STDEV: 9.2   Retr: 2797
+Test iperf3_4streams_default_fq20 to Host: 10.3.56.2   (num tests: 16)
+       Throughput:   Mean: 53.1 Gbps   Min: 31.1 Gbps  Max: 60.1 Gbps   STDEV: 8.9   Retr: 2797
      Sender CPU 1:   iowait:  0.0   steal:  0.0   idle: 100.0   Total:0.0
      Sender CPU 2:   idle: 100.0   Total:0.0
      Sender CPU 3:   idle: 100.0   Total:0.0
@@ -396,8 +432,8 @@ Test iperf3_4streams_default_fq20 to Host: 10.3.56.2   (num tests: 8)
    Receiver CPU 15:   idle: 100.0   Total:0.0
    Receiver CPU 16:   idle: 100.0   Total:0.0
 
-Test iperf3_4streams_zerocopy to Host: 10.3.56.2   (num tests: 10)
-       Throughput:   Mean: 64.1 Gbps   Min: 48.9 Gbps  Max: 71.5 Gbps   STDEV: 6.6   Retr: 1837
+Test iperf3_4streams_zerocopy to Host: 10.3.56.2   (num tests: 20)
+       Throughput:   Mean: 64.1 Gbps   Min: 48.9 Gbps  Max: 71.5 Gbps   STDEV: 6.4   Retr: 1837
      Sender CPU 1:   steal:  0.0   idle: 100.0   Total:0.0
      Sender CPU 2:   sys :  0.1   iowait:  0.0   idle: 99.9   Total:0.1
      Sender CPU 3:   sys :  0.0   steal:  0.0   idle: 99.9   Total:0.0
@@ -431,8 +467,8 @@ Test iperf3_4streams_zerocopy to Host: 10.3.56.2   (num tests: 10)
    Receiver CPU 15:   idle: 100.0   Total:0.0
    Receiver CPU 16:   idle: 100.0   Total:0.0
 
-Test iperf3_4streams_zerocopy_fq20 to Host: 10.3.56.2   (num tests: 10)
-       Throughput:   Mean: 71.7 Gbps   Min: 26.9 Gbps  Max: 80.0 Gbps   STDEV: 16.1   Retr: 1168
+Test iperf3_4streams_zerocopy_fq20 to Host: 10.3.56.2   (num tests: 20)
+       Throughput:   Mean: 71.7 Gbps   Min: 26.9 Gbps  Max: 80.0 Gbps   STDEV: 15.7   Retr: 1168
      Sender CPU 1:   sys :  0.1   steal:  0.0   idle: 99.9   Total:0.1
      Sender CPU 2:   iowait:  0.0   soft:  0.0   steal:  0.0   idle: 100.0   Total:0.0
      Sender CPU 3:   idle: 100.0   Total:0.0
@@ -466,8 +502,8 @@ Test iperf3_4streams_zerocopy_fq20 to Host: 10.3.56.2   (num tests: 10)
    Receiver CPU 15:   sys :  0.0   iowait:  0.0   idle: 100.0   Total:0.0
    Receiver CPU 16:   sys :  0.0   idle: 100.0   Total:0.0
 
-Test iperf3_8streams_default to Host: 10.3.56.2   (num tests: 8)
-       Throughput:   Mean: 52.1 Gbps   Min: 49.2 Gbps  Max: 54.2 Gbps   STDEV: 1.5   Retr: 2
+Test iperf3_8streams_default to Host: 10.3.56.2   (num tests: 16)
+       Throughput:   Mean: 52.1 Gbps   Min: 49.2 Gbps  Max: 54.2 Gbps   STDEV: 1.4   Retr: 2
      Sender CPU 1:   sys :  0.0   iowait:  0.0   idle: 100.0   Total:0.0
      Sender CPU 2:   sys :  0.2   idle: 99.8   Total:0.2
      Sender CPU 3:   sys :  0.1   soft:  0.1   steal:  0.0   idle: 99.8   Total:0.2
@@ -501,7 +537,7 @@ Test iperf3_8streams_default to Host: 10.3.56.2   (num tests: 8)
    Receiver CPU 15:   usr :  0.3   sys : 13.7   iowait:  0.0   soft:  0.5   steal:  0.0   idle: 85.5   Total:14.5
    Receiver CPU 16:   usr :  0.3   sys : 11.2   iowait:  0.0   soft:  0.5   steal:  0.0   idle: 88.0   Total:12.0
 
-Test iperf3_8streams_default_fq10 to Host: 10.3.56.2   (num tests: 8)
+Test iperf3_8streams_default_fq10 to Host: 10.3.56.2   (num tests: 16)
        Throughput:   Mean: 52.6 Gbps   Min: 52.1 Gbps  Max: 52.9 Gbps   STDEV: 0.2   Retr: 0
      Sender CPU 1:   sys :  0.5   steal:  0.0   idle: 99.5   Total:0.5
      Sender CPU 2:   sys :  0.2   steal:  0.0   idle: 99.8   Total:0.2
@@ -536,8 +572,8 @@ Test iperf3_8streams_default_fq10 to Host: 10.3.56.2   (num tests: 8)
    Receiver CPU 15:   usr :  0.3   sys : 13.3   soft:  0.5   steal:  0.0   idle: 85.9   Total:14.1
    Receiver CPU 16:   usr :  0.3   sys : 12.0   soft:  0.5   steal:  0.0   idle: 87.2   Total:12.8
 
-Test iperf3_8streams_zerocopy to Host: 10.3.56.2   (num tests: 10)
-       Throughput:   Mean: 64.6 Gbps   Min: 49.7 Gbps  Max: 68.2 Gbps   STDEV: 5.7   Retr: 1551
+Test iperf3_8streams_zerocopy to Host: 10.3.56.2   (num tests: 20)
+       Throughput:   Mean: 64.6 Gbps   Min: 49.7 Gbps  Max: 68.2 Gbps   STDEV: 5.5   Retr: 1551
      Sender CPU 1:   sys :  0.7   steal:  0.0   idle: 99.3   Total:0.7
      Sender CPU 2:   sys :  0.1   idle: 99.9   Total:0.1
      Sender CPU 3:   sys :  0.2   soft:  0.3   steal:  0.0   idle: 99.5   Total:0.5
@@ -571,8 +607,8 @@ Test iperf3_8streams_zerocopy to Host: 10.3.56.2   (num tests: 10)
    Receiver CPU 15:   usr :  0.5   sys : 21.0   soft:  0.7   steal:  0.0   idle: 77.8   Total:22.2
    Receiver CPU 16:   usr :  0.5   sys : 20.2   iowait:  0.0   soft:  0.7   steal:  0.0   idle: 78.6   Total:21.4
 
-Test iperf3_8streams_zerocopy_fq10 to Host: 10.3.56.2   (num tests: 10)
-       Throughput:   Mean: 70.3 Gbps   Min: 37.0 Gbps  Max: 80.0 Gbps   STDEV: 16.1   Retr: 3809
+Test iperf3_8streams_zerocopy_fq10 to Host: 10.3.56.2   (num tests: 20)
+       Throughput:   Mean: 70.3 Gbps   Min: 37.0 Gbps  Max: 80.0 Gbps   STDEV: 15.7   Retr: 3809
      Sender CPU 1:   sys :  0.1   steal:  0.0   idle: 99.9   Total:0.1
      Sender CPU 2:   sys :  0.1   idle: 99.9   Total:0.1
      Sender CPU 3:   sys :  0.1   iowait:  0.0   soft:  0.3   steal:  0.0   idle: 99.6   Total:0.4
@@ -606,22 +642,36 @@ Test iperf3_8streams_zerocopy_fq10 to Host: 10.3.56.2   (num tests: 10)
    Receiver CPU 15:   usr :  0.4   sys : 25.2   iowait:  0.0   soft:  0.7   steal:  0.0   idle: 73.7   Total:26.3
    Receiver CPU 16:   usr :  0.4   sys : 19.3   iowait:  0.0   soft:  0.6   idle: 79.7   Total:20.3
 
-Test iperf3_1stream_default to Host: 10.3.58.9   (num tests: 10)
-       Throughput:   Mean: 34.7 Gbps   Min: 23.5 Gbps  Max: 37.6 Gbps   STDEV: 4.8   Retr: 214
+Test iperf3_1stream_default to Host: 10.3.58.9   (num tests: 20)
+       Throughput:   Mean: 34.7 Gbps   Min: 23.5 Gbps  Max: 37.6 Gbps   STDEV: 4.7   Retr: 214
      Sender CPU 1:   sys :  0.1   soft:  0.1   steal:  0.0   idle: 99.9   Total:0.2
      Sender CPU 2:   usr :  0.5   sys : 94.2   soft:  3.6   idle:  1.7   Total:98.3
    Receiver CPU 1:   sys :  0.1   soft:  0.7   steal:  0.0   idle: 99.2   Total:0.8
    Receiver CPU 2:   usr :  0.9   sys : 52.9   soft:  0.8   idle: 45.4   Total:54.6
 
-Test iperf3_1stream_zerocopy_pacing50 to Host: 10.3.58.9   (num tests: 10)
+Test iperf3_1stream_default_pacing50 to Host: 10.3.58.9   (num tests: 10)
+       Throughput:   Mean: 32.8 Gbps   Min: 11.6 Gbps  Max: 36.8 Gbps   STDEV: 8.5   Retr: 2218
+     Sender CPU 1:   idle: 100.0   Total:0.0
+     Sender CPU 2:   usr :  0.5   sys : 88.6   soft:  2.2   steal:  0.0   idle:  8.7   Total:91.3
+   Receiver CPU 1:   sys :  0.1   soft:  0.7   steal:  0.0   idle: 99.2   Total:0.8
+   Receiver CPU 2:   usr :  0.8   sys : 47.7   iowait:  0.0   soft:  0.7   idle: 50.9   Total:49.2
+
+Test iperf3_1stream_zerocopy to Host: 10.3.58.9   (num tests: 10)
+       Throughput:   Mean: 34.8 Gbps   Min: 22.6 Gbps  Max: 39.1 Gbps   STDEV: 5.9   Retr: 2351
+     Sender CPU 1:   sys :  0.1   idle: 99.9   Total:0.1
+     Sender CPU 2:   usr : 25.4   sys : 70.7   soft:  3.8   steal:  0.0   idle:  0.0   Total:99.9
+   Receiver CPU 1:   sys :  0.2   soft:  1.1   steal:  0.0   idle: 98.7   Total:1.3
+   Receiver CPU 2:   usr :  0.9   sys : 53.0   soft:  1.6   idle: 44.5   Total:55.5
+
+Test iperf3_1stream_zerocopy_pacing50 to Host: 10.3.58.9   (num tests: 20)
        Throughput:   Mean: 40.5 Gbps   Min: 40.0 Gbps  Max: 42.2 Gbps   STDEV: 0.7   Retr: 0
      Sender CPU 1:   sys :  0.3   soft:  1.1   steal:  0.0   idle: 98.5   Total:1.4
      Sender CPU 2:   usr : 23.6   sys : 70.4   soft:  6.0   steal:  0.0   idle:  0.0   Total:100.0
    Receiver CPU 1:   sys :  0.2   soft:  1.2   steal:  0.0   idle: 98.6   Total:1.4
    Receiver CPU 2:   usr :  1.0   sys : 62.9   soft:  1.7   idle: 34.3   Total:65.6
 
-Test iperf3_4streams_default to Host: 10.3.58.9   (num tests: 8)
-       Throughput:   Mean: 48.4 Gbps   Min: 38.1 Gbps  Max: 52.2 Gbps   STDEV: 4.5   Retr: 4316
+Test iperf3_4streams_default to Host: 10.3.58.9   (num tests: 16)
+       Throughput:   Mean: 48.4 Gbps   Min: 38.1 Gbps  Max: 52.2 Gbps   STDEV: 4.4   Retr: 4316
      Sender CPU 1:   sys :  0.1   soft:  0.1   steal:  0.1   idle: 99.7   Total:0.3
      Sender CPU 2:   steal:  0.0   idle: 100.0   Total:0.0
      Sender CPU 3:   sys :  0.1   iowait:  0.0   soft:  0.0   steal:  0.0   idle: 99.8   Total:0.1
@@ -655,8 +705,8 @@ Test iperf3_4streams_default to Host: 10.3.58.9   (num tests: 8)
    Receiver CPU 15:   idle: 100.0   Total:0.0
    Receiver CPU 16:   idle: 100.0   Total:0.0
 
-Test iperf3_4streams_default_fq20 to Host: 10.3.58.9   (num tests: 10)
-       Throughput:   Mean: 54.9 Gbps   Min: 49.9 Gbps  Max: 61.8 Gbps   STDEV: 3.8   Retr: 10
+Test iperf3_4streams_default_fq20 to Host: 10.3.58.9   (num tests: 20)
+       Throughput:   Mean: 54.9 Gbps   Min: 49.9 Gbps  Max: 61.8 Gbps   STDEV: 3.7   Retr: 10
      Sender CPU 1:   sys :  0.2   soft:  0.1   steal:  0.0   idle: 99.7   Total:0.3
      Sender CPU 2:   idle: 100.0   Total:0.0
      Sender CPU 3:   sys :  0.1   iowait:  0.0   soft:  0.1   steal:  0.0   idle: 99.7   Total:0.2
@@ -690,8 +740,8 @@ Test iperf3_4streams_default_fq20 to Host: 10.3.58.9   (num tests: 10)
    Receiver CPU 15:   idle: 100.0   Total:0.0
    Receiver CPU 16:   idle: 100.0   Total:0.0
 
-Test iperf3_4streams_zerocopy to Host: 10.3.58.9   (num tests: 10)
-       Throughput:   Mean: 52.6 Gbps   Min: 46.1 Gbps  Max: 63.6 Gbps   STDEV: 5.5   Retr: 231514
+Test iperf3_4streams_zerocopy to Host: 10.3.58.9   (num tests: 20)
+       Throughput:   Mean: 52.6 Gbps   Min: 46.1 Gbps  Max: 63.6 Gbps   STDEV: 5.3   Retr: 231514
      Sender CPU 1:   sys :  0.2   soft:  0.5   steal:  0.0   idle: 99.3   Total:0.7
      Sender CPU 2:   idle: 100.0   Total:0.0
      Sender CPU 3:   sys :  0.2   soft:  0.6   steal:  0.0   idle: 99.1   Total:0.8
@@ -725,8 +775,8 @@ Test iperf3_4streams_zerocopy to Host: 10.3.58.9   (num tests: 10)
    Receiver CPU 15:   idle: 100.0   Total:0.0
    Receiver CPU 16:   idle: 100.0   Total:0.0
 
-Test iperf3_4streams_zerocopy_fq20 to Host: 10.3.58.9   (num tests: 10)
-       Throughput:   Mean: 74.0 Gbps   Min: 59.7 Gbps  Max: 80.0 Gbps   STDEV: 7.3   Retr: 135051
+Test iperf3_4streams_zerocopy_fq20 to Host: 10.3.58.9   (num tests: 20)
+       Throughput:   Mean: 74.0 Gbps   Min: 59.7 Gbps  Max: 80.0 Gbps   STDEV: 7.1   Retr: 135051
      Sender CPU 1:   sys :  0.1   iowait:  0.0   soft:  0.7   steal:  0.0   idle: 99.2   Total:0.8
      Sender CPU 2:   idle: 100.0   Total:0.0
      Sender CPU 3:   sys :  0.1   soft:  0.6   steal:  0.0   idle: 99.3   Total:0.7
@@ -760,7 +810,7 @@ Test iperf3_4streams_zerocopy_fq20 to Host: 10.3.58.9   (num tests: 10)
    Receiver CPU 15:   sys :  0.0   iowait:  0.0   idle: 100.0   Total:0.0
    Receiver CPU 16:   idle: 100.0   Total:0.0
 
-Test iperf3_8streams_default to Host: 10.3.58.9   (num tests: 10)
+Test iperf3_8streams_default to Host: 10.3.58.9   (num tests: 20)
        Throughput:   Mean: 50.1 Gbps   Min: 49.1 Gbps  Max: 51.6 Gbps   STDEV: 0.9   Retr: 0
      Sender CPU 1:   sys :  0.4   soft:  0.3   steal:  0.0   idle: 99.3   Total:0.7
      Sender CPU 2:   idle: 100.0   Total:0.0
@@ -795,7 +845,7 @@ Test iperf3_8streams_default to Host: 10.3.58.9   (num tests: 10)
    Receiver CPU 15:   usr :  0.5   sys : 18.4   soft:  0.7   idle: 80.4   Total:19.6
    Receiver CPU 16:   usr :  0.4   sys : 14.2   iowait:  0.0   soft:  0.6   steal:  0.0   idle: 84.8   Total:15.2
 
-Test iperf3_8streams_default_fq10 to Host: 10.3.58.9   (num tests: 9)
+Test iperf3_8streams_default_fq10 to Host: 10.3.58.9   (num tests: 18)
        Throughput:   Mean: 50.2 Gbps   Min: 47.0 Gbps  Max: 51.3 Gbps   STDEV: 1.3   Retr: 0
      Sender CPU 1:   sys :  0.3   soft:  0.2   steal:  0.0   idle: 99.4   Total:0.5
      Sender CPU 2:   sys :  0.6   steal:  0.0   idle: 99.3   Total:0.6
@@ -830,8 +880,8 @@ Test iperf3_8streams_default_fq10 to Host: 10.3.58.9   (num tests: 9)
    Receiver CPU 15:   usr :  0.4   sys : 13.0   iowait:  0.0   soft:  0.6   steal:  0.0   idle: 86.0   Total:14.0
    Receiver CPU 16:   usr :  0.4   sys : 11.5   iowait:  0.0   soft:  0.5   steal:  0.0   idle: 87.7   Total:12.4
 
-Test iperf3_8streams_zerocopy to Host: 10.3.58.9   (num tests: 10)
-       Throughput:   Mean: 48.6 Gbps   Min: 29.5 Gbps  Max: 62.3 Gbps   STDEV: 11.3   Retr: 317399
+Test iperf3_8streams_zerocopy to Host: 10.3.58.9   (num tests: 20)
+       Throughput:   Mean: 48.6 Gbps   Min: 29.5 Gbps  Max: 62.3 Gbps   STDEV: 11.0   Retr: 317399
      Sender CPU 1:   sys :  0.2   soft:  0.7   steal:  0.0   idle: 99.1   Total:0.9
      Sender CPU 2:   sys :  0.4   steal:  0.0   idle: 99.6   Total:0.4
      Sender CPU 3:   sys :  0.2   soft:  0.3   steal:  0.0   idle: 99.4   Total:0.5
@@ -865,8 +915,8 @@ Test iperf3_8streams_zerocopy to Host: 10.3.58.9   (num tests: 10)
    Receiver CPU 15:   usr :  0.4   sys : 13.7   iowait:  0.0   soft:  0.5   steal:  0.0   idle: 85.3   Total:14.6
    Receiver CPU 16:   usr :  0.4   sys : 12.9   soft:  0.4   steal:  0.0   idle: 86.3   Total:13.7
 
-Test iperf3_8streams_zerocopy_fq10 to Host: 10.3.58.9   (num tests: 10)
-       Throughput:   Mean: 73.5 Gbps   Min: 58.1 Gbps  Max: 80.0 Gbps   STDEV: 7.2   Retr: 4917
+Test iperf3_8streams_zerocopy_fq10 to Host: 10.3.58.9   (num tests: 20)
+       Throughput:   Mean: 73.5 Gbps   Min: 58.1 Gbps  Max: 80.0 Gbps   STDEV: 7.0   Retr: 4917
      Sender CPU 1:   sys :  0.2   soft:  0.5   steal:  0.0   idle: 99.4   Total:0.7
      Sender CPU 2:   sys :  0.1   steal:  0.0   idle: 99.9   Total:0.1
      Sender CPU 3:   sys :  0.2   soft:  0.5   steal:  0.0   idle: 99.4   Total:0.7
@@ -900,22 +950,36 @@ Test iperf3_8streams_zerocopy_fq10 to Host: 10.3.58.9   (num tests: 10)
    Receiver CPU 15:   usr :  0.5   sys : 24.9   soft:  0.7   idle: 74.0   Total:26.1
    Receiver CPU 16:   usr :  0.5   sys : 22.2   soft:  0.6   steal:  0.0   idle: 76.7   Total:23.3
 
-Test iperf3_1stream_default to Host: 10.3.60.2   (num tests: 10)
+Test iperf3_1stream_default to Host: 10.3.60.2   (num tests: 20)
        Throughput:   Mean: 36.8 Gbps   Min: 30.2 Gbps  Max: 37.9 Gbps   STDEV: 2.3   Retr: 0
      Sender CPU 1:   idle: 100.0   Total:0.0
      Sender CPU 2:   usr :  0.5   sys : 96.0   soft:  3.4   steal:  0.0   idle:  0.1   Total:99.9
    Receiver CPU 1:   sys :  0.1   iowait:  0.0   soft:  0.7   steal:  0.0   idle: 99.2   Total:0.8
    Receiver CPU 2:   usr :  0.9   sys : 55.1   iowait:  0.0   soft:  0.8   steal:  0.0   idle: 43.2   Total:56.8
 
-Test iperf3_1stream_zerocopy_pacing50 to Host: 10.3.60.2   (num tests: 10)
+Test iperf3_1stream_default_pacing50 to Host: 10.3.60.2   (num tests: 10)
+       Throughput:   Mean: 37.2 Gbps   Min: 36.9 Gbps  Max: 37.7 Gbps   STDEV: 0.2   Retr: 0
+     Sender CPU 1:   idle: 100.0   Total:0.0
+     Sender CPU 2:   usr :  0.6   sys : 97.3   soft:  2.1   steal:  0.0   Total:100.0
+   Receiver CPU 1:   sys :  0.1   soft:  0.8   steal:  0.0   idle: 99.1   Total:0.9
+   Receiver CPU 2:   usr :  0.9   sys : 53.8   soft:  0.7   idle: 44.6   Total:55.4
+
+Test iperf3_1stream_zerocopy to Host: 10.3.60.2   (num tests: 10)
+       Throughput:   Mean: 36.1 Gbps   Min: 33.4 Gbps  Max: 38.3 Gbps   STDEV: 1.4   Retr: 0
+     Sender CPU 1:   sys :  0.2   idle: 99.8   Total:0.2
+     Sender CPU 2:   usr : 25.4   sys : 70.7   soft:  3.8   steal:  0.0   Total:99.9
+   Receiver CPU 1:   sys :  0.2   soft:  1.0   steal:  0.0   idle: 98.7   Total:1.2
+   Receiver CPU 2:   usr :  0.9   sys : 53.6   soft:  1.6   idle: 44.0   Total:56.1
+
+Test iperf3_1stream_zerocopy_pacing50 to Host: 10.3.60.2   (num tests: 20)
        Throughput:   Mean: 49.9 Gbps   Min: 48.8 Gbps  Max: 50.0 Gbps   STDEV: 0.4   Retr: 2065
      Sender CPU 1:   idle: 100.0   Total:0.0
      Sender CPU 2:   usr : 22.1   sys : 63.5   soft: 14.4   steal:  0.0   Total:100.0
    Receiver CPU 1:   sys :  0.2   soft:  1.5   steal:  0.0   idle: 98.3   Total:1.7
    Receiver CPU 2:   usr :  1.2   sys : 77.9   soft:  1.2   steal:  0.0   idle: 19.8   Total:80.3
 
-Test iperf3_4streams_default to Host: 10.3.60.2   (num tests: 7)
-       Throughput:   Mean: 51.9 Gbps   Min: 48.9 Gbps  Max: 57.2 Gbps   STDEV: 3.2   Retr: 0
+Test iperf3_4streams_default to Host: 10.3.60.2   (num tests: 14)
+       Throughput:   Mean: 51.9 Gbps   Min: 48.9 Gbps  Max: 57.2 Gbps   STDEV: 3.1   Retr: 0
      Sender CPU 1:   idle: 100.0   Total:0.0
      Sender CPU 2:   idle: 100.0   Total:0.0
      Sender CPU 3:   sys :  0.0   iowait:  0.0   idle: 100.0   Total:0.0
@@ -949,8 +1013,8 @@ Test iperf3_4streams_default to Host: 10.3.60.2   (num tests: 7)
    Receiver CPU 15:   idle: 100.0   Total:0.0
    Receiver CPU 16:   idle: 100.0   Total:0.0
 
-Test iperf3_4streams_default_fq20 to Host: 10.3.60.2   (num tests: 10)
-       Throughput:   Mean: 54.6 Gbps   Min: 51.4 Gbps  Max: 59.2 Gbps   STDEV: 2.8   Retr: 40
+Test iperf3_4streams_default_fq20 to Host: 10.3.60.2   (num tests: 20)
+       Throughput:   Mean: 54.6 Gbps   Min: 51.4 Gbps  Max: 59.2 Gbps   STDEV: 2.7   Retr: 40
      Sender CPU 1:   idle: 100.0   Total:0.0
      Sender CPU 2:   idle: 100.0   Total:0.0
      Sender CPU 3:   sys :  0.0   iowait:  0.0   idle: 100.0   Total:0.0
@@ -984,8 +1048,8 @@ Test iperf3_4streams_default_fq20 to Host: 10.3.60.2   (num tests: 10)
    Receiver CPU 15:   sys :  0.0   idle: 100.0   Total:0.0
    Receiver CPU 16:   sys :  0.0   idle: 100.0   Total:0.0
 
-Test iperf3_4streams_zerocopy to Host: 10.3.60.2   (num tests: 10)
-       Throughput:   Mean: 63.8 Gbps   Min: 50.2 Gbps  Max: 71.7 Gbps   STDEV: 6.6   Retr: 12557
+Test iperf3_4streams_zerocopy to Host: 10.3.60.2   (num tests: 20)
+       Throughput:   Mean: 63.8 Gbps   Min: 50.2 Gbps  Max: 71.7 Gbps   STDEV: 6.4   Retr: 12557
      Sender CPU 1:   idle: 100.0   Total:0.0
      Sender CPU 2:   idle: 100.0   Total:0.0
      Sender CPU 3:   idle: 100.0   Total:0.0
@@ -1019,8 +1083,8 @@ Test iperf3_4streams_zerocopy to Host: 10.3.60.2   (num tests: 10)
    Receiver CPU 15:   idle: 100.0   Total:0.0
    Receiver CPU 16:   idle: 100.0   Total:0.0
 
-Test iperf3_4streams_zerocopy_fq20 to Host: 10.3.60.2   (num tests: 10)
-       Throughput:   Mean: 75.8 Gbps   Min: 64.0 Gbps  Max: 80.0 Gbps   STDEV: 6.8   Retr: 1409
+Test iperf3_4streams_zerocopy_fq20 to Host: 10.3.60.2   (num tests: 20)
+       Throughput:   Mean: 75.8 Gbps   Min: 64.0 Gbps  Max: 80.0 Gbps   STDEV: 6.6   Retr: 1409
      Sender CPU 1:   sys :  0.0   iowait:  0.0   idle: 100.0   Total:0.0
      Sender CPU 2:   idle: 100.0   Total:0.0
      Sender CPU 3:   idle: 100.0   Total:0.0
@@ -1054,7 +1118,7 @@ Test iperf3_4streams_zerocopy_fq20 to Host: 10.3.60.2   (num tests: 10)
    Receiver CPU 15:   iowait:  0.0   idle: 100.0   Total:0.0
    Receiver CPU 16:   idle: 100.0   Total:0.0
 
-Test iperf3_8streams_default to Host: 10.3.60.2   (num tests: 6)
+Test iperf3_8streams_default to Host: 10.3.60.2   (num tests: 12)
        Throughput:   Mean: 51.4 Gbps   Min: 50.6 Gbps  Max: 52.3 Gbps   STDEV: 0.7   Retr: 0
      Sender CPU 1:   sys :  0.2   iowait:  0.0   steal:  0.0   idle: 99.8   Total:0.2
      Sender CPU 2:   sys :  0.3   soft:  0.1   steal:  0.0   idle: 99.6   Total:0.4
@@ -1089,7 +1153,7 @@ Test iperf3_8streams_default to Host: 10.3.60.2   (num tests: 6)
    Receiver CPU 15:   usr :  0.3   sys :  9.7   soft:  0.4   steal:  0.0   idle: 89.7   Total:10.4
    Receiver CPU 16:   usr :  0.2   sys :  8.3   soft:  0.4   idle: 91.1   Total:8.9
 
-Test iperf3_8streams_default_fq10 to Host: 10.3.60.2   (num tests: 8)
+Test iperf3_8streams_default_fq10 to Host: 10.3.60.2   (num tests: 16)
        Throughput:   Mean: 50.7 Gbps   Min: 48.9 Gbps  Max: 51.6 Gbps   STDEV: 0.8   Retr: 0
      Sender CPU 1:   steal:  0.0   idle: 100.0   Total:0.0
      Sender CPU 2:   sys :  0.5   soft:  0.3   steal:  0.0   idle: 99.2   Total:0.8
@@ -1124,8 +1188,8 @@ Test iperf3_8streams_default_fq10 to Host: 10.3.60.2   (num tests: 8)
    Receiver CPU 15:   usr :  0.3   sys : 14.3   soft:  0.6   steal:  0.0   idle: 84.8   Total:15.2
    Receiver CPU 16:   usr :  0.3   sys : 11.8   soft:  0.5   steal:  0.0   idle: 87.3   Total:12.6
 
-Test iperf3_8streams_zerocopy to Host: 10.3.60.2   (num tests: 10)
-       Throughput:   Mean: 75.3 Gbps   Min: 71.1 Gbps  Max: 77.1 Gbps   STDEV: 1.7   Retr: 6668
+Test iperf3_8streams_zerocopy to Host: 10.3.60.2   (num tests: 20)
+       Throughput:   Mean: 75.3 Gbps   Min: 71.1 Gbps  Max: 77.1 Gbps   STDEV: 1.6   Retr: 6668
      Sender CPU 1:   sys :  0.5   steal:  0.0   idle: 99.5   Total:0.5
      Sender CPU 2:   sys :  0.3   iowait:  0.0   soft:  1.0   steal:  0.0   idle: 98.7   Total:1.3
      Sender CPU 3:   sys :  0.0   idle: 100.0   Total:0.0
@@ -1159,8 +1223,8 @@ Test iperf3_8streams_zerocopy to Host: 10.3.60.2   (num tests: 10)
    Receiver CPU 15:   usr :  0.6   sys : 26.0   soft:  0.9   idle: 72.5   Total:27.5
    Receiver CPU 16:   usr :  0.6   sys : 25.2   iowait:  0.0   soft:  0.8   steal:  0.0   idle: 73.3   Total:26.6
 
-Test iperf3_8streams_zerocopy_fq10 to Host: 10.3.60.2   (num tests: 10)
-       Throughput:   Mean: 77.3 Gbps   Min: 68.5 Gbps  Max: 80.0 Gbps   STDEV: 3.8   Retr: 308
+Test iperf3_8streams_zerocopy_fq10 to Host: 10.3.60.2   (num tests: 20)
+       Throughput:   Mean: 77.3 Gbps   Min: 68.5 Gbps  Max: 80.0 Gbps   STDEV: 3.7   Retr: 308
      Sender CPU 1:   sys :  0.1   soft:  0.0   steal:  0.0   idle: 99.9   Total:0.1
      Sender CPU 2:   sys :  0.1   iowait:  0.0   soft:  0.5   idle: 99.5   Total:0.6
      Sender CPU 3:   sys :  0.0   steal:  0.0   idle: 100.0   Total:0.0
@@ -1204,39 +1268,47 @@ IP Address: 10.3.54.2
     Test Name: iperf3_8streams_zerocopy_fq10, Ave Throughput: 80.0 Gbps (std: 0.0, min: 80.0, max: 80.0),  Retr: 63
     Test Name: iperf3_4streams_default_fq20, Ave Throughput: 80.0 Gbps (std: 0.0, min: 80.0, max: 80.0),  Retr: 0
     Test Name: iperf3_8streams_default_fq10, Ave Throughput: 67.3 Gbps (std: 1.9, min: 64.9, max: 70.8),  Retr: 49
-    Test Name: iperf3_8streams_default, Ave Throughput: 63.9 Gbps (std: 2.7, min: 61.2, max: 68.4),  Retr: 97
+    Test Name: iperf3_8streams_default, Ave Throughput: 63.9 Gbps (std: 2.6, min: 61.2, max: 68.4),  Retr: 97
+    Test Name: iperf3_1stream_zerocopy, Ave Throughput: 56.9 Gbps (std: 1.9, min: 52.7, max: 58.7),  Retr: 26
     Test Name: iperf3_1stream_default, Ave Throughput: 55.4 Gbps (std: 2.3, min: 50.7, max: 57.4),  Retr: 127
     Test Name: iperf3_1stream_zerocopy_pacing50, Ave Throughput: 50.0 Gbps (std: 0.0, min: 50.0, max: 50.0),  Retr: 0
+    Test Name: iperf3_1stream_default_pacing50, Ave Throughput: 50.0 Gbps (std: 0.0, min: 50.0, max: 50.0),  Retr: 0
 IP Address: 10.3.56.2
-    Test Name: iperf3_4streams_zerocopy_fq20, Ave Throughput: 71.7 Gbps (std: 16.1, min: 26.9, max: 80.0),  Retr: 1168
-    Test Name: iperf3_8streams_zerocopy_fq10, Ave Throughput: 70.3 Gbps (std: 16.1, min: 37.0, max: 80.0),  Retr: 3809
-    Test Name: iperf3_8streams_zerocopy, Ave Throughput: 64.6 Gbps (std: 5.7, min: 49.7, max: 68.2),  Retr: 1551
-    Test Name: iperf3_4streams_zerocopy, Ave Throughput: 64.1 Gbps (std: 6.6, min: 48.9, max: 71.5),  Retr: 1837
-    Test Name: iperf3_4streams_default_fq20, Ave Throughput: 53.1 Gbps (std: 9.2, min: 31.1, max: 60.1),  Retr: 2797
+    Test Name: iperf3_4streams_zerocopy_fq20, Ave Throughput: 71.7 Gbps (std: 15.7, min: 26.9, max: 80.0),  Retr: 1168
+    Test Name: iperf3_8streams_zerocopy_fq10, Ave Throughput: 70.3 Gbps (std: 15.7, min: 37.0, max: 80.0),  Retr: 3809
+    Test Name: iperf3_8streams_zerocopy, Ave Throughput: 64.6 Gbps (std: 5.5, min: 49.7, max: 68.2),  Retr: 1551
+    Test Name: iperf3_4streams_zerocopy, Ave Throughput: 64.1 Gbps (std: 6.4, min: 48.9, max: 71.5),  Retr: 1837
+    Test Name: iperf3_4streams_default_fq20, Ave Throughput: 53.1 Gbps (std: 8.9, min: 31.1, max: 60.1),  Retr: 2797
     Test Name: iperf3_8streams_default_fq10, Ave Throughput: 52.6 Gbps (std: 0.2, min: 52.1, max: 52.9),  Retr: 0
-    Test Name: iperf3_8streams_default, Ave Throughput: 52.1 Gbps (std: 1.5, min: 49.2, max: 54.2),  Retr: 2
-    Test Name: iperf3_4streams_default, Ave Throughput: 48.5 Gbps (std: 8.8, min: 25.1, max: 53.5),  Retr: 2085
-    Test Name: iperf3_1stream_zerocopy_pacing50, Ave Throughput: 47.4 Gbps (std: 8.3, min: 23.7, max: 50.0),  Retr: 1559
-    Test Name: iperf3_1stream_default, Ave Throughput: 37.1 Gbps (std: 3.0, min: 29.2, max: 38.4),  Retr: 1572
+    Test Name: iperf3_8streams_default, Ave Throughput: 52.1 Gbps (std: 1.4, min: 49.2, max: 54.2),  Retr: 2
+    Test Name: iperf3_4streams_default, Ave Throughput: 48.5 Gbps (std: 8.6, min: 25.1, max: 53.5),  Retr: 2085
+    Test Name: iperf3_1stream_zerocopy_pacing50, Ave Throughput: 47.4 Gbps (std: 8.1, min: 23.7, max: 50.0),  Retr: 1559
+    Test Name: iperf3_1stream_default_pacing50, Ave Throughput: 37.8 Gbps (std: 1.2, min: 34.8, max: 38.8),  Retr: 477
+    Test Name: iperf3_1stream_default, Ave Throughput: 37.1 Gbps (std: 2.9, min: 29.2, max: 38.4),  Retr: 1572
+    Test Name: iperf3_1stream_zerocopy, Ave Throughput: 35.9 Gbps (std: 3.1, min: 31.1, max: 40.4),  Retr: 1043
 IP Address: 10.3.58.9
-    Test Name: iperf3_4streams_zerocopy_fq20, Ave Throughput: 74.0 Gbps (std: 7.3, min: 59.7, max: 80.0),  Retr: 135051
-    Test Name: iperf3_8streams_zerocopy_fq10, Ave Throughput: 73.5 Gbps (std: 7.2, min: 58.1, max: 80.0),  Retr: 4917
-    Test Name: iperf3_4streams_default_fq20, Ave Throughput: 54.9 Gbps (std: 3.8, min: 49.9, max: 61.8),  Retr: 10
-    Test Name: iperf3_4streams_zerocopy, Ave Throughput: 52.6 Gbps (std: 5.5, min: 46.1, max: 63.6),  Retr: 231514
+    Test Name: iperf3_4streams_zerocopy_fq20, Ave Throughput: 74.0 Gbps (std: 7.1, min: 59.7, max: 80.0),  Retr: 135051
+    Test Name: iperf3_8streams_zerocopy_fq10, Ave Throughput: 73.5 Gbps (std: 7.0, min: 58.1, max: 80.0),  Retr: 4917
+    Test Name: iperf3_4streams_default_fq20, Ave Throughput: 54.9 Gbps (std: 3.7, min: 49.9, max: 61.8),  Retr: 10
+    Test Name: iperf3_4streams_zerocopy, Ave Throughput: 52.6 Gbps (std: 5.3, min: 46.1, max: 63.6),  Retr: 231514
     Test Name: iperf3_8streams_default_fq10, Ave Throughput: 50.2 Gbps (std: 1.3, min: 47.0, max: 51.3),  Retr: 0
     Test Name: iperf3_8streams_default, Ave Throughput: 50.1 Gbps (std: 0.9, min: 49.1, max: 51.6),  Retr: 0
-    Test Name: iperf3_8streams_zerocopy, Ave Throughput: 48.6 Gbps (std: 11.3, min: 29.5, max: 62.3),  Retr: 317399
-    Test Name: iperf3_4streams_default, Ave Throughput: 48.4 Gbps (std: 4.5, min: 38.1, max: 52.2),  Retr: 4316
+    Test Name: iperf3_8streams_zerocopy, Ave Throughput: 48.6 Gbps (std: 11.0, min: 29.5, max: 62.3),  Retr: 317399
+    Test Name: iperf3_4streams_default, Ave Throughput: 48.4 Gbps (std: 4.4, min: 38.1, max: 52.2),  Retr: 4316
     Test Name: iperf3_1stream_zerocopy_pacing50, Ave Throughput: 40.5 Gbps (std: 0.7, min: 40.0, max: 42.2),  Retr: 0
-    Test Name: iperf3_1stream_default, Ave Throughput: 34.7 Gbps (std: 4.8, min: 23.5, max: 37.6),  Retr: 214
+    Test Name: iperf3_1stream_zerocopy, Ave Throughput: 34.8 Gbps (std: 5.9, min: 22.6, max: 39.1),  Retr: 2351
+    Test Name: iperf3_1stream_default, Ave Throughput: 34.7 Gbps (std: 4.7, min: 23.5, max: 37.6),  Retr: 214
+    Test Name: iperf3_1stream_default_pacing50, Ave Throughput: 32.8 Gbps (std: 8.5, min: 11.6, max: 36.8),  Retr: 2218
 IP Address: 10.3.60.2
-    Test Name: iperf3_8streams_zerocopy_fq10, Ave Throughput: 77.3 Gbps (std: 3.8, min: 68.5, max: 80.0),  Retr: 308
-    Test Name: iperf3_4streams_zerocopy_fq20, Ave Throughput: 75.8 Gbps (std: 6.8, min: 64.0, max: 80.0),  Retr: 1409
-    Test Name: iperf3_8streams_zerocopy, Ave Throughput: 75.3 Gbps (std: 1.7, min: 71.1, max: 77.1),  Retr: 6668
-    Test Name: iperf3_4streams_zerocopy, Ave Throughput: 63.8 Gbps (std: 6.6, min: 50.2, max: 71.7),  Retr: 12557
-    Test Name: iperf3_4streams_default_fq20, Ave Throughput: 54.6 Gbps (std: 2.8, min: 51.4, max: 59.2),  Retr: 40
-    Test Name: iperf3_4streams_default, Ave Throughput: 51.9 Gbps (std: 3.2, min: 48.9, max: 57.2),  Retr: 0
+    Test Name: iperf3_8streams_zerocopy_fq10, Ave Throughput: 77.3 Gbps (std: 3.7, min: 68.5, max: 80.0),  Retr: 308
+    Test Name: iperf3_4streams_zerocopy_fq20, Ave Throughput: 75.8 Gbps (std: 6.6, min: 64.0, max: 80.0),  Retr: 1409
+    Test Name: iperf3_8streams_zerocopy, Ave Throughput: 75.3 Gbps (std: 1.6, min: 71.1, max: 77.1),  Retr: 6668
+    Test Name: iperf3_4streams_zerocopy, Ave Throughput: 63.8 Gbps (std: 6.4, min: 50.2, max: 71.7),  Retr: 12557
+    Test Name: iperf3_4streams_default_fq20, Ave Throughput: 54.6 Gbps (std: 2.7, min: 51.4, max: 59.2),  Retr: 40
+    Test Name: iperf3_4streams_default, Ave Throughput: 51.9 Gbps (std: 3.1, min: 48.9, max: 57.2),  Retr: 0
     Test Name: iperf3_8streams_default, Ave Throughput: 51.4 Gbps (std: 0.7, min: 50.6, max: 52.3),  Retr: 0
     Test Name: iperf3_8streams_default_fq10, Ave Throughput: 50.7 Gbps (std: 0.8, min: 48.9, max: 51.6),  Retr: 0
     Test Name: iperf3_1stream_zerocopy_pacing50, Ave Throughput: 49.9 Gbps (std: 0.4, min: 48.8, max: 50.0),  Retr: 2065
+    Test Name: iperf3_1stream_default_pacing50, Ave Throughput: 37.2 Gbps (std: 0.2, min: 36.9, max: 37.7),  Retr: 0
     Test Name: iperf3_1stream_default, Ave Throughput: 36.8 Gbps (std: 2.3, min: 30.2, max: 37.9),  Retr: 0
+    Test Name: iperf3_1stream_zerocopy, Ave Throughput: 36.1 Gbps (std: 1.4, min: 33.4, max: 38.3),  Retr: 0
